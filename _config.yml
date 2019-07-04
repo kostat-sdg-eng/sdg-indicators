@@ -97,6 +97,8 @@ menu:
     translation_key: menu.guidance
   - path: /faq/
     translation_key: menu.faq
+  - path: /contactus/
+    translation_key: menu.contact_us
 
 # This makes sure that all pages have a language.
 defaults:
