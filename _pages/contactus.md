@@ -1,4 +1,9 @@
-# Contact us
+---
+title: Contact us
+permalink: /contactus/
+layout: page
+---
+
 ## For more information about the UK Sustainable Development Goals data please contact us in one of the following ways:
 
 ### Telephone
