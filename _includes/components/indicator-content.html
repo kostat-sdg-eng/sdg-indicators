@@ -1,6 +1,6 @@
     
 <div id="page-content">
   <p>Select the following link to download this indicator data in an accessible format:<p>
-  <a href="{{ opensdg.remoteDataBaseUrl }}/data/{{ indicatorId }}.csv">{{ meta.indicator_name }}</a>
+  <a href="{{ site.remotedatabaseurl }}/data/{{ page.indicator | slugify }}.csv">{{ meta.indicator_name }}</a>
   {{ meta.page_content | markdownify }}
 </div>
