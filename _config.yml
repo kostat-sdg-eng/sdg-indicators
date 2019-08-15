@@ -17,11 +17,11 @@ remotedatabaseurl: "https://sdg.mango-solutions.com/data/5-5-1"
 
 jekyll_get_json:
   - data: meta
-    json: https://sdg.mango-solutions.com/data/5-5-1/meta/all.json'
+    json: 'https://sdg.mango-solutions.com/data/5-5-1/meta/all.json'
     # cache: true
     # directory: 'remotedata'
   - data: headlines
-    json: https://sdg.mango-solutions.com/data/5-5-1/headline/all.json'
+    json: 'https://sdg.mango-solutions.com/data/5-5-1/headline/all.json'
     # cache: true
     # directory: 'remotedata'
   - data: schema
