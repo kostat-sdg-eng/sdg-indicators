@@ -15,22 +15,6 @@ To help close this gap, we have worked with the Race Disparity Unit who own the 
 ## Target progress indicator and relevant ethnicity data
 
 * [Goal 1: No poverty](#goal1)
-* [Goal 2: Zero hunger](#goal2)
-* [Goal 3: Good health and well-being](#goal3)
-* [Goal 4: Quality education](#goal4)
-* [Goal 5: Gender equality](#goal5)
-* [Goal 6: Clean water and sanitation](#goal6)
-* [Goal 7: Affordable and clean energy](#goal7)
-* [Goal 8: Decent work and economic growth](#goal8)
-* [Goal 9: Industry, innovation and infrastructure](#goal9)
-* [Goal 10: Reduced inequalities](#goal10)
-* [Goal 11: Sustainable cities and communities](#goal11)
-* [Goal 12: Responsible consumption and production](#goal12)
-* [Goal 13: Climate action](#goal13)
-* [Goal 14: Life below water](#goal14)
-* [Goal 15: Life on land](#goal15)
-* [Goal 16: Peace and justice](#goal16)
-* [Goal 17: Partnership for the goals](#goal17)
 
 <a id="goal1"></a>
 
