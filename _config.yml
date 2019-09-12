@@ -103,7 +103,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@0.8.1
+remote_theme: brockfanning/open-sdg@better-forcing-of-disagg-or-units
 
 # Apply any custom Javascript.
 custom_js:
