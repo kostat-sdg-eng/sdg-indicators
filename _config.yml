@@ -103,7 +103,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@tab-title-fix
+remote_theme: open-sdg/open-sdg@page-title-fix
 
 # Apply any custom Javascript.
 custom_js:
