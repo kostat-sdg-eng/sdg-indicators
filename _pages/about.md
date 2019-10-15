@@ -4,7 +4,7 @@ permalink: /about/
 layout: page
 ---
 
-THIS IS A TEST! v10.3: Slack integration
+THIS IS A TEST! v10.4: Slack integration
 
 The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a set of ambitious goals and targets designed to make the world a better place by ending poverty, halting climate change and reducing inequalities. This work programme is part of the country’s commitment to the agenda 2030 on sustainable development. 
 
