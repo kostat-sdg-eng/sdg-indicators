@@ -14,4 +14,4 @@ Currently many of the SDG indicators can be broken down by sex or age but only 8
 
 The [research and analysis piece produced by ONS and RDU](https://www.gov.uk/government/publications/sustainable-development-goals-reporting-on-progress-by-ethnicity/sustainable-development-goals-progress-indicators-and-relevant-ethnicity-data) provides links to statistical bulletins and/or related data for 39 indicators across 29 targets and 10 goals.
 
-By working together across government, we can make sure that we leave no one behind. If you think you may have data which can be used to support the UK SDGs, please contact us at <i class="far fa-envelope"></i>[SustainableDevelopment@ons.gov.uk](mailto:SustainableDevelopment@ons.gov.uk)
+By working together across government, we can make sure that we leave no one behind. If you think you may have data which can be used to support the UK SDGs, please contact us at <i class="far fa-envelope"></i> [SustainableDevelopment@ons.gov.uk](mailto:SustainableDevelopment@ons.gov.uk)
