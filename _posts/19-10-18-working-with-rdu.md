@@ -5,9 +5,10 @@ author: Lucy Gwilliam
 category: "Filling data gaps"
 excerpt: 
 ---
+<img src="http://ec2-52-31-7-8.eu-west-1.compute.amazonaws.com/rdu_update/public/blogs/RDU_ONS_SDG.png" alt="RDU and ONS logo inside SDG logo" align="right" height="200px">
 
 While we are aiming to ensure that we report data for each disaggregation, there are still some groups of the population for which no data is reported. Even though we are reporting headline data for 74% of indicators, we need to look at data for each of the different groups in order to “leave no-one behind”. 
-<img align="right" src="http://ec2-52-31-7-8.eu-west-1.compute.amazonaws.com/rdu_update/public/blogs/RDU_ONS_SDG.png" alt="RDU and ONS logo inside SDG logo">
+
 
 In 2016, the UK Government launched an unprecedented audit of public services to reveal racial disparities. As a result of the audit, the [Ethnicity facts and figures website](https://www.ethnicity-facts-figures.service.gov.uk/) was launched in October 2017, and is updated continually as departments publish new data.
 
@@ -15,4 +16,4 @@ Currently many of the SDG indicators can be broken down by sex or age but only 8
 
 The [research and analysis piece produced by ONS and RDU](https://www.gov.uk/government/publications/sustainable-development-goals-reporting-on-progress-by-ethnicity/sustainable-development-goals-progress-indicators-and-relevant-ethnicity-data) provides links to statistical bulletins and/or related data for 39 indicators across 29 targets and 10 goals.
 
-By working together across government, we can make sure that we leave no one behind. If you think you may have data which can be used to support the UK SDGs, please contact us at <i class="far fa-envelope"></i> [SustainableDevelopment@ons.gov.uk](mailto:SustainableDevelopment@ons.gov.uk)
+By working together across government, we can make sure that we leave no one behind. If you think you may have data which can be used to support the UK SDGs, please contact us at <i class="fa fa-envelope"></i> [SustainableDevelopment@ons.gov.uk](mailto:SustainableDevelopment@ons.gov.uk)
