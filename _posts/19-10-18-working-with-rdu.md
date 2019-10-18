@@ -6,8 +6,8 @@ category: "Filling data gaps"
 excerpt: 
 ---
 
-While we are aiming to ensure that we report data for each disaggregation, there are still some groups of the population for which no data is reported. Even though we are reporting headline data for 74% of indicators, we need to look at data for each of the different groups in order to “leave no-one behind”.
-![RDU and ONS logo inside SDG logo](https://sustainabledevelopment-uk.github.io/public/blogs/RDU_ONS_SDG.png)
+While we are aiming to ensure that we report data for each disaggregation, there are still some groups of the population for which no data is reported. Even though we are reporting headline data for 74% of indicators, we need to look at data for each of the different groups in order to “leave no-one behind”. 
+<img align="right" src="http://ec2-52-31-7-8.eu-west-1.compute.amazonaws.com/rdu_update/public/blogs/RDU_ONS_SDG.png" alt="RDU and ONS logo inside SDG logo">
 
 In 2016, the UK Government launched an unprecedented audit of public services to reveal racial disparities. As a result of the audit, the [Ethnicity facts and figures website](https://www.ethnicity-facts-figures.service.gov.uk/) was launched in October 2017, and is updated continually as departments publish new data.
 
