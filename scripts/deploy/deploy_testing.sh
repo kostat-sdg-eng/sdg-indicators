@@ -19,7 +19,7 @@ else
 fi
 
 # Keys
-openssl aes-256-cbc -K $encrypted_6a5f295aa62e_key -iv $encrypted_6a5f295aa62e_iv -in scripts/deploy/keys.tar.enc -out scripts/deploy/keys.tar -d
+openssl aes-256-cbc -K $encrypted_091ad5e39a92_key -iv $encrypted_091ad5e39a92_iv -in scripts/deploy/keys.tar.enc -out scripts/deploy/keys.tar -d
 tar xvf scripts/deploy/keys.tar -C scripts/deploy/
 rm scripts/deploy/keys.tar
 
