@@ -10,7 +10,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 environment: production
 remote_data_prefix: "https://kostat-sdg-eng.github.io/sdg-data"
 remote_translations:
-  - 'https://kostat-sdg-eng.github.io/sdg-translations/translations-0.8.0.json'
+  - 'https://kostat-sdg-eng.github.io/sdg-translations/translations.json'
 
 analytics:
   ga_prod: 'UA-108503280-1'
