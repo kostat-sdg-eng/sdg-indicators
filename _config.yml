@@ -15,7 +15,7 @@ environment: staging
 
 remote_data_prefix: "https://kostat-sdg-kor.github.io/sdg-data"
 remote_translations:
-  - https://kiritype.github.io/sdg-translations/translations.json
+  - https://kostat-sdg-kor.github.io/sdg-translations/translations.json
 create_indicators:
   layout: indicator
 create_goals:
