@@ -68,7 +68,7 @@ collections:
 
 # The list of languages that are translated. The first one is the default.
 languages:
-  - en
+  - kr
 
 goal_image_base: https://kostat-sdg-kor.github.io/sdg-translations/assets/img/goals
 
@@ -97,7 +97,7 @@ defaults:
     scope:
       path: ""
     values:
-      language: "en"
+      language: "kr"
 
 plugins:
   - jekyll-remote-theme
