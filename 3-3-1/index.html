@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191022080828">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191031003215">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -297,7 +297,9 @@ var translations = {
       
 
       <div id="page-content">
-  <p>These data present information on the rate (per 100,000 population) of people newly diagnosed with HIV in the UK by year of diagnosis, country of residence and demographic characteristics. Due to the relatively low incidence of HIV in the UK, a rate per 100,000 population is used rather than the UN specified rate per 1,000 population. Since the duration between HIV infection and diagnosis is often unknown, new diagnoses cannot be used as a direct measure of HIV incidence.<br /><br />Select the following link to download this indicator data in an accessible format:<br /><a href="https://sustainabledevelopment-uk.github.io/sdg-data/data/3-3-1.csv">3.3.1 Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations (CSV 315.554 kB)</a></p>
+  <p>Data follows the UN specification for this indicator; however it has not been identified in collaboration with topic experts. As with all indicators, this will be reviewed.</p>
+
+<p>The Sustainable Development Goals is a collaborative project, if you have any feedback or suggestions for data please contact us at <a href="mailto:SustainableDevelopment@ons.gov.uk">SustainableDevelopment@ons.gov.uk</a></p>
 
 </div>
 
@@ -306,7 +308,7 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Rate of newly diagnosed HIV infections per 100,000 population</h2>
+      <h2>HIV Incidence per 100,000 population</h2>
     </div>
   </div>
 
@@ -315,131 +317,18 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_3-3-1' data-id="3-3-1" data-country="United Kingdom"
-  data-charttitle="Rate of newly diagnosed HIV infections per 100,000 population" data-measurementunit="Rate per 100,000 population" data-datasource="Public Health England (PHE), Office for National Statistics" data-copyright=""
-  data-geographicalarea="United Kingdom" data-footnote="" data-showdata="true" data-graphtype="line"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_3-3-1' data-id="3-3-1" data-country="Republic of Korea"
+  data-charttitle="HIV Incidence per 100,000 population" data-measurementunit="Number of people per 100,000 population" data-datasource="Public Health England (PHE), Office for National Statistics (ONS)" data-copyright=""
+  data-geographicalarea="Republic of Korea" data-footnote="" data-showdata="false" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
-    <div id="indicator-sidebar" class="col-md-3">
-      <div id="toolbar">
-        <span id="series-help">
-          <h4>Sub-categories</h4>
-          <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
-        </span>
-        <p>Click on the legend to remove individual lines from the chart.</p>
-        <div id="fields">
-          <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        </div>
-      </div>
-      <div id="units"></div>
-    </div>
-    <div id="indicator-main" class="col-md-9">
+    <div id="indicator-main" class="col-md-12">
     
-
-      
-      
-
-
-<div id="headlineTable">
-
-  <div id="datatables">
-
-    <a href="https://kostat-sdg-eng.github.io/sdg-data/headline/3-3-1.csv" class="btn btn-primary btn-download" download="indicator_3-3-1.csv" tabindex="0" role="button">Download Headline CSV</a>
-
-    <a href="https://kostat-sdg-eng.github.io/sdg-data/data/3-3-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-3-1.csv' tabindex='0' role='button'>Download Source CSV</a>
-
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption></caption>
-      <thead>
-        
-      </thead>
-      <tbody>
-        
-      </tbody>
-    </table>
-  </div>
-
-  <div id="datatableFooter">
-    
-    
-    
-    
-  </div>
-
-</div>
 
       
 
       <section>
 
-        
-        <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        <div class="async-loaded" style="display:none">
-          <ul class="nav nav-tabs data-view" role="tablist">
-            <li role="presentation" class="nav-item active">
-              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
->Chart</a>
-            </li>
-            <li role="presentation" class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
->Table</a>
-            </li>
-            <li role="presentation" class="nav-item map" style="display:none">
-              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Map tab"
->Map</a>
-            </li></ul>
-
-          <!-- Tab panes -->
-          <div class="tab-content data-view">
-            <div role="tabpanel" class="tab-pane active" id="chartview">
-              
-
-    <div id="dataset-size-warning" style="display:none">
-      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
-    </div>
-
-    
-    <div id="selectionsChart">
-      <div id="chart-canvas">
-        <h3 class="chart-title">Rate of newly diagnosed HIV infections per 100,000 population</h3>
-        <div id="chart" class="plot-container">
-          
-<canvas></canvas>
-
-
-        </div>
-        <div id="plotLegend"></div>
-      </div>
-      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-        Download Chart Image
-      </button>
-    </div>
-    <div id="chartSelectionDownload"></div>
-
-
-
-            </div>
-            <div role="tabpanel" class="tab-pane" id="tableview">
-              <div id="selectionsTable"></div>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
-              <div id="map">
-                <img src="/sdg-indicators/assets/img/loading.gif" alt="Loading map" />
-              </div>
-            </div>
-            
-          </div>
-        </div>
         
 
         <!-- Nav tabs -->
@@ -505,7 +394,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            <p>Rate of newly diagnosed HIV infections per 100,000 population, by sex, age and ethnicity</p>
+            <p>HIV Incidence per 100,000 population by country, age, sex and region of birth.</p>
 
           
         </td>
@@ -518,7 +407,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator description </th>
         <td>
           
-            
+            <p>Number of new HIV infections per 100,000 person-years among the uninfected population. The incidence rate is the number of new cases per population at risk in a given time period.</p>
 
           
         </td>
@@ -531,7 +420,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>United Kingdom</p>
+            <p>Republic of Korea</p>
 
           
         </td>
@@ -544,7 +433,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Rate per 100,000 population</p>
+            <p>Number of people per 100,000 population</p>
 
           
         </td>
@@ -557,7 +446,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>HIV diagnosed individual: An individual for whom HIV diagnosis and/or AIDS, and/or death with HIV positive has been reported. Incidence: The rate of new (or newly diagnosed) cases of the disease.</p>
 
           
         </td>
@@ -570,7 +459,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            
+            <p>(Number of new HIV infections / Population) * 100,000</p>
 
           
         </td>
@@ -583,7 +472,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>Some rates have been suppressed to eliminate the risk of deductive disclosure (numerator &lt;5 and denominator &lt;10,000). Secondary masking has been undertaken where necessary. Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts.</p>
+            
 
           
         </td>
@@ -627,8 +516,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/kostat-sdg-eng/sdg-data/commit/98c69b142c124c73e21e77d1b86b4dd98b1ede97" target="_blank">
-                2019-08-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-eng/sdg-data/commit/b4cbfd5c6a6b040de65bbffa4f07796fa4510dbd" target="_blank">
+                2019-10-22: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -779,7 +668,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>3.3.1 Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</p>
+            <p>Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</p>
 
           
         </td>
@@ -818,7 +707,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>3.3 By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>
+            <p>By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>
 
           
         </td>
@@ -844,7 +733,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Global indicator description </th>
         <td>
           
-            
+            <p>Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</p>
 
           
         </td>
@@ -857,7 +746,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier I</p>
+            <p>2</p>
 
           
         </td>
@@ -1116,7 +1005,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Earliest available data </th>
         <td>
           
-            <p>2000</p>
+            <p>2001</p>
 
           
         </td>
@@ -1129,7 +1018,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>United Kingdom</p>
+            <p>Republic of Korea</p>
 
           
         </td>
@@ -1149,7 +1038,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://www.gov.uk/government/statistics/hiv-annual-data-tables" target="_blank">
-                HIV - annual data tables <span class="visuallyhidden">opens in a new window</span>
+                HIV: annual data tables <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1167,7 +1056,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Release date </th>
         <td>
           
-            <p>05/09/2018</p>
+            <p>03-10-2017</p>
 
           
         </td>
@@ -1180,7 +1069,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Next release </th>
         <td>
           
-            <p>TBC</p>
+            <p>To be announced</p>
 
           
         </td>
@@ -1206,7 +1095,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Contact details </th>
         <td>
           
-            <p>HARSQueries@phe.gov.uk</p>
+            <p>HIV and STI Department, National Infection Service PHE Colindale, 61 Colindale Avenue London NW9 5EQ, harsqueries@phe.gov.uk,</p>
 
           
         </td>
@@ -1386,7 +1275,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Office for National Statistics</p>
+            <p>Office for National Statistics (ONS)</p>
 
           
         </td>
@@ -1412,7 +1301,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Earliest available data </th>
         <td>
           
-            <p>1991</p>
+            <p>1971</p>
 
           
         </td>
@@ -1425,7 +1314,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>United Kingdom</p>
+            <p>Republic of Korea</p>
 
           
         </td>
@@ -1445,7 +1334,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland" target="_blank">
-                Estimates of the population for the UK, England and Wales, Scotland and Northern Ireland <span class="visuallyhidden">opens in a new window</span>
+                Population Estimates for UK, England and Wales, Scotland and Northern Ireland <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1463,7 +1352,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Release date </th>
         <td>
           
-            <p>26/06/2019</p>
+            <p>22-06-2017</p>
 
           
         </td>
@@ -1476,7 +1365,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Next release </th>
         <td>
           
-            <p>01/06/2020</p>
+            <p>01-06-2018</p>
 
           
         </td>
@@ -1502,7 +1391,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Contact details </th>
         <td>
           
-            <p>pop.info@ons.gov.uk</p>
+            <p>Neil Park, pop.info@ons.gsi.gov.uk, Telephone +44 (0)1329 444661</p>
 
           
         </td>
@@ -1515,7 +1404,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>Gender and age population estimates - ONS mid-2017 population estimates. Exposure category population estimates - Multi-Parameter Evidence Synthesis (MPES) middle estimate of population size, scaled to the adult (15+) population from ONS mid-2017 population estimates. Ethnicity population estimates - MPES middle estimate of population size, scaled to the all-age population from ONS mid-2017 population estimates.</p>
+            <p>Estimates of the usual resident population for the UK as at 30 June of the reference year. Provided by administrative area, single year of age and sex</p>
 
           
         </td>
@@ -1534,6 +1423,290 @@ data-event-label="Change to Sources tab"
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+   
+    
+    <div class="col-md-6">
+      
+        <h4>Source 3</h4>
+      
+      <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Office for National Statistics (ONS)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            <p>Annual</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Earliest available data </th>
+        <td>
+          
+            <p>2005</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Republic of Korea</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/populationoftheunitedkingdombycountryofbirthandnationality" target="_blank">
+                Population of the UK by country of birth and nationality <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+  
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            <p>24-09-2017</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            <p>23-09-2018</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Statistical classification </th>
+        <td>
+          
+            <p>National Statistic</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Contact details </th>
+        <td>
+          
+            <p>Nicola White, migstatsunit@ons.gsi.gov.uk , Telephone +44 (0)1329 444097</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Other information </th>
+        <td>
+          
+            <p>Residents of UK, excluding some residents in communal establishments, by nation of birth and citizenship. Estimates from the Annual Population Survey</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
   
   
@@ -1673,7 +1846,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191022080828'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191022080828"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191031003215'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191031003215"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

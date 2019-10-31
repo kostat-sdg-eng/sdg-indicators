@@ -141,7 +141,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191022080828">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20191031003215">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -297,7 +297,13 @@ var translations = {
       
 
       <div id="page-content">
-  
+  <p><strong>Exploring data sources</strong></p>
+
+<p>We have not explored suitable data sources for this indicator.</p>
+
+<p>This, or part of this, indicator is classified as Tier 3 and therefore no internationally established methodology or standards are yet available, but methodology or standards are being (or will be) developed or tested.</p>
+
+<p>The Sustainable Development Goals is a collaborative project, if you have any feedback or suggestions for data please contact us at <a href="mailto:SustainableDevelopment@ons.gov.uk">SustainableDevelopment@ons.gov.uk</a></p>
 
 </div>
 
@@ -306,7 +312,7 @@ var translations = {
 
   <div class="row">
     <div class="col-xs-12">
-      <h2>Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment</h2>
+      <h2></h2>
     </div>
   </div>
 
@@ -315,131 +321,18 @@ var translations = {
 
   
 
-  <div class="row" id="indicatorData" data-indicatorid='indicator_12-4-2' data-id="12-4-2" data-country="United Kingdom"
-  data-charttitle="Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment" data-measurementunit="Tonnes per Capita, percentage" data-datasource="Department for Environment, Food and Rural Affairs, Office for National Statistics" data-copyright=""
-  data-geographicalarea="United Kingdom" data-footnote="" data-showdata="true" data-graphtype="line"
+  <div class="row" id="indicatorData" data-indicatorid='indicator_12-4-2' data-id="12-4-2" data-country=""
+  data-charttitle="" data-measurementunit="" data-datasource="" data-copyright=""
+  data-geographicalarea="" data-footnote="" data-showdata="false" data-graphtype="line"
   data-geocoderegex="" data-showmap="false" data-startvalues="">
     
-    <div id="indicator-sidebar" class="col-md-3">
-      <div id="toolbar">
-        <span id="series-help">
-          <h4>Sub-categories</h4>
-          <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
-        </span>
-        <p>Click on the legend to remove individual lines from the chart.</p>
-        <div id="fields">
-          <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        </div>
-      </div>
-      <div id="units"></div>
-    </div>
-    <div id="indicator-main" class="col-md-9">
+    <div id="indicator-main" class="col-md-12">
     
-
-      
-      
-
-
-<div id="headlineTable">
-
-  <div id="datatables">
-
-    <a href="https://kostat-sdg-eng.github.io/sdg-data/headline/12-4-2.csv" class="btn btn-primary btn-download" download="indicator_12-4-2.csv" tabindex="0" role="button">Download Headline CSV</a>
-
-    <a href="https://kostat-sdg-eng.github.io/sdg-data/data/12-4-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_12-4-2.csv' tabindex='0' role='button'>Download Source CSV</a>
-
-    <h3>Headline data</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption></caption>
-      <thead>
-        
-      </thead>
-      <tbody>
-        
-      </tbody>
-    </table>
-  </div>
-
-  <div id="datatableFooter">
-    
-    
-    
-    
-  </div>
-
-</div>
 
       
 
       <section>
 
-        
-        <p class="async-loading" data-img="/sdg-indicators/assets/img/loading-small.gif"></p>
-        <div class="async-loaded" style="display:none">
-          <ul class="nav nav-tabs data-view" role="tablist">
-            <li role="presentation" class="nav-item active">
-              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Chart tab"
->Chart</a>
-            </li>
-            <li role="presentation" class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Table tab"
->Table</a>
-            </li>
-            <li role="presentation" class="nav-item map" style="display:none">
-              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Map tab"
->Map</a>
-            </li></ul>
-
-          <!-- Tab panes -->
-          <div class="tab-content data-view">
-            <div role="tabpanel" class="tab-pane active" id="chartview">
-              
-
-    <div id="dataset-size-warning" style="display:none">
-      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
-    </div>
-
-    
-    <div id="selectionsChart">
-      <div id="chart-canvas">
-        <h3 class="chart-title">Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment</h3>
-        <div id="chart" class="plot-container">
-          
-<canvas></canvas>
-
-
-        </div>
-        <div id="plotLegend"></div>
-      </div>
-      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-        Download Chart Image
-      </button>
-    </div>
-    <div id="chartSelectionDownload"></div>
-
-
-
-            </div>
-            <div role="tabpanel" class="tab-pane" id="tableview">
-              <div id="selectionsTable"></div>
-            </div>
-            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
-              <div id="map">
-                <img src="/sdg-indicators/assets/img/loading.gif" alt="Loading map" />
-              </div>
-            </div>
-            
-          </div>
-        </div>
         
 
         <!-- Nav tabs -->
@@ -505,7 +398,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator available </th>
         <td>
           
-            <p>Tonnes of hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment</p>
+            
 
           
         </td>
@@ -531,7 +424,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>United Kingdom</p>
+            
 
           
         </td>
@@ -544,7 +437,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Tonnes per Capita, percentage</p>
+            
 
           
         </td>
@@ -557,7 +450,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>More information on waste can be found in the Eurostat publication <a href="https://ec.europa.eu/eurostat/documents/3859598/5915865/KS-RA-10-011-EN.PDF/39cda22f-3449-4cf6-98a6-280193bf770c">‘Manual on Waste Statistics’</a>.</p>
+            
 
           
         </td>
@@ -570,7 +463,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Calculations </th>
         <td>
           
-            <p>Tonnes of waste / UK population</p>
+            
 
           
         </td>
@@ -583,7 +476,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Other information </th>
         <td>
           
-            <p>This, or part of this, indicator is awaiting the development of internationally established methodology and standards (classified by the UN as tier 3). Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts.</p>
+            
 
           
         </td>
@@ -627,8 +520,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/kostat-sdg-eng/sdg-data/commit/4ab3f4654ad88cc2ac181cea6112c04585de09c1" target="_blank">
-                2019-08-06: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/kostat-sdg-eng/sdg-data/commit/b4cbfd5c6a6b040de65bbffa4f07796fa4510dbd" target="_blank">
+                2019-10-22: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -779,7 +672,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>12.4.2 Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment</p>
+            <p>Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment</p>
 
           
         </td>
@@ -818,7 +711,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>12.4 By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment</p>
+            <p>By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment</p>
 
           
         </td>
@@ -857,7 +750,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN designated tier </th>
         <td>
           
-            <p>Tier III</p>
+            <p>3</p>
 
           
         </td>
@@ -870,7 +763,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">UN custodian agency </th>
         <td>
           
-            <p>United Nations Statistics Division (UNSD), UN Environment (UNEP)</p>
+            <p>UNSD, UNEP</p>
 
           
         </td>
@@ -889,8 +782,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/tierIII-indicators/files/Tier3-12-04-02.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 4.0 MB) <span class="visuallyhidden">opens in a new window</span>
+              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-12.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata (pdf 782kB) <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1090,7 +983,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Department for Environment, Food and Rural Affairs</p>
+            
 
           
         </td>
@@ -1103,7 +996,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Periodicity </th>
         <td>
           
-            <p>Biennial</p>
+            
 
           
         </td>
@@ -1116,7 +1009,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Earliest available data </th>
         <td>
           
-            <p>2010</p>
+            
 
           
         </td>
@@ -1129,7 +1022,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>United Kingdom</p>
+            
 
           
         </td>
@@ -1148,10 +1041,6 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://www.gov.uk/government/statistical-data-sets/env23-uk-waste-data-and-management" target="_blank">
-                UK statistics on Waste <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
 
           
         </td>
@@ -1167,7 +1056,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Release date </th>
         <td>
           
-            <p>07/03/2019</p>
+            
 
           
         </td>
@@ -1180,7 +1069,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Next release </th>
         <td>
           
-            <p>01/02/2021</p>
+            
 
           
         </td>
@@ -1193,7 +1082,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Statistical classification </th>
         <td>
           
-            <p>Official Statistic</p>
+            
 
           
         </td>
@@ -1206,7 +1095,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Contact details </th>
         <td>
           
-            <p>enviro.statistics@defra.gov.uk.</p>
+            
 
           
         </td>
@@ -1386,7 +1275,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Office for National Statistics</p>
+            
 
           
         </td>
@@ -1399,7 +1288,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Periodicity </th>
         <td>
           
-            <p>Annual</p>
+            
 
           
         </td>
@@ -1412,7 +1301,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Earliest available data </th>
         <td>
           
-            <p>1851</p>
+            
 
           
         </td>
@@ -1425,7 +1314,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>UK</p>
+            
 
           
         </td>
@@ -1444,10 +1333,6 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland/mid2001tomid2018detailedtimeseries/ukpopulationestimates18382018.xlsx" target="_blank">
-                UK population estimates, 1838 to 2018 <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
 
           
         </td>
@@ -1463,7 +1348,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Release date </th>
         <td>
           
-            <p>26/06/2019</p>
+            
 
           
         </td>
@@ -1476,7 +1361,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Next release </th>
         <td>
           
-            <p>01/06/2020</p>
+            
 
           
         </td>
@@ -1489,7 +1374,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Statistical classification </th>
         <td>
           
-            <p>National Statistic</p>
+            
 
           
         </td>
@@ -1502,7 +1387,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Contact details </th>
         <td>
           
-            <p>pop.info@ons.gov.uk</p>
+            
 
           
         </td>
@@ -1546,6 +1431,566 @@ data-event-label="Change to Sources tab"
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+   
+    
+    <div class="col-md-6">
+      
+        <h4>Source 3</h4>
+      
+      <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Earliest available data </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+  
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Statistical classification </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Contact details </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Other information </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+   
+    
+    <div class="col-md-6">
+      
+        <h4>Source 4</h4>
+      
+      <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Earliest available data </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Link to data source </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+  
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Statistical classification </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Contact details </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      <tr>
+        <th scope="row">Other information </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
   
   
   
@@ -1673,7 +2118,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20191022080828'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191022080828"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20191031003215'></script><script src="/sdg-indicators/assets/js/custom.js?v=20191031003215"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
