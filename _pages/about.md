@@ -1,17 +1,16 @@
 ---
-title: About
+title: 개요
 permalink: /about/
 layout: page
 ---
-The [Sustainable Development Goals](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (SDGs) are a set of ambitious goals and targets designed to make the world a better place by ending poverty, halting climate change and reducing inequalities. This work programme is part of the country’s commitment to the agenda 2030 on sustainable development. 
+2015년 9월에 있었던 제70차 국제연합(UnitedNations,UN)총회에서「지속가능발전목표(SustainableDevelopmentGoals, SDGs)」를 논의, 채택한 지가 엊그제 같습니다. 좀 더 나은 미래를 위한 사회발전, 경제성장, 환경의 지속성을 동시에 추구하는 SDGs 달성은 2030년을 기한으로 하고 있습니다. 출발한지 이제 3분의 1 지점이 되는 2020년이 불과 몇개월 남지 않았습니다. 지금까지 우리는 얼마나 진전을 이루었을까요?
 
-ONS are fulfilling the mandate placed on all NSIs by the UN General Assembly to coordinate and report on the global SDG indicators. We aim to shine a light on who is being ‘left behind’ so policy makers can take action, and we aim to support colleagues across the world develop capability. Cabinet Office and DfID have responsibility for policy implementation. Our job is to collaborate and coordinate with topic leads across the GSS and beyond, using innovative techniques and to promote the work we do as an office that relates to SDGs. We are one of the world leaders in providing data to monitor progress. 
+올봄 유난히도 미세먼지로 인해 파란 하늘을 보지 못한 날이 많았습니다. 자랑하던 한국의 사계절은 봄과 가을은 짧아지고, 여름과 겨울은 길어지는 모습으로 바뀌고 있습니다. 다음 세대에서는 우리가 누렸던 아름다운 자연환경을 유튜브 영상 속에서만 보게되는 것은 아닌지 안타깝습니다.
 
+우리나라의 지속가능한발전을 이루기 위해서 통계청은 어떠한 일을 해야할까요? 머리를 맞대어 제대로 된 방향으로 가고 있는지, 설정한 목표에 도달하기까지 얼마나 남았는지 등의 질문을 체계적으로 평가해야 하는데 그 근거가 되는 것이 지표입니다. 이에 UN 통계위원회에서는 SDGs 모니터링을 하기 위한 「글로벌지표프레임워크」를 마련하였습니다. 하지만 아직 방법론이 미숙한 지표도 있고, 개별 국가 입장에서 볼 때 데이터가 없어서 모니터링이 어려운 지표도 다수 있습니다. 각 나라의 통계청은 SDGs를 효과적으로 모니터링하기 위해 관련 통계를 개발하고 투명한 보고체계를 구축해야 하는 사명이있습니다.
 
-The site is based on the open source '[Open SDG](https://open-sdg.readthedocs.io/en/latest/)' platform. The Open SDG platform is the result of collaboaration between the US government, the UK [Office For National Statistics](https://www.ons.gov.uk/) (ONS), and the nonprofit [Center For Open Data Enterprise](http://opendataenterprise.org/) (CODE).
+이러한 배경 속에서 본 연구는 현재 국내에서 활용할 수 있는 통계를 기반으로 한국의 SDGs 이행 현황을 파악해 보았습니다. 그리고 그 수준이 국제적으로 어떠한지를 주요 국가들과 비교해 보았습니다. 아울러, 글로벌 기준에 비추어 볼 때 어떤 데이터가 부족하며 이를 향상시키기 위해서 필요한 통계역량은 무엇인지를 제시하였습니다.
 
-Other countries wishing to reuse the Open SDG reporting platform are welcome to do so for free. The Open SDG [Quickstart guide](https://open-sdg.readthedocs.io/en/latest/quick-start/) gives technical instructions on the quickest way to get a copy of the Open SDG platform up and running. Note that this site is currently at an Alpha stage, and so is still under development. 
+아무쪼록 본 연구가 SDGs 이행현황을 정확하게 모니터링 할 수 있는 국가통계 구축에 유용하게 활용될 수 있기를 기대합니다. 지표와 정책의 연관성에 관한 연구는 향후 진행할 계획입니다. SDGs가 포괄하고 있는 모든 영역을 모니터링하기 위해서는 정부부처를 비롯하여, 학계, 연구기관, 시민사회 등 다양한 이해당사자의 협력이 필요하다는 점을 다시 한번 강조하고 싶습니다.
 
-Our [Guidance page](https://github.com/ONSdigital/sdg-indicators/wiki/Clone-your-own%3A-step-by-step-instructions-%28Windows%29) also documents this process in more detail for first-time users.
-
-If you have any feedback on this website or UK SDG data then please contact us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. The answers to some frequently asked questions are also available in the [Frequently Asked Questions]({{ site.baseurl }}{% link _pages/faq.md %}).
+마지막으로 보고서가 발간되기까지 아낌없이 자문의견을 보내주신 관계기관의 전문가들께 진심으로 감사드립니다.
