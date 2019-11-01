@@ -34,4 +34,4 @@ We are aware of some issues:
 
 ## Reporting accessibility problems with this website
 
-Please contact us if you find any other problems on the site. Also, if you think the site does not meet accessibility requirements. Our email is SustainableDevelopment@ons.gov.uk.
+Please [contact us](mailto:{{site.email_contacts.functional}}) if you find any other problems on the site. Also, if you think the site does not meet accessibility requirements.
