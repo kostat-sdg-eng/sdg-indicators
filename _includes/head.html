@@ -3,9 +3,13 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<script>
-		var krURL = "https://kostat-sdg-kor.github.io/" + window.location.pathname;
-		var enURL = "https://kostat-sdg-eng.github.io/" + window.location.pathname;   
+	<script type="text/javascript">
+		function moveKR(){
+			window.location.href="https://kostat-sdg-kor.github.io/" + window.location.pathname;
+		}
+		function moveEN(){
+		window.location.href="https://kostat-sdg-eng.github.io/" + window.location.pathname;
+		}
 	</script>
         {% include polyfills.html %}
         {% include javascript-variables.html %}
