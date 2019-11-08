@@ -39,7 +39,7 @@ email_contacts:
 # Github Repo for Data
 repo_name: sdg-data
 branch: develop
-org_name: ONSdigital
+org_name: kostat-sdg-kor
 
 # Build settings
 markdown: kramdown
