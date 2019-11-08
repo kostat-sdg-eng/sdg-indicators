@@ -9,22 +9,16 @@
 
     <a class="navbar-brand" href="{{ site.baseurl }}{{ baseurl_folder }}/" id="home">
       <img src="{{ site.baseurl }}/assets/img/SDG_logo.png" alt="{{ t.general.sdg }} - {{ t.header.tag_line }}" />
+    TEST테스트
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul>
+    {%- if site.languages.size >= 1 -%}
     <div class="language-toggle-mobile">
-	    <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
-		      <i class="fa fa-globe"></i>
-		        <span class="language-toggle-text">한국어</span>
-			  <i class="language-toggle fa fa-chevron-down"></i>
-			    <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
-	    </a>
-	    <ul class="language-options language-toggle">
-		    <li><a href="{{ site.baseurl }}{{ baseurl_folder }}/">한국어</a></li>
-		    <li><a href="{{ site.baseurl }}{{ baseurl_folder }}/">English</a></li>
-	    </ul>
+      {% include components/language-toggle.html %}
     </div>
+    {%- endif -%}
   </div>
 
     <nav class="navbar navbar-default" id="main-nav">
@@ -50,7 +44,7 @@
           </li>
           {%- endfor -%}
         {%- endif -%}
-        {%- if site.languages.size > 1 -%}
+        {%- if site.languages.size >= 1 -%}
         <li>
           {% include components/language-toggle.html %}
         </li>
