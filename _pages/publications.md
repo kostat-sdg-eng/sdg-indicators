@@ -6,10 +6,10 @@ layout: page
 ## Publications
 
 ### 일반
-**[한국의 SDGs 데이터와 이행현황, 통계개발원, 2019]
-(http://kostat.go.kr/sri/srikor/srikor_pbl/2/index.board?bmode=read&bSeq=&aSeq=374478&pageNo=1&rowNum=10&navCount=10&currPg=&searchInfo=srch&sTarget=title&sTxt=sdg)**
-글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황.
+**[한국의 SDGs 데이터와 이행현황, 통계청 통계개발원(2019)](http://kostat.go.kr/sri/srikor/srikor_pbl/2/index.board?bmode=read&bSeq=&aSeq=374478&pageNo=1&rowNum=10&navCount=10&currPg=&searchInfo=srch&sTarget=title&sTxt=sdg)**
+글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황
 
+**[2019 국가 지속가능발전목표(K-SDGs) 수립보고서, 환경부 지속가능발전위원회(2019)](http://www.ncsd.go.kr/research?post=2320)**
 
 **[What is the difference between sex and gender?, 21 February 2019](https://www.ons.gov.uk/economy/environmentalaccounts/articles/whatisthedifferencebetweensexandgender/2019-02-21)**
 We are exploring concepts that are important to the Sustainable Development Goals. This article explains the differences between sex and gender.
