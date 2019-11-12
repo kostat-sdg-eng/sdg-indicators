@@ -4,6 +4,8 @@ permalink: /publications/
 layout: page
 ---
 
+If you have any feedback on our publications please contact us at <a href="mailto:{{site.email_contacts.suggestions}}">{{site.email_contacts.suggestions}}</a>
+
 ### All goals
 
 **[National Voluntary Review, 2016](https://sustainabledevelopment.un.org/content/documents/10632National%20Voluntary%20Review%20Report%20(rev_final).pdf)**
