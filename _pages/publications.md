@@ -4,8 +4,8 @@ layoumlink: /publications/
 layout: page
 ---
 
-### 일반
 
+### **일반**
 **[한국의 SDGs 데이터와 이행현황 (통계청 통계개발원, 2019)](http://kostat.go.kr/sri/srikor/srikor_pbl/2/index.board?bmode=download&bSeq=&aSeq=374478&ord=1)**
 
 **[2019 국가 지속가능발전목표(K-SDGs) 수립보고서 (환경부 지속가능발전위원회, 2019)](http://ncsd.go.kr/api/1572586046142_K-SDGs_report.pdf)**
@@ -34,8 +34,8 @@ http://udic.idi.re.kr/boardCnts/fileDown.do?fileSeq=1b016160c359b434c9282caeabcf
 **[지속가능발전목표(SDGs) 달성을 위한 청소년 삶의 질 실태 및 지원방안 연구(한국청소년정책연구원, 2016)](https://nypi.re.kr/brdrr/boardrrView.do?menu_nix=4o9771b7&brd_id=BDIDX_PJk7xvf7L096m1g7Phd3YC&cont_idx=568&seltab_idx=0&edomweivgp=R)**
 
 
-### 목표4 : 양질의 교육
 
+### **목표4** 양질의 교육
 **[한국의 SDG4 이행 현황 연구 (한국교육개발원, 2019)](https://www.unesco.or.kr/assets/data/report/Lg0UTQ7aY1amLxfWLkvfPyTO35u6XY_1567147136_2.pdf)** SDG4 목표 달성을 위한 체계와 한국의 이행 현황 및 과제에 대한 연구 결과 보고서
 
 **[Implementation of the Sustainable Development Goal 4 in Korea (Korean Educational Development Institute, 2019)](https://www.unesco.or.kr/assets/data/report/Lg0UTQ7aY1amLxfWLkvfPyTO35u6XY_1567147136_3.pdf)**
@@ -44,51 +44,57 @@ http://udic.idi.re.kr/boardCnts/fileDown.do?fileSeq=1b016160c359b434c9282caeabcf
 
 **[SDG4-교육2030 포용성과 교육에 관한 연구 보고서 (유네스코한국위원회, 한국교육개발원,2019)](https://www.unesco.or.kr/assets/data/report/JPZCFQ3y82b98Bm5tkJgwIstZ3HneT_1573104541_2.pdf)** SDG4 관점에서 한국 교육의 포용성 현황 분석과 포용적 교육을 위한 정책 과제 제안을 위한 연구 결과 보고서
 
-**[SDG4 해설서 <지속가능한 사회를 꿈꾸는 교육>(유네스코한국위원회, 한국교육개발원,2018)](https://www.unesco.or.kr/assets/data/report/LdLQ3Ez2sisXPD9zUBpHRiJtMuPVGl_1545959970_2.pdf)** 지속가능발전목표(Sustainable Development Goals, SDGs) 중 4번째인 '양질의 교육'에 대한 해설서
+**[지속가능한 사회를 꿈꾸는 교육 (유네스코한국위원회, 한국교육개발원,2018)](https://www.unesco.or.kr/assets/data/report/LdLQ3Ez2sisXPD9zUBpHRiJtMuPVGl_1545959970_2.pdf)** 지속가능발전목표(Sustainable Development Goals, SDGs) 중 4번째인 '양질의 교육'에 대한 해설서
 
 **[문답으로 풀어보는 지속가능발전목표(SDG) 4 교육 2030(유네스코한국위원회, 2018)](https://www.unesco.or.kr/assets/data/report/4Q03otQgPqVWaO6UqAnmELZtei28UL_1531982225_2.pdf)** 지속가능발전목표(SDG) 4를 여러 문답 형식으로 풀어본 안내서로서, 여러 질문에 응답하고 국가 및 지역 차원의 교육발전 노력에 대한 함의를 파악하는 가운데 종합적인 지침을 제공
 
 **[2030 지속가능개발목표(SDGs)실천 방안 연구: 교육 분야를 중심으로(한국교육개발원, 2016)](https://www.kedi.re.kr/khome/main/research/selectPubForm.do?plNum0=11295)**
 
 
-### 목표 5 : 양성평등
+
+### **목표 5** 양성평등
 **[지속가능발전목표(SDGs) 내 성평등 관련 지표의 국내이행 현황 및 정책과제(한국여성정책연구원, 2018)](https://www.kwdi.re.kr/inc/download.do?ut=A&upIdx=115014&no=1)**
 
 
-### 목표 6 : 물과 위생
+
+### **목표 6** 물과 위생
 **[지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구(한국수자원공사, 2017)](http://www.alio.go.kr/download.dn?fileNo=2223880)** SDGs 추진에 따른 대응방안을 제안하기 위한 연구로서 SDGs의 개괄논의, 국내외 동향 분석, SDGs 주요 지표, 국내외 사례분석, K-water 및 한국의 SDGs 대응전략 및 방안을 도출하고자 함
 
 **[SDGs 관점의 물인권 지원을 위한 한국의 ODA 전략방향 연구(한국환경정책.평가연구원, 2014)](https://library.kei.re.kr:444/dmme/img/001/009/005/%ea%b8%b0%eb%b3%b82014_21_%ec%a1%b0%ec%9d%84%ec%83%9d.pdf)**
 
 
-### 목표 7 : 깨끗한 에너지
+
+### **목표 7** 깨끗한 에너지
 **[우리의 지속가능한 에너지(SDG 7)(유네스코한국위원회, 2017)](https://www.unesco.or.kr/assets/data/report/ELJcHwllZDLUGvi9GpWaCpoMUQveOw__2.pdf)** 지속가능발전목표(Sustainable Development Goals, SDGs) 7에 대한 해설서
 
 
-### 목표 9
+
+### **목표 9** 산업, 혁신과 사회기반시설
 **[자원순환분야 지속가능발전목표(SDGs) 이행 기반 마련을 위한 기초연구(한국환경정책.평가연구원, 2015)](https://library.kei.re.kr:444/dmme/img/001/012/004/%ea%b8%b0%ec%b4%882015_08_%ec%9e%84%ed%98%9c%ec%88%99.pdf)**
 
 
 
-### 목표11 : 지속가능한 도시와 공동체
+### **목표 11** 지속가능한 도시와 공동체
 
 **[지속가능발전목표(SDGs) 대비 건축·도시분야 대응방향 연구 (건축공간도시연구소, 2016)](http://ncsd.go.kr/api/%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C(SDGs)%20%EB%8C%80%EB%B9%84%20%EA%B1%B4%EC%B6%95%C2%B7%EB%8F%84%EC%8B%9C%EB%B6%84%EC%95%BC%20%EB%8C%80%EC%9D%91%EB%B0%A9%ED%96%A5%20%EC%97%B0%EA%B5%AC.pdf)**
 
 **[우리의 지속가능한 도시(SDG 11)(유네스코한국위원회,2017)](https://www.unesco.or.kr/assets/data/report/xNoBXzg8AvKzsQ1zmRL4MCN39Ji3JV__2.pdf)** 지속가능발전목표(Sustainable Development Goals, SDGs) 11에 대한 해설서
 
 
-### 목표14 : 해양 생태계
 
+### **목표 14** 해양 생태계
 **[우리의 지속가능한 해양 (한국유네스코위원회, 2019)](https://www.unesco.or.kr/assets/data/report/Tiop5H5KP4p8xfZ65chbYUviB6h3Bg_1572326682_2.pdf)** 지속가능발전목표 17가지 중 14 번째인 '지속가능발전을 위한 대양, 바다, 해양자원의 지속가능한 이용과 보전'에 대한 해설서
 
 
-### 목표 15 : 육상 생태계
-**[SDG 15 해설서 <우리의 지속가능한 생물다양성>(유네스코한국위원회, 2018)](https://www.unesco.or.kr/assets/data/report/m8xCs1z3ObBt4D81Dax9c2KyIXMHnB_1543384964_2.pdf)** 지속가능발전목표 17가지 중 15 번째인 육상 생태계의 생물다양성 보전에 대한 해설서
+
+### **목표 15** 육상 생태계
+**[우리의 지속가능한 생물다양성 (유네스코한국위원회, 2018)](https://www.unesco.or.kr/assets/data/report/m8xCs1z3ObBt4D81Dax9c2KyIXMHnB_1543384964_2.pdf)** 지속가능발전목표 17가지 중 15 번째인 육상 생태계의 생물다양성 보전에 대한 해설서
 
 **[국내 보호지역의 UN SDGs 이행전략 수립 연구(국립공원연구원, 2017)](http://www.knps.or.kr/front/research/research/researchDtl.do?menuNo=7040011&bbsId=REFM000351&searchAllValue=SDG&bType=SR&page=1)**
 
 **[토지환경 분야의 지속가능발전목표(SDGs) 이행을 위한 정책 방향(한국환경정책·평가연구원, 2016)](https://library.kei.re.kr:444/dmme/img/001/012/005/%ea%b8%b0%ec%b4%88_2016_11_%eb%aa%85%ec%88%98%ec%a0%95.pdf)**
 
 
-### 목표 16 : 평화와 정의
+
+### **목표 16** 평화와 정의
 **[SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로(한국국제협력단, 2019)](http://lib.koica.go.kr/search/media/img/CAT000000042712?metsno=000000016511&fileid=M000000016511_FILE000002)**
