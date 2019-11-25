@@ -1,54 +1,54 @@
 ---
 layout: page
-title: Cookies and privacy
+title: 쿠키와 개인정보
 permalink: /about/cookies-and-privacy/
 ---
-The following is a description of what data is collected when you use this website and what it is used for.
+다음은 웹사이트 사용 시 수집되는 사용자의 데이터에 관한 설명입니다.
 
-## User information
-This website uses cookies and JavaScript tracking code to gather anonymous information about visitors' usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.
+## 사용자 정보
+이 웹사이트는 방문자의 사용 패턴에 대한 익명의 정보를 수집하기 위해 쿠키와 자바스크립트 추적 코드를 사용하며,
+이를 통해 사이트의 탐색, 콘텐츠 표시 등 서비스의 품질을 향상시키고 있습니다.
 
-The information collected does not include personal details such as your name, age, telephone number, postal address or email address, nor does it allow personal identification of a user.
+수집된 정보에는 이름, 나이, 전화번호, 우편 주소 또는 이메일 주소와 같은 개인 정보가 포함되어 있지 않습니다.
 
-## Cookies
-When we provide services, we want to make them easy, useful and reliable.
+## 쿠키
+우리가 서비스를 제공할 때, 우리는 그것들을 쉽고, 유용하고, 믿을 수 있게 만들기를 원한다.
 
-Where services are delivered on the internet, this sometimes involves placing small amounts of information on your device, for example, computer or mobile phone.
+인터넷에서 서비스가 제공되는 경우, 이것은 때때로 컴퓨터나 휴대폰과 같은 소량의 정보를 당신의 장치에 배치하는 것을 포함한다.
 
-These include small files known as cookies. They cannot be used to identify you personally.
+이것들은 쿠키라고 알려진 작은 파일들을 포함한다. 그것들은 당신을 개인적으로 식별하는데 이용될 수 없다.
 
-These pieces of information are used to improve services for you through, for example:
+이러한 정보 조각은 다음을 통해 서비스를 개선하는 데 사용됩니다:
 
-- enabling a service to recognise your device so you don't have to give the same information several times during one task
-- recognising that you may already have given a username and password so you don't need to do it for every web page requested
-- measuring how many people are using services, so they can be made easier to use and there's enough capacity to ensure they are fast
+- 한 번의 작업 중에 동일한 정보를 여러 번 제공할 필요가 없도록 서비스에서 기기 인식 가능
+- 요청된 모든 웹 페이지에 대해 사용자 이름과 암호를 이미 제공했으므로 이를 수행할 필요가 없음을 인식
+- 얼마나 많은 사람이 서비스를 사용하고 있는지 측정하여 보다 쉽게 사용할 수 있고, 빠른 속도를 보장할 수 있는 충분한 용량이 있는지 확인
 
-You can manage these small files yourself and learn more about them through [internet browser cookies – what they are and how to manage them](https://www.aboutcookies.org/).
+쿠키와 관련된 보다 자세한 사항은 [www.aboutcookies.org](https://www.aboutcookies.org/)를 참조하시기 바랍니다.
 
-## Our use of cookies
-Important information about this list of cookies:
+## 쿠키의 사용
+이 쿠키 목록에 대한 중요한 정보:
 
-This list may not always be complete. It will be regularly updated as further information is gathered from other companies and organisations that we work with.
+이 목록이 항상 완전한 것은 아닐 수도 있다. 그것은 우리가 함께 일하는 다른 회사들과 조직들로부터 더 많은 정보가 수집됨에 따라 정기적으로 업데이트될 것이다.
 
-Cookies for retaining active state of accessibility services:
+접근성 서비스의 활성 상태를 유지하기 위한 쿠키:
 
-- contrast
-
-Cookies for measuring use of services:
+차이
+서비스 사용을 측정하기 위한 쿠키:
 
 - _ga
 - _gid
 - _gat
 
-By understanding how people use our website, we can improve the information provided. We gather this data using Google Analytics.
+사람들이 우리의 웹사이트를 어떻게 사용하는지 이해함으로써, 우리는 제공된 정보를 개선할 수 있다. 우리는 Google Analytics를 사용하여 이 데이터를 수집한다.
 
-## External links
-This site may contain links to other sites.
+## 외부 링크
+이 사이트는 다른 사이트에 대한 링크가 포함되어 있습니다.
 
-ONS is not responsible for the privacy practices or the content of such websites.
+통계청은 그러한 웹사이트의 개인정보보호 관행이나 내용에 대해 책임을 지지 않습니다.
 
-## Security
-This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.
+## 보안
+본 웹 사이트는 우리의 통제하에 있는 정보의 손실, 오용 및 변경을 보호하기 위한 보안 조치를 시행하고 있다.
 
-## Contacting the website
-If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can [contact us](mailto:{{site.email_contacts.functional}}).
+## 기타 문의사항
+개인정보 보호 및 본 웹사이트의 운영에 관한 문의사항은 [contact us](mailto:{{site.email_contacts.functional}})로 연락 주시기 바랍니다.
