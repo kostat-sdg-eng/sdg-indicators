@@ -1,41 +1,19 @@
 ---
-title: Frequently Asked Questions (FAQ)
+title: FAQ
 permalink: /faq/
 layout: page
 ---
 
-## How do I suggest new or different data sources?
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+## 잘못된 정보에 대한 수정 요청은 어떻게 하나요?
+데이터를 비롯한 출처 정보 등 메타데이터에 관한 모든 문의사항은 <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>로 연락주시기 바랍니다.
 
-## What does the reporting status mean?
-We have used three different types of reporting status for an indicator, which are also colour coded:
+## 지표현황의 '이용가능'과 '작업중'은 어떤 의미인가요?
+* 이용가능 (초록색) – 해당 지표의 최소한의 데이터가 본 플랫폼에 제공되고 있음을 의미하며, 세분화된 상세 데이터가 있다는 의미는 아닙니다
+* 작업중 (빨간색) – 현재 지표 작성 방법론이 개발되지 않았거나, 적합한 데이터가 존재하지 않아 지표 작성 작업을 진행중입니다.
+지표와 관련된 보다 상세한 사항은 지표별 페이지를 참조하여 주시기 바랍니다.
 
-* Reported online (green) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.
-* Statistics in progress (amber) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.
-* Exploring data sources (red) – we are still looking for a suitable data source for this indicator.
+## 데이터는 얼마나 자주 업데이트 되는 건가요?
+업데이트 주기는 지표별로 상이하며, 원천 자료의 업데이트가 확인되는 즉시 업데이트하기 위해 노력하고 있습니다.
 
-Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.
-
-## How often will new data be added to this site?
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.
-
-## What are you doing to fill data gaps?
-For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.
-
-This means we need to look for new data sources, link existing ones, or model data. We are working with colleagues across the Government Statistical Service to do this, including the Data Science Campus.
-
-We have recently published our response to the [consultation on measuring and reporting SDGs in the UK](https://consultations.ons.gov.uk/sustainable-development-goals/ons-approach-to-measuring-reporting-sdgs-in-the-uk/) where we asked for your ideas on prioritising data development. Your feedback will inform our data development plans, which will be published here in 2018.
-
-## How accessible is this website?
-
-![DAC logo with two ticks indicating AA certification](https://sustainabledevelopment-uk.github.io/public/dac_logo_with_two_ticks.png)
-
-Our aim is to make this website as accessible and usable as possible for every user. We have recently achieved the AA level standard of the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag), with a [Digital Accessibility Centre Certificate of Accreditation](http://digitalaccessibilitycentre.org/index.php/office-for-national-statistics-sdg).
-
-For details about compatibility with tools and known issues, please see our [Accessibility statement]({{ site.baseurl }}{% link _pages/accessibilitystatement.md %}).
-
-## What browsers can I use to view this website?
-We are developing and testing our site in line with the Government Digital Service (GDS) [guidance on designing for different browsers and devices](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices). Our website works with most of the latest versions of the commonly used browsers listed in the ‘Browsers to test in’ section of the GDS guidance. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.
-
-## Can other countries copy this website?
-Yes. We have deliberately developed an open source solution for reporting UK SDGs data so other countries can freely reuse our code. Technical guidance on copying our site is available in our [wiki](https://github.com/ONSdigital/sdg-indicators/wiki). Countries exploring how to report their own SDGs national data can also get support from the [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+## 어떤 종류의 브라우저를 활용하여 접근이 가능한가요?
+거의 모든 종류의 상용 브라우저의 최신 버전에 대한 사용성 테스트를 거쳤으며, 일부 브라우저의 과거 버전(예: IE8) 등에서 발견되는 문제점을 해결하기 위한 작업을 진행중입니다.
