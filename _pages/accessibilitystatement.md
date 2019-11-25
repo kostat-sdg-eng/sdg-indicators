@@ -1,16 +1,13 @@
 ---
 layout: page
-title: Accessibility Statement
+title: 웹접근성 상태
 permalink: /accessibility-statement/
 ---
 
-## Accessibility accreditation
+최대한 많은 사용자들이 본 웹사이트를 이용할 수 있도록 노력하고 있습니다.
 
-We’re working to make this website as accessible and usable as possible for everybody. We follow the [Web Content Accessibility Guidelines (WCAG 2.1)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20). This site has achieved [‘AA’ standard](http://digitalaccessibilitycentre.org/index.php/office-for-national-statistics-sdg).
-
-## Compatibility with tools
-
-This website should be compatible with recent versions of the following screen readers:
+## 호환성
+본 웹사이트는 아래 음성지원 소프트웨어의 호환성 테스트를 거쳤습니다.
 
 * Jaws (Windows)
 * NVDA (Windows)
@@ -18,20 +15,9 @@ This website should be compatible with recent versions of the following screen r
 * VoiceOver (iPhone; MacOS)
 * TalkBack (Android)
 
-The site should also be compatible with:
+## 문제점
+* 차트나 지도는 음성지원 서비스가 제공되지 않습니다.
+* Internet Explorer는 키보드 탐색 기능을 사용하여 데이터 테이블을 정렬하거나 필터링할 수 없으므로, 데이터 파일을 다운로드하여 사용하십시오.
 
-* Basic operating system screen magnifiers
-* Speech recognition software, for example, Dragon Naturally Speaking
-* Operating system speech packages
-
-## Known issues
-
-We are aware of some issues:
-
-* Assistive technology can’t read charts or maps on the site so please use the data table view instead
-
-* If you are using Internet Explorer, you won't be able to sort or filter data tables with keyboard navigation so please download the data files to sort and filter data 
-
-## Reporting accessibility problems with this website
-
-Please [contact us](mailto:{{site.email_contacts.functional}}) if you find any other problems on the site. Also, if you think the site does not meet accessibility requirements.
+## 기타 문의사항
+개인정보 보호 및 본 웹사이트의 운영에 관한 문의사항은 [Contact us](mailto:{{site.email_contacts.functional}})로 연락 주시기 바랍니다. 
