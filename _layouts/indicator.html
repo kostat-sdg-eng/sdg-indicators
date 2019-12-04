@@ -148,11 +148,6 @@
           <li role="presentation" class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" {% include autotrack.html preset="tab_meta_sources" category="Tab change" action="Change metadata view" label="Change to Sources tab" %}>{{ t.indicator.sources }}</a>
           </li>
-          {% if site.environment == 'staging' %}
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">{{ t.indicator.edit }}</a>
-          </li>
-          {% endif %}
         </ul>
 
         <!-- Tab panes -->
@@ -184,14 +179,6 @@
           <div role="tabpanel" class="tab-pane" id="sources">
             {% include components/sources.html %}
           </div>
-          {% if site.environment == 'staging' %}
-          <div role="tabpanel" class="tab-pane" id="edit">
-            <div class="edit-container">
-              <a class="btn btn-primary" href="http://prose.io/#{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ site.data_dir_for_edits | default: 'data' }}/indicator_{{ meta.indicator | slugify }}.csv">{{ t.indicator.edit_data }}</a>
-              <a class="btn btn-primary" href="http://prose.io/#{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/meta/{{ meta.indicator | slugify }}.md">{{ t.indicator.edit_metadata }}</a>
-            </div>
-          </div>
-          {% endif %}
         </div>
       </section>
     </div>
