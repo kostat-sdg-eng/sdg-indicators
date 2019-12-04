@@ -173,7 +173,7 @@
             <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" {% include autotrack.html preset="tab_meta_sources" category="Tab change" action="Change metadata view" label="Change to Sources tab" %}>{{ page.t.indicator.sources }}</a>
           </li>
         {% endif %}
-          {% if site.environment == '' %}
+          {% if site.environment == 'staging' %}
           <li role="presentation" class="nav-item">
             <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">{{ page.t.indicator.edit }}</a>
           </li>
@@ -226,7 +226,7 @@
             {% include components/sources.html %}
           </div>
           {% endif %}
-          {% if site.environment == '' %}
+          {% if site.environment == 'staging' %}
           <div role="tabpanel" class="tab-pane" id="edit">
             <div class="edit-container">
               {% include components/edit-buttons.html %}
