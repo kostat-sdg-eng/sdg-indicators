@@ -3,7 +3,7 @@ $(function() {
   var topLevelSearchLink = $('.top-level span:eq(1), .top-level button:eq(1)');
 
   var resetForSmallerViewport = function() {
-    topLevelSearchLink.text('Search');
+    topLevelSearchLink.text('검색');
     $('.top-level li').removeClass('active');
     $('.top-level span').removeClass('open');
   };  
@@ -40,7 +40,7 @@ $(function() {
     var target = $(this).data('target');
 
     $('.top-level li').removeClass('active');
-    topLevelSearchLink.text('Search');
+    topLevelSearchLink.text('검색');
 
     var targetEl = $('#' + target);
     var wasVisible = targetEl.is(':visible');
@@ -53,14 +53,14 @@ $(function() {
       $(this).toggleClass('open');
       
       if($(this).hasClass('open') || !wasVisible) {
-        $(this).text('Hide');
+        $(this).text('숨기기');
       } else {
-        $(this).text('Search');
+        $(this).text('검색');
       }
     } else {
       // menu click, always hide search:
       topLevelSearchLink.removeClass('open');
-      topLevelSearchLink.text('Search');
+      topLevelSearchLink.text('검색');
     }
 
     if(!wasVisible) {
