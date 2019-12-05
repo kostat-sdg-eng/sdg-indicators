@@ -40,7 +40,7 @@ $(function() {
     var target = $(this).data('target');
 
     $('.top-level li').removeClass('active');
-    topLevelSearchLink.text('검색');
+    topLevelSearchLink.text('Search');
 
     var targetEl = $('#' + target);
     var wasVisible = targetEl.is(':visible');
@@ -53,14 +53,14 @@ $(function() {
       $(this).toggleClass('open');
       
       if($(this).hasClass('open') || !wasVisible) {
-        $(this).text('숨기기');
+        $(this).text('Hide');
       } else {
-        $(this).text('검색');
+        $(this).text('Search');
       }
     } else {
       // menu click, always hide search:
       topLevelSearchLink.removeClass('open');
-      topLevelSearchLink.text('검색');
+      topLevelSearchLink.text('Search');
     }
 
     if(!wasVisible) {
