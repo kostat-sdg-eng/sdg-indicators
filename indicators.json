@@ -262,7 +262,7 @@
         },{
           "id": "3-2-2",
           "title": "Neonatal mortality rate",
-          "description": "Probability that a child born in a specific year or period will die during the first 28 completed days of life if subject to age-specific mortality rates of that period, expressed per 1000 live births. Neonatal deaths (deaths among live births during the first 28 completed days of life) may be subdivided into early neonatal deaths, occurring during the first 7 days of life, and late neonatal deaths, occurring after the 7th day but before the 28th completed day of life.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-2-2",
           "status": "complete"
@@ -304,7 +304,7 @@
         },{
           "id": "3-2-1",
           "title": "Under‐five mortality rate",
-          "description": "The average number of expected deaths before the age of 5 per 1,000 live births for a specific year.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-2-1",
           "status": "complete"
@@ -325,7 +325,7 @@
         },{
           "id": "3-1-2",
           "title": "Proportion of births attended by skilled health personnel",
-          "description": "Percentage of women giving birth in a medical facility, by age and residential geography",
+          "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-1-2",
           "status": "complete"
@@ -353,7 +353,7 @@
         },{
           "id": "3-3-1",
           "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
-          "description": "Number of new HIV infections per 100,000 person-years among the uninfected population. The incidence rate is the number of new cases per population at risk in a given time period.",
+          "description": "",
           "keywords": "",
           "href": "/sdg-indicators/3-3-1",
           "status": "notstarted"
