@@ -1170,7 +1170,7 @@
         },{
           "id": "12-5-1",
           "title": "National recycling rate, tons of material recycled",
-          "description": "National recycling rate as a proportion of waste collected",
+          "description": "",
           "keywords": "Recycling, Waste, Environment",
           "href": "/sdg-indicators/12-5-1",
           "status": "notstarted"
@@ -1191,7 +1191,7 @@
         },{
           "id": "12-3-1",
           "title": "Global food loss index",
-          "description": "UK food waste in Kg per capita.",
+          "description": "",
           "keywords": "food loss, sustainable production.",
           "href": "/sdg-indicators/12-3-1",
           "status": "notstarted"
