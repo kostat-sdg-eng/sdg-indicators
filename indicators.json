@@ -733,14 +733,14 @@
         },{
           "id": "8-9-1",
           "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
-          "description": "Tourism direct GDP in the UK as a percentage of GDP (CVM) and in growth rate",
+          "description": "",
           "keywords": "GDP, Tourism",
           "href": "/sdg-indicators/8-9-1",
           "status": "notstarted"
         },{
           "id": "8-8-1",
           "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
-          "description": "Rates of fatal injuries per 100,000 workers (employees and self employees) and rates of self-reported workplace non-fatal injury (per 100,000 workers)",
+          "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-8-1",
           "status": "complete"
@@ -796,7 +796,7 @@
         },{
           "id": "8-5-2",
           "title": "Unemployment rate, by sex, age and persons with disabilities",
-          "description": "The unemployment rate is a useful measure of the underutilization of the labour supply. It reflects the inability of an economy to generate employment for those persons who want to work but are not doing so, even though they are available for employment and actively seeking work. It is thus seen as an indicator of the efficiency and effectiveness of an economy to absorb its labour force and of the performance of the labour market. Short-term time series of the unemployment rate can be used to signal changes in the business cycle; upward movements in the indicator often coincide with recessionary periods or in some cases with the beginning of an expansionary period as persons previously not in the labour market begin to test conditions through an active job search.",
+          "description": "",
           "keywords": "Labour Force",
           "href": "/sdg-indicators/8-5-2",
           "status": "complete"
@@ -824,7 +824,7 @@
         },{
           "id": "8-9-2",
           "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
-          "description": "Number of people employed in tourism related industries",
+          "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-9-2",
           "status": "notstarted"
