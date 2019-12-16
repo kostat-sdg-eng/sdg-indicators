@@ -8,16 +8,16 @@
 {% endfor %}
 
 {% if n_sources > 0 %}
-  <div class="row no-gutters">
+  <div>
   {% for i in (1..n_sources) %}
    {% assign src_active = "source_active_" | append: i %}
     {% assign src_scope = "source_" | append: i %}
-    <div>
+    <article><p></p>
       {% if n_sources > 1 %}
         <h4>{{ t.indicator.source }} {{ i }}</h4>
       {% endif %}
       {% include components/metadata.html scope=src_scope %}
-    </div>
+    </article>
     {% endfor %}
   </div>
 {% endif %}
