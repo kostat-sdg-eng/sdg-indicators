@@ -28,6 +28,8 @@ GitHub의 Wiki 페이지 중 <a href="https://github.com/kostat-sdg-kor/sdg-indi
 -	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/What-do-we-need-to-change" onClick='ga("send", "event", "Guidance", "wiki", "what do we need to change")'>그 밖에 수정이 필요한 사항</a>
 -	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/Development-installation-instructions" onClick='ga("send", "event", "Guidance", "wiki", "development installation instructions")'>기본 프로그램 설치 방법</a>
 
+
+
 ## 웹접근성 상태
 최대한 많은 사용자들이 본 웹사이트를 이용할 수 있도록 노력하고 있습니다.
 
@@ -46,3 +48,21 @@ GitHub의 Wiki 페이지 중 <a href="https://github.com/kostat-sdg-kor/sdg-indi
 
 ## 기타 문의사항
 개인정보 보호 및 본 웹사이트의 운영에 관한 문의사항은 [Contact us](mailto:{{site.email_contacts.functional}})로 연락 주시기 바랍니다. 
+
+
+
+## FAQ
+
+## 잘못된 정보에 대한 수정 요청은 어떻게 하나요?
+데이터를 비롯한 출처 정보 등 메타데이터에 관한 모든 문의사항은 <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>로 연락주시기 바랍니다.
+
+## 지표현황의 '이용가능'과 '작업중'은 어떤 의미인가요?
+* 이용가능 (초록색) – 해당 지표의 최소한의 데이터가 본 플랫폼에 제공되고 있음을 의미하며, 세분화된 상세 데이터가 있다는 의미는 아닙니다
+* 작업중 (빨간색) – 현재 지표 작성 방법론이 개발되지 않았거나, 적합한 데이터가 존재하지 않아 지표 작성 작업을 진행중입니다.
+지표와 관련된 보다 상세한 사항은 지표별 페이지를 참조하여 주시기 바랍니다.
+
+## 데이터는 얼마나 자주 업데이트 되는 건가요?
+업데이트 주기는 지표별로 상이하며, 원천 자료의 업데이트가 확인되는 즉시 업데이트하기 위해 노력하고 있습니다.
+
+## 어떤 종류의 브라우저를 활용하여 접근이 가능한가요?
+거의 모든 종류의 상용 브라우저의 최신 버전에 대한 사용성 테스트를 거쳤으며, 일부 브라우저의 과거 버전(예: IE8) 등에서 발견되는 문제점을 해결하기 위한 작업을 진행중입니다.
