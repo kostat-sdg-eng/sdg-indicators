@@ -45,7 +45,7 @@ $collapsed-navbar-height: $navbar-height - 30;
 
       &.status {
         color: black;
-        font-weight: normal;
+        font-weight: bold;
         border: none;
         padding: 4px;
         position: absolute;
@@ -1179,7 +1179,7 @@ h5 + .btn-download {
     line-height: 1.2;
     padding-left: 20px;
   }
-	
+
 
 
   /*
@@ -2120,7 +2120,7 @@ body.long {
       text-decoration: none;
     }
   }
-  
+
   #accessibility-nav li.contrast {
     @media screen and (max-width: 500px) {
       font-size: 3vw;
