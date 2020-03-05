@@ -45,7 +45,7 @@ $collapsed-navbar-height: $navbar-height - 30;
 
       &.status {
         color: black;
-        font-weight: bold;
+        font-weight: normal;
         border: none;
         padding: 4px;
         position: absolute;
@@ -533,6 +533,7 @@ h5 + .btn-download {
     &.heading {
       background-color: $c;
       border-bottom: 5px solid $dark-c;
+
     }
     &.goal-indicators {
       div {
@@ -1074,9 +1075,11 @@ h5 + .btn-download {
       .indicator-cards a {
         padding: 0;
         margin-bottom: 1.5rem;
+        font-weight: bold;
       }
       .indicator-cards.target {
         margin-bottom: 1.5rem;
+        font-weight: bold;
         clear: left;
       }
     }
