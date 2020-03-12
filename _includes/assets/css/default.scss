@@ -1012,7 +1012,7 @@ h5 + .btn-download {
   #chartSelectionDownload {
     // margin-top: -40px;
     margin-bottom: 10px;
-    clear: left;
+    clear: center;
   }
 
   #legend {
@@ -1666,6 +1666,7 @@ footer {
 
 .image-download-in-progress {
   &, * {
+    text-align: center;
     padding: 0;
     margin: 0;
   }
