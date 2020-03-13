@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: <!--간행물-->
 layoumlink: /publications/
 layout: page
 ---
