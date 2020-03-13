@@ -7,7 +7,7 @@
               <li><a href="mailto:{{site.email_contacts.suggestions}}">{{ t.menu.contact_us }}</a></li>
               
 			  {% if site.twitter %}
-              <li style ="display:none"><a class="twitter-follow-button" href="https://twitter.com/{{ site.twitter }}" data-show-count="false">{{ t.general.twitter }}: @{{ site.twitter }}</a></li>
+              <li style ="display:none"><a class="twitter-follow-button" href="https://twitter.com/{{ site.twitter }}" data-show-count="false"></a></li><!--{{ t.general.twitter }}: @{{ site.twitter }}-->
               {% endif %}
 			  
 			  
@@ -16,11 +16,11 @@
               {% endif %}
 			  
 			  
-              <li  style ="display:none"><a href="{{ site.baseurl }}{% link _pages/faq.md %}">{{ t.menu.faq }}</a></li>
+              <li  style ="display:none"><a href="{{ site.baseurl }}{% link _pages/faq.md %}"></a></li><!--{{ t.menu.faq }}-->
 			  
               <li><a href="{{ site.baseurl }}{% link _pages/cookies.md %}">{{ t.menu.cookies }}</a></li>
 			  
-              <li  style ="display:none"><a href="{{ site.baseurl }}{% link _pages/accessibilitystatement.md %}">Accessibility statement</a></li>
+              <li><a href="{{ site.baseurl }}{% link _pages/accessibilitystatement.md %}"></a></li><!--Accessibility statement-->
 			  
             </ul>
           </div>
