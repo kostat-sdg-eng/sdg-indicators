@@ -3,9 +3,9 @@ title: <!--간행물-->
 layoumlink: /publications/
 layout: page
 ---
-<!--
+
 간행물 게시와 관련된 문의사항은 <a href="mailto:{{site.email_contacts.suggestions}}">{{site.email_contacts.suggestions}}</a>로 연락주시기 바랍니다.
--->
+
 ### 일반
 
 **[한국의 SDGs 데이터와 이행현황 (2019)](http://kostat.go.kr/sri/srikor/srikor_pbl/2/index.board?bmode=download&bSeq=&aSeq=374478&ord=1)** 통계청 통계개발원
