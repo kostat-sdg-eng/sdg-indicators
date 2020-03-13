@@ -28,8 +28,6 @@ GitHub의 Wiki 페이지 중 <a href="https://github.com/kostat-sdg-kor/sdg-indi
 -	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/What-do-we-need-to-change" onClick='ga("send", "event", "Guidance", "wiki", "what do we need to change")'>그 밖에 수정이 필요한 사항</a>
 -	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/Development-installation-instructions" onClick='ga("send", "event", "Guidance", "wiki", "development installation instructions")'>기본 프로그램 설치 방법</a>
 
-
-
 ## 웹접근성 상태
 최대한 많은 사용자들이 본 웹사이트를 이용할 수 있도록 노력하고 있습니다.
 
@@ -48,8 +46,6 @@ GitHub의 Wiki 페이지 중 <a href="https://github.com/kostat-sdg-kor/sdg-indi
 
 ## 기타 문의사항
 개인정보 보호 및 본 웹사이트의 운영에 관한 문의사항은 [Contact us](mailto:{{site.email_contacts.functional}})로 연락 주시기 바랍니다. 
-
-
 
 ## FAQ
 
