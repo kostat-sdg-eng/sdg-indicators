@@ -1,10 +1,10 @@
 ---
-title: <!--간행물-->
+title: Publications
 layoumlink: /publications/
 layout: page
 ---
 
-간행물 게시와 관련된 문의사항은 <a href="mailto:{{site.email_contacts.suggestions}}">{{site.email_contacts.suggestions}}</a>로 연락주시기 바랍니다.
+<!--간행물 게시와 관련된 문의사항은 <a href="mailto:{{site.email_contacts.suggestions}}">{{site.email_contacts.suggestions}}</a>로 연락주시기 바랍니다.-->
 
 ### 일반
 
