@@ -23,7 +23,18 @@ test img
 
 
 
-<iframe id="test" style="height: 600px; width: 600px;" src="http://ncov.mohw.go.kr/"></iframe>
+<iframe id="test" style="height: 300px; width: 600px;" src="http://ncov.mohw.go.kr/"></iframe>
+
+
+<iframe width="500" height="375" src="https://www.youtube.com/watch?v=GJZXJaZx0WQ?
+modestbranding=1" frameborder="0" allowfullscreen></iframe>
+
+
+<div class="video-container" style="text-align: center; margin-top: 25px;>
+<object type="text/html" width="100%" height="500" data="//www.youtube.com/embed/GJZXJaZx0WQ">
+
+
+
 
 
 
