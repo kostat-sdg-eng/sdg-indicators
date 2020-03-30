@@ -3,15 +3,6 @@ title: 개요
 permalink: /about/
 layout: page
 ---
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript">
-      $(document).ready(function(){
-         $("#testBoard").load("http://ncov.mohw.go.kr/")
-        /* id 지정을 통해서도 가능합니다. 
-         $("#header").load("header.html #navbar")
-         */       
-      });
-</script>    
 
 2015년 9월에 있었던 제70차 국제연합(UnitedNations,UN)총회에서「지속가능발전목표(SustainableDevelopmentGoals, SDGs)」를 논의, 채택한 지가 엊그제 같습니다. 좀 더 나은 미래를 위한 사회발전, 경제성장, 환경의 지속성을 동시에 추구하는 SDGs 달성은 2030년을 기한으로 하고 있습니다. 출발한지 이제 3분의 1 지점이 되는 2020년이 불과 몇개월 남지 않았습니다. 지금까지 우리는 얼마나 진전을 이루었을까요?
 
@@ -28,16 +19,8 @@ layout: page
 
 test img
 
-![test](https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg)
-
-
-
 <img style="height: 100%; width: 500px;" src="https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg" alt="My Image">
 
-
-
-
-<!--<iframe id="test" style="height: 100%; width: 500px;" src="http://ncov.mohw.go.kr/"></iframe>-->
 
 
 
@@ -45,15 +28,22 @@ test img
 <object type="text/html" width="100%" height="500" data="//www.youtube.com/embed/GJZXJaZx0WQ">
 </a>
 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+         $("#testBoard").load("http://ncov.mohw.go.kr/")      
+      });
+</script>    
 
-<div id="#testBoard" style="height: 100%; width: 500px;" ></div>
+<div id="#testBoard" style="height: 600px; width: 500px;" ></div>
 
+<!--
 <script>
   $( document ).ready( function() {
      alert("jquery test");
   } );
 </script>
-
+-->
 
 
 
