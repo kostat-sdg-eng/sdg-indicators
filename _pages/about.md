@@ -23,7 +23,7 @@ test img
 
 
 
-<iframe id="test" style="height: 600px; width: 300px;" src="http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202003301050001&code=970100&nv=stand&utm_source=naver&utm_medium=newsstand&utm_campaign=row1_2&C/"></iframe>
+<iframe id="test" style="height: 600px; width: 600px;" src="http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202003301050001&code=970100&nv=stand&utm_source=naver&utm_medium=newsstand&utm_campaign=row1_2&C/"></iframe>
 
 
 
@@ -31,4 +31,10 @@ test img
 
 
 ![test](https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg)
+
+
+<script>
+alert("test");
+</script>
+
 
