@@ -3,6 +3,16 @@ title: 개요
 permalink: /about/
 layout: page
 ---
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+         $("#testBoard").load("http://ncov.mohw.go.kr/")
+        /* id 지정을 통해서도 가능합니다. 
+         $("#header").load("header.html #navbar")
+         */       
+      });
+</script>    
+
 2015년 9월에 있었던 제70차 국제연합(UnitedNations,UN)총회에서「지속가능발전목표(SustainableDevelopmentGoals, SDGs)」를 논의, 채택한 지가 엊그제 같습니다. 좀 더 나은 미래를 위한 사회발전, 경제성장, 환경의 지속성을 동시에 추구하는 SDGs 달성은 2030년을 기한으로 하고 있습니다. 출발한지 이제 3분의 1 지점이 되는 2020년이 불과 몇개월 남지 않았습니다. 지금까지 우리는 얼마나 진전을 이루었을까요?
 
 올봄 유난히도 미세먼지로 인해 파란 하늘을 보지 못한 날이 많았습니다. 자랑하던 한국의 사계절은 봄과 가을은 짧아지고, 여름과 겨울은 길어지는 모습으로 바뀌고 있습니다. 다음 세대에서는 우리가 누렸던 아름다운 자연환경을 유튜브 영상 속에서만 보게되는 것은 아닌지 안타깝습니다.
@@ -27,7 +37,7 @@ test img
 
 
 
-<iframe id="test" style="height: 100%; width: 500px;" src="http://ncov.mohw.go.kr/"></iframe>
+<!--<iframe id="test" style="height: 100%; width: 500px;" src="http://ncov.mohw.go.kr/"></iframe>-->
 
 
 
@@ -36,13 +46,7 @@ test img
 </a>
 
 
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js">
-</script>
+<div id="#testBoard" style="height: 100%; width: 500px;" ></div>
 
 <script>
   $( document ).ready( function() {
