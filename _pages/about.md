@@ -23,7 +23,7 @@ test img
 
 
 
-<iframe id="test" style="height: 600px; width: 300px;" src="https://www.naver.com/"></iframe>
+<iframe id="test" style="height: 600px; width: 300px;" src="http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202003301050001&code=970100&nv=stand&utm_source=naver&utm_medium=newsstand&utm_campaign=row1_2&C/"></iframe>
 
 
 
