@@ -23,7 +23,10 @@ test img
 
 
 
-<link rel="import" href="https://www.naver.com/">
+<iframe id="test" style="height: 600px; width: 300px;" src="https://www.naver.com/"></iframe>
+
+
+
 
 
 
