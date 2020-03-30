@@ -18,22 +18,27 @@ layout: page
 
 test img
 
-<img src="https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg" alt="My Image">
-
-
-
-
-<iframe id="test" style="height: 300px; width: 600px;" src="http://ncov.mohw.go.kr/"></iframe>
-
-
-
-
-<object type="text/html" width="100%" height="500" data="//www.youtube.com/embed/GJZXJaZx0WQ">
-
-
-
-
 ![test](https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg)
+
+
+
+<img style="height: 100%; width: 500px;" src="https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg" alt="My Image">
+
+
+
+
+<iframe id="test" style="height: 100%; width: 500px;" src="http://ncov.mohw.go.kr/"></iframe>
+
+
+
+<a>
+<object type="text/html" width="100%" height="500" data="//www.youtube.com/embed/GJZXJaZx0WQ">
+</a>
+
+
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js">
