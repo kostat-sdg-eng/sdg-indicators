@@ -28,6 +28,11 @@ test img
 <object type="text/html" width="100%" height="500" data="//www.youtube.com/embed/GJZXJaZx0WQ">
 </a>
 
+<a>
+<object type="text/html" width="100%" height="500" data="//http://ncov.mohw.go.kr/">
+</a>
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript">
       $(document).ready(function(){
