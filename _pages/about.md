@@ -22,36 +22,17 @@ test img
 <img style="height: 100%; width: 500px;" src="https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg" alt="My Image">
 
 
-
-
 <a>
 <object type="text/html" width="100%" height="500" data="//www.youtube.com/embed/GJZXJaZx0WQ">
 </a>
 
 <a>
-<object type="text/html" width="100%" height="500" data="//http://ncov.mohw.go.kr/">
+<object type="text/html" width="100%" height="500" data="//weather.naver.com/main/wetrMain.nhn">
 </a>
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript">
-      $(document).ready(function(){
-         $("#testBoard").load("http://ncov.mohw.go.kr/")      
-      });
-</script>    
-
-<div id="#testBoard" style="height: 600px; width: 500px;" ></div>
-
-<!--
 <script>
   $( document ).ready( function() {
-     alert("jquery test");
+     alert("test");
   } );
 </script>
--->
-
-
-
-
-
-
