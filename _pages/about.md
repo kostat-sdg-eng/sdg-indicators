@@ -20,17 +20,18 @@ layout: page
 test img
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--
 <script>
   $( document ).ready( function() {
      alert("test");
   } );
 </script>
-
+-->
 
 <img style="height: 100%; width: 500px;" src="https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg" alt="My Image">
 
 
-<!--<object id="link1" type="text/html" width="100%" height="500px" data="https://news.v.daum.net/v/20200330125932467">-->
+<object id="link1" type="text/html" width="100%" height="500px" data="https://news.v.daum.net/v/20200330125932467"> 
 
 
 <object id="link2" type="text/html" width="100%" height="300px" data="//www.youtube.com/embed/GJZXJaZx0WQ">
