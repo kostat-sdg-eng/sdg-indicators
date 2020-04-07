@@ -17,9 +17,9 @@ layout: page
 마지막으로 보고서가 발간되기까지 아낌없이 자문의견을 보내주신 관계기관의 전문가들께 진심으로 감사드립니다.
 
 
-test img
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 <!--
 <script>
   $( document ).ready( function() {
@@ -29,15 +29,16 @@ test img
 -->
 
 <img style="height: 100%; width: 500px;" src="https://imgnews.pstatic.net/image/005/2020/03/30/611211110014421236_1_20200330115303611.jpg" alt="My Image">
-</img>
 
+<!--
 <object id="link1" type="text/html" width="80%" height="500px" data="https://blog.naver.com/offerkiss/221845623886"> 
 </object>
+-->
 
-
+<!--
 <object id="link2" type="text/html" width="500px" height="500px" data="//www.youtube.com/embed/GJZXJaZx0WQ"> 
 </object>
-
+-->
 
 
 
