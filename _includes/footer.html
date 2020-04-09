@@ -21,9 +21,15 @@
               <li><a href="{{ site.baseurl }}{% link _pages/cookies.md %}">{{ t.menu.cookies }}</a></li>
 			  
               <li><a href="{{ site.baseurl }}{% link _pages/accessibilitystatement.md %}"></a></li><!--Accessibility statement-->
-			  
-			  
-			  <li><a href="https://www.naver.com/">{{ Naver }}</a></li>
+
+
+			  <li>
+			  <select onchange="window.open(value,'_blank');" style="color:black;">
+			  <option>Site</option>
+			  <option value="https://www.naver.com/">Naver</option>
+			  <option value="https://www.daum.net/">Daum</option>
+			  </select>
+			  </li>
 
 
 
