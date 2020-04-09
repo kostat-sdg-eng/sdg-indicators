@@ -21,6 +21,7 @@ layout: page
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 -->
 
+<!--
 <script>
   $( document ).ready( function() {
      alert("test");
@@ -43,7 +44,4 @@ layout: page
 <object id="link2" type="text/html" width="500px" height="500px" data="//www.youtube.com/embed/GJZXJaZx0WQ"> 
 </object>
 -->
-
-
-
 
