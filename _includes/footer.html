@@ -24,24 +24,27 @@
 
 			  <li><a href="{{ site.baseurl }}{% link _pages/accessibilitystatement.md %}"></a></li><!--Space-->
 
-
-			  <li>
-			  <select onchange="window.open(value,'_blank');" style="color:black;">
-			  <option value="">Site</option>
-			  <option value="https://www.naver.com/">Naver</option>
-			  <option value="https://www.daum.net/">Daum</option>
-			  </select>
-			  </li>
-
-
-
-
 			  
 
 
             </ul>
           </div>
         </div>
+		<div class="col-xs-12 text-right">
+          <div id="footerLinks">
+            <ul>
+              <li>
+			  <select onchange="window.open(value,'_blank');" style="color:black;">
+			  <option value="{{ site.baseurl }}{% link _pages/about.md %}">Site</option>
+			  <option value="https://www.naver.com/">Naver</option>
+			  <option value="https://www.daum.net/">Daum</option>
+			  </select>
+			  </li>
+		  </ul>
+		</div>
+	</div>
+
+
       </div>
     </div>
   </footer>
