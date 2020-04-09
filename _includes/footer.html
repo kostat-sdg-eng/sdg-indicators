@@ -3,7 +3,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div id="footerLinks">
-            <ul>
+            <ul style="float:left;">
               <li><a href="mailto:{{site.email_contacts.suggestions}}">{{ t.menu.contact_us }}</a></li>
               
 			  {% if site.twitter %}
@@ -23,8 +23,9 @@
               <li><a href="{{ site.baseurl }}{% link _pages/accessibilitystatement.md %}"></a></li><!--Accessibility statement-->
 
 			  <li><a href="{{ site.baseurl }}{% link _pages/accessibilitystatement.md %}"></a></li><!--Space-->	  
-
-              <li align='right'>
+		</ul>
+		<ul style="float:right;">
+              <li>
 			  <select onchange="window.open(value,'_blank');" style="color:black;">
 			  <option value="{{ site.baseurl }}{% link _pages/about.md %}">Site</option>
 			  <option value="https://www.naver.com/">Naver</option>
@@ -32,6 +33,8 @@
 			  </select>
 			  </li>
 		  </ul>
+
+
 
           </div>
         </div>
