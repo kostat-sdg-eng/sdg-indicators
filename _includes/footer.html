@@ -37,17 +37,9 @@
 			  -->
 
 		  </ul>
-
-		 <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
-			<i class="fa fa-globe"></i>
-			<span class="language-toggle-text">Site</span>
-			<i class="language-toggle fa fa-chevron-down"></i>
-			<i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
-			</a>
-			<ul class="language-options language-toggle">
-			<!--<li><a href="javascript:moveKR();">ÇÑ±¹¾î</a></li>-->
-			<li style="float:rigjht;"><a href="http://kostat.go.kr/">test</a></li>
-			</ul>
+<div class="language-toggle-mobile">
+      {% include components/language-toggle.html %}
+    </div>
 
 
           </div>
