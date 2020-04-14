@@ -18,11 +18,11 @@ UN SDGs를 기반으로 한국은 지속가능발전위원회 주관으로 2018�
 통계청은 국내 SDGs 데이터 총괄기관으로서, UN 및 국제기구를 포함한 글로벌 사회와 국가 간의 조정역할을 수행하고 있습니다. 이를 위해 글로벌 표준에 부합하는 국내 데이터 생산 및 관리, UN SDGs 지표에 대응하는 한국 데이터 서비스, 지표 개선 연구 등을 하고 있습니다. 이를 토대로, 글로벌 지표 관점에서의 한국의 이행 현황을 모니터링 함으로써 UN SDGs 달성에 기여하는 것을 목표로 하고 있습니다. 
 
 
-### 
+<br>
 
 <img style="height: 100%; width: 100%;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/about1.png" alt="My Image">
 
-### 
+<br>   
 
 
 <!--
