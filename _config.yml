@@ -85,7 +85,7 @@ menu:
   - path: /about/
     translation_key: menu.about
   - path: /publications/
-    translation_key: menu.publications
+    translation_key: menu.publications 
 #  - path: /guidance/
 #    translation_key: menu.guidance
 #  - path: /faq/
