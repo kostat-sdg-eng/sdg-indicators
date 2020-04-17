@@ -21,8 +21,11 @@ UN은 국가 데이터로 구성된 글로벌 데이터베이스를 구축, 운�
 
 
 <br>
+<div style="margin: auto; text-align: center;">
+<img style="height: 400px; width: 630px; margin: auto; " src="https://kostat-sdg-kor.github.io/sdg-indicators/public/about1.png" alt="My Image">
+</div>
+</div>
 
-<img style="height: 100%; width: 100%;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/about1.png" alt="My Image">
 
 <br>   
 
