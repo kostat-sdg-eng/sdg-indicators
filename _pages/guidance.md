@@ -1,10 +1,19 @@
 ---
-title: 매뉴얼
+title: 플랫폼 개발 매뉴얼
 permalink: /guidance/
 layout: page
 ---
 
-본 플랫폼을 복사하여 자신의 플랫폼을 개발하고자 하는 사용자를 위한 정보를 제공해 드리며,
+SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세한 정보를 얻으실 수 있습니다.
+한국, 영국, 미국 등 Open SDG 기반 플랫폼 소스는 누구나 활용할 수 있습니다.
+
+* Wiki [바로가기](https://github.com/kostat-sdg-kor/sdg-indicators/wiki)
+
+ → 개발 단계별 설명, 기술적 요구사항, 기본 프로그램 설치 방법 등
+
+**[지속가능발전목표(SDGs)국내 대응전략 수립 연구 보고서 (2014)](http://www.me.go.kr/home/file/readDownloadFile.do?fileId=111484&fileSeq=1)** 한국환경정책평가연구원
+
+TEST 작성중
 
 <a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki" onClick='ga("send", "event", "Guidance", "wiki", "wiki homepage")'>wiki pages</a>를 통해 더 자세한 정보를 얻으실 수 있습니다.
 
