@@ -78,9 +78,7 @@ goal_image_base: https://kostat-sdg-kor.github.io/sdg-translations/assets/img/go
 # Menu
 menu:
   # Use these to customise the main navigation.
-#  - path: /
-#    translation_key: menu.goals
-  - path: /guidance/
+  - path: /
     translation_key: menu.goals
   - path: /reporting-status/
     translation_key: menu.reporting_status
