@@ -14,12 +14,14 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 * Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
  → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등
 
-
+<div align="center">
 <div align="center" style="width:80%; height: 300px; border: 1px solid orange; border-radius: 30px 30px 30px 30px;">
 <br/>
 - 해외 SDG 플랫폼 사례 -
 <br/>
+<br/>
 --- 그림 링크 ---
+</div>
 </div>
 
 
