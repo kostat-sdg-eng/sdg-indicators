@@ -21,17 +21,16 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 <br/>
 <br/>
 <table border="0" style="width:95%; height: 200px;">
-  <th><a href="http://www.naver.com"><img src="https://2.bp.blogspot.com/--5yqttOEAsw/Urr9mw2ptsI/AAAAAAAADME/uR7L1d-5y50/w72-h72-p-k-no-nu/howways-logo2-94x94.png"/></a></th>
-  <th><a href="http://www.naver.com"><img src="https://2.bp.blogspot.com/--5yqttOEAsw/Urr9mw2ptsI/AAAAAAAADME/uR7L1d-5y50/w72-h72-p-k-no-nu/howways-logo2-94x94.png"/></th>
-  <th><a href="http://www.naver.com"><img src="https://2.bp.blogspot.com/--5yqttOEAsw/Urr9mw2ptsI/AAAAAAAADME/uR7L1d-5y50/w72-h72-p-k-no-nu/howways-logo2-94x94.png"/></th>
-  <th><a href="http://www.naver.com"><img src="https://2.bp.blogspot.com/--5yqttOEAsw/Urr9mw2ptsI/AAAAAAAADME/uR7L1d-5y50/w72-h72-p-k-no-nu/howways-logo2-94x94.png"/></th>
-  <th><a href="http://www.naver.com"><img src="https://2.bp.blogspot.com/--5yqttOEAsw/Urr9mw2ptsI/AAAAAAAADME/uR7L1d-5y50/w72-h72-p-k-no-nu/howways-logo2-94x94.png"/></th>
+  <th><a href="http://www.naver.com"><img width=100px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a></th>
+  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
+  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
+  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
+  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
 </table>
 
 --- 그림 링크 ---
 </div>
 </div>
-
 
 
 ## FAQ
