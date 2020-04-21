@@ -12,7 +12,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
  → 개발 단계별 설명, 기술적 요구사항, 기본 프로그램 설치 방법 등
 
 * Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
- → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등
+ → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등  
 
 
 <div align="center">
@@ -63,6 +63,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 
 
 
+#
 
 ## FAQ
 
@@ -81,24 +82,4 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 - A. 거의 모든 종류의 상용 브라우저의 최신 버전에 대한 사용성 테스트를 거쳤으며, 일부 브라우저의 과거 버전(예: IE8) 등에서 발견되는 문제점을 해결하기 위한 작업을 진행중입니다. 
 
 
-
-
---------------------- TEST 작성중 --------------------------
-
-
-개발에 필요한 조금 더 상세한 내용은 아래 링크를 참조하시기 바랍니다.:
--	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/Required-skill-sets" onClick='ga("send", "event", "Guidance", "wiki", "required skill set")'>기술적 요구사항</a>
--	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/How-do-we-create-our-own-NRP" onClick='ga("send", "event", "Guidance", "wiki", "how do we create our own nrp")'>기본 준비과정</a>
--	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/What-do-we-need-to-change" onClick='ga("send", "event", "Guidance", "wiki", "what do we need to change")'>그 밖에 수정이 필요한 사항</a>
--	<a href="https://github.com/kostat-sdg-kor/sdg-indicators/wiki/Development-installation-instructions" onClick='ga("send", "event", "Guidance", "wiki", "development installation instructions")'>기본 프로그램 설치 방법</a>
-
-
-* Jaws (Windows)
-* NVDA (Windows)
-* ZoomText (Windows)
-* VoiceOver (iPhone; MacOS)
-* TalkBack (Android)
-
-## 문제점
-* 차트나 지도는 음성지원 서비스가 제공되지 않습니다.
 
