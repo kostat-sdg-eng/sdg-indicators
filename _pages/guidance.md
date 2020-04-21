@@ -22,10 +22,10 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 <br/>
 <table border="0" style="width:95%; height: 200px;">
   <th><a href="http://www.naver.com"><img width=100px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a></th>
-  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
-  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
-  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
-  <th><a href="http://www.naver.com"><img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
+  <th><a href="http://www.naver.com"><img width=100px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a></th>
+  <th><a href="http://www.naver.com"><img width=100px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a></th>
+  <th><a href="http://www.naver.com"><img width=100px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a></th>
+  <th><a href="http://www.naver.com"><img width=100px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a></th>
 </table>
 
 --- 그림 링크 ---
