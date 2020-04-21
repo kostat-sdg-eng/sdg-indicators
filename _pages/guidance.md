@@ -20,19 +20,19 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 - 해외 SDG 플랫폼 사례 -<br/>
 <table border="0" style="width:95%; height: 135px;">
   <th><a href="https://sustainabledevelopment-uk.github.io">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></th>
   
   <th><a href="https://sdg.data.gov">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png"/></th>
   
   <th><a href="https://sustainabledevelopment-germany.github.io">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png"/></th>
   
   <th><a href="https://irelandsdg.geohive.ie/">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png"/></th>
   
   <th><a href="https://sdg.gov.pl/">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/Ireland.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/Ireland.png"/></th>
 </table>
 
 </div>
