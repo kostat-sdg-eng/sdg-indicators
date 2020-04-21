@@ -20,7 +20,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 - 해외 SDG 플랫폼 사례 -<br/>
 <table border="0" style="width:95%; height: 135px;">
   <th>
-  [![영국](img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png")](https://sustainabledevelopment-uk.github.io)
+  [![영국](https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png)](https://sustainabledevelopment-uk.github.io)
   </th>
   
   <th><a href="https://sdg.data.gov">
