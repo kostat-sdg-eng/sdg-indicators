@@ -17,7 +17,7 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
   
 
 <div align="center">
-<div align="center" style="width:80%; height: 185px; border: 1px solid orange; border-radius: 30px 30px 30px 30px;">
+<div align="center" style="width:80%; height: 185px; border: 1px solid orange; border-radius: 30px 30px 30px 30px; font-weight: bold; ">
 <br/>
 - 해외 SDG 플랫폼 사례 -
 <br/>
