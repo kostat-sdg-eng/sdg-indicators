@@ -14,26 +14,32 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
 * Open SDG [[바로가기]](https://open-sdg.readthedocs.io/)
  → 플랫폼 개발 용어, 특정 기능 사용법(코드), Open SDG 활용 사례 등
 
+ [![영국](https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png)](https://sustainabledevelopment-uk.github.io)
+
 <div align="center">
 <div align="center" style="width:80%; height: 185px; border: 1px solid orange; border-radius: 30px 30px 30px 30px;">
 <br/>
 - 해외 SDG 플랫폼 사례 -<br/>
 <table border="0" style="width:95%; height: 135px;">
-  <th>
-  [![영국](https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png)](https://sustainabledevelopment-uk.github.io)
+  <th><a href="https://sustainabledevelopment-uk.github.io">
+  <img border="1" width="110px" height="65px" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png"/></a>
   </th>
   
   <th><a href="https://sdg.data.gov">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png"/></a></th>
+  <img border="1" width="110px" height="65px" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png"/></a>
+  </th>
   
   <th><a href="https://sustainabledevelopment-germany.github.io">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png"/></a>
+  </th>
   
   <th><a href="https://irelandsdg.geohive.ie/">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png"/></a>
+  </th>
   
   <th><a href="https://sdg.gov.pl/">
-  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/Ireland.png"/></a></th>
+  <img border="1" width=110px height=65px src="https://kostat-sdg-kor.github.io/sdg-indicators/public/Ireland.png"/></a>
+  </th>
 </table>
 
 </div>
