@@ -43,13 +43,13 @@ SDG 데이터 플랫폼 개발을 원한다면 아래의 링크를 통해 자세
   </td>
 
   <td align="center">
-  <a href="https://irelandsdg.geohive.ie/">
+  <a href="https://sdg.gov.pl/">  
     <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png" alt="POL"/>
     </a>
   </td>
 
   <td align="center">
-  <a href="https://sdg.gov.pl/">
+  <a href="https://irelandsdg.geohive.ie/">
     <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:65px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/Ireland.png" alt="IRE"/>
     </a>
   </td>
