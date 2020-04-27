@@ -6,15 +6,33 @@ layout: page
 
 ### 국내 보고서
 
+이미지링크
+
+게시판링크
+
+
 ### 주요 글로벌 웹사이트
 
 **[IAEG-SDGs(Inter-agency and Expert Group on SDG Indicators)](https://unstats.un.org/sdgs/iaeg-sdgs/)** : 글로벌 지표 프레임워크 개발, 이행을 위해 조직. 공식적인 글로벌 SDG 정보 수록
+
+**[UN World Data Forum](https://unstats.un.org/unsd/undataforum/)** : 지속가능발전 데이터 및 통계 개선을 목표로 한 세계 최대 규모의 협력 플랫폼
+
+**[HLPF(High-Level Political Forum)](https://sustainabledevelopment.un.org/hlpf)** : SDGs 이행 점검, 후속 정책 논의를 위해 개설된 UN 차원의 플랫폼
+
+**[UNESCAP(UN The Economic and Social Commission for Asia and the Pacific)](https://www.unescap.org/)** : UN 아시아 태평양 경제사회위원회
+
+**[UNESCAP-ENEA(UN ESCAP East and North-East Asia Office)](https://www.unescap.org/subregional-office/east-north-east-asia)** : UN 아시아 태평양 경제사회위원회 동북아 사무소
+
+**[UNECE(UN Economic Commission for Europe)](https://www.unece.org/info/ece-homepage.html)** : 유엔 유럽 경제 위원회
+
+**[UNECA(UN Economic Commission for Africa)](https://www.uneca.org/)** : 유엔 아프리카 경제 위원회
+
 
 ### 주요 국내 웹사이트
 
 **[통게청 국가지표체계(K-indicator)](http://www.index.go.kr/unify/main.do?clasCd=10&web=)** : 국가발전과 국민의 웰빙을 한눈에 파악할 수 있도록 다양한 지표를 한 곳에서 제공
 
-
+**[환경부 지속가능발전포털](http://ncsd.go.kr/))** : 국가 지속가능발전목표(K-SDG)를 포함한 지속가능발전 관련 정보를 총망라한 서비스
 
 
 
