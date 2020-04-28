@@ -88,8 +88,13 @@ layout: page
 
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
+	$(document).ready(function(){
+		paging();
+	});
+
+
    var isSearch = false;
 //    페이지 로드 시 페이징 처리
    function paging(){
@@ -266,7 +271,7 @@ layout: page
    .search_form { text-align : center; width:100%; height: 100px;   background : #BDBDBD; }
    
    .search_form .search_div { display : inline-block; width : 400px; height: 40px; background : #ffffff; margin-top : 30px; }
-   .search_form .search_div .srh_input { font-size : 16px; width: 325px; height : 20px; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; }
+   .search_form .search_div .srh_input { font-size : 16px; width: 325px; height : 20px; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; vertical-align: middle;}
    .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
     
     .search_form .report_div { display : inline-block; width : 400px; height: 40px; background : #BDBDBD; margin-top : 30px; }
@@ -294,7 +299,9 @@ layout: page
 </style>
 
 
-<body onload="paging();">
+
+
+
    <div class="search_form">
       <div class="search_div">
          <input type="text" class="srh_input" name="search_input" placeholder="제목검색"/>
@@ -476,10 +483,6 @@ layout: page
          </ul>
       </div>   
    </div>
-</body>
-
-
-
 
 
 
