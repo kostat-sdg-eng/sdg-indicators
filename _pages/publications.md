@@ -249,8 +249,10 @@ layout: page
    
    .search_form { text-align : center; width:100%; height: 100px;   background : #BDBDBD; }
    
-   .search_form .search_div { display : inline-block; width : 400px; height: 40px; background : #ffffff; margin-top : 30px; }
-   .search_form .search_div .srh_input { font-size : 16px; width: 325px; height : 20px; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; vertical-align: middle;}
+
+
+   .search_form .search_div { display : inline-block; width : 400px; background : #ffffff; margin-top : 30px; }
+   .search_form .search_div .srh_input { font-size : 16px; width: 325px; height : 100%; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; vertical-align: middle;}
    .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
     
     .search_form .report_div { display : inline-block; width : 450px; height: 40px; background : #BDBDBD; margin-top : 30px; }
@@ -297,9 +299,9 @@ layout: page
    <div class="board_form">
       <table class="board_table">
          <tr class="board_title">
-            <th>제목</th>
-            <th>기관</th>
-            <th>발간년도</th>
+            <th width="60%">제목</th>
+            <th width="30%">기관</th>
+            <th width="10%">발간년도</th>
          </tr>
          <tr class="content">
             <td class="title">한국의 SDGs 데이터와 이행현황</td>
