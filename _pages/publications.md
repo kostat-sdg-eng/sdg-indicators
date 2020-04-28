@@ -14,27 +14,26 @@ layout: page
   <tr style="height: 200px;">
   <td align="center">
   <a href="https://sustainabledevelopment-uk.github.io">
-  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="1"/>
-  
+  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="1"/>  
   </a>
   
  </td>
 
   <td align="center">
   <a href="https://sdg.data.gov">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/>    
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/>    
     </a>  
   </td>
   
   <td align="center">
   <a href="https://sustainabledevelopment-germany.github.io">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3.png" alt="3"/>    
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3.png" alt="3"/>    
     </a>        
   </td>
 
   <td align="center">
   <a href="https://sdg.gov.pl/">  
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>    
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>    
     </a>       
   </td>
 
