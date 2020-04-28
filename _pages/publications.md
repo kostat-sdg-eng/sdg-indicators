@@ -6,6 +6,79 @@ layout: page
 
 ### 국내 보고서
 
+<br/>
+<div align="center">
+<div align="center" style="width:80%; height: 300px; border: 0px solid orange; font-weight: bold; ">
+
+<table border="0" style="width:95%; height: 235px;">
+  <tr style="height: 200px;">
+  <td align="center">
+  <a href="https://sustainabledevelopment-uk.github.io">
+  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png" alt="UK"/>
+  
+  </a>
+  
+ </td>
+
+  <td align="center">
+  <a href="https://sdg.data.gov">
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png" alt="AMERICA"/>    
+    </a>  
+  </td>
+  
+  <td align="center">
+  <a href="https://sustainabledevelopment-germany.github.io">
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png" alt="GERMANY"/>    
+    </a>        
+  </td>
+
+  <td align="center">
+  <a href="https://sdg.gov.pl/">  
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png" alt="POL"/>    
+    </a>       
+  </td>
+
+
+  </tr>
+  <tr>
+  <td align="center">
+   (통계개발원) 글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황
+  </td>
+  <td align="center">  
+   (Statistics Research Institute) SDGs in the ROK Progress Report  2019
+  </td>
+  <td align="center">
+  (Statistics Research Institute) SDGs in the ROK Progress Report  2019
+  </td>
+  <td align="center">
+   (ESCAP) ASIA AND THE PACIFIC SDG PROGRESS REPORT 2020
+  </td>  
+  </tr>
+  
+</table>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 이미지링크  
 
 게시판링크  
