@@ -13,26 +13,26 @@ layout: page
 <table border="0" style="width:98%; height: 235px;">
   <tr style="height: 200px;">
   <td align="center">
-  <a href="https://sustainabledevelopment-uk.github.io">
+  <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">
   <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="1"/>  
   </a>
   
  </td>
 
   <td align="center">
-  <a href="https://sdg.data.gov">
+  <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">
     <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/>    
     </a>  
   </td>
   
   <td align="center">
-  <a href="https://sustainabledevelopment-germany.github.io">
+  <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3.pdf">
     <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3.png" alt="3"/>    
     </a>        
   </td>
 
   <td align="center">
-  <a href="https://sdg.gov.pl/">  
+  <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.pdf">  
     <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:150px; height:215px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>    
     </a>       
   </td>
@@ -41,16 +41,24 @@ layout: page
   </tr>
   <tr>
   <td align="center">
+  <div style="width:93%;">
    (통계개발원) 글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황
+   </div>
   </td>
   <td align="center">  
+  <div style="width:93%;">
    (Statistics Research Institute) SDGs in the ROK Progress Report  2019
+   </div>
   </td>
   <td align="center">
+  <div style="width:93%;">
   (Statistics Research Institute) SDGs in the ROK Progress Report  2019
+  </div>
   </td>
   <td align="center">
+  <div style="width:93%;">
    (ESCAP) ASIA AND THE PACIFIC SDG PROGRESS REPORT 2020
+   </div>
   </td>  
   </tr>
   
