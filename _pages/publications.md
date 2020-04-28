@@ -8,13 +8,13 @@ layout: page
 
 <br/>
 <div align="center">
-<div align="center" style="width:80%; height: 300px; border: 0px solid orange; font-weight: bold; ">
+<div align="center" style="width:100%; height: 300px; border: 0px solid orange; font-weight: bold; ">
 
-<table border="0" style="width:95%; height: 235px;">
+<table border="0" style="width:98%; height: 235px;">
   <tr style="height: 200px;">
   <td align="center">
   <a href="https://sustainabledevelopment-uk.github.io">
-  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/uk.png" alt="UK"/>
+  <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;" src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.png" alt="1"/>
   
   </a>
   
@@ -22,19 +22,19 @@ layout: page
 
   <td align="center">
   <a href="https://sdg.data.gov">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/america.png" alt="AMERICA"/>    
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.png" alt="2"/>    
     </a>  
   </td>
   
   <td align="center">
   <a href="https://sustainabledevelopment-germany.github.io">
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/germany.png" alt="GERMANY"/>    
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3.png" alt="3"/>    
     </a>        
   </td>
 
   <td align="center">
   <a href="https://sdg.gov.pl/">  
-    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/pol.png" alt="POL"/>    
+    <img style="border:1px solid black; border-radius : 5px 5px 5px 5px; width:110px; height:165px;"  src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>    
     </a>       
   </td>
 
