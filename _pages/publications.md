@@ -86,87 +86,70 @@ layout: page
 
 
 
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-	$(document).ready(function(){
-		paging();
-	});
-
-
-   var isSearch = false;
 //    페이지 로드 시 페이징 처리
-   function paging(){
-   
+   $(document).ready(function(){
       contentShow();
-      
       createPage();
       
-   }
+   });
+
+   var isSearch = false;
    
    function contentShow(){
-      var content = document.getElementsByClassName('content');
+      var content = $(".content");
       for(var i=0; i < content.length; i++){
          if(i < 6){
-            document.getElementsByClassName('content')[i].style.display = "table-row";
+            content.eq(i).css("display", "table-row");
          }else{
-            document.getElementsByClassName('content')[i].style.display = "none";
+            content.eq(i).css("display", "none");
          }
       }
    }
    
    function createPage(){
-      document.getElementsByClassName('pagination')[0].remove();
-      
-      document.getElementsByClassName('page_form')[0].innerHTML = "<ul class='pagination'></ul>";
-      
-      var content = document.getElementsByClassName('content');
+      $(".pagination").remove();
+      $(".page_form").append("<ul class='pagination'></ul>");
+      var content = $(".content");
       
       var liCount = Math.ceil(content.length/6);
-      var liStr = "";
       for(var i=1; i <= liCount; i++){
          if(i==1){
-            liStr = "<li onclick='changePage(this.innerHTML)' class='on'>"+i+"</li>";
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='on'>"+i+"</li>");
          }else{
-            liStr += "<li onclick='changePage(this.innerHTML)'>"+i+"</li>";
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)'>"+i+"</li>");
          }
       }
-      
-      document.getElementsByClassName('pagination')[0].innerHTML = liStr;
-         
    }
    
 //    검색 기능
    function search(){
       isSearch = true;
-      var value = document.getElementsByClassName('srh_input')[0].value;
+      var value = $(".srh_input").val();
+      var title = $(".title");
       
-      var title = document.getElementsByClassName('title');
-      var count = 0;
       for(var i=0; i < title.length; i++){
-         document.getElementsByClassName('content')[i].className = "content";
-         document.getElementsByClassName('content')[i].style.display = "none";
+         $(".content").eq(i).attr("class", "content");
+         $(".content").eq(i).css("display", "none");
          
          if(title[i].innerHTML.indexOf(value) != -1){
-            document.getElementsByClassName('content')[i].className = "content isSearch";
+            $(".content").eq(i).attr("class", "content isSearch");
          }
       }
       
       searchShow();
       searchPage();
-      
    }
    
    function searchShow(){
-      var content = document.getElementsByClassName('isSearch');
+      var content = $(".isSearch");
       var count = 0;
-      
       while(count < 6){
-         if(document.getElementsByClassName('isSearch').length == count){
+         if(content.length == count){
             break;
          }else{
-            document.getElementsByClassName('isSearch')[count].style.display = "table-row";
+            content.eq(count).css("display", "table-row");
             count++;
          }
       }
@@ -174,71 +157,66 @@ layout: page
    }
    
    function searchPage(){
-      document.getElementsByClassName('pagination')[0].remove();
+      $(".pagination").remove();
+      $(".page_form").append("<ul class='pagination'></ul>");
       
-      document.getElementsByClassName('page_form')[0].innerHTML = "<ul class='pagination'></ul>";
-      
-      var content = document.getElementsByClassName('isSearch');
+      var content = $(".isSearch");
       
       var liCount = Math.ceil(content.length/6);
       
-      
-      var liStr = "";
       for(var i=1; i <= liCount; i++){
          if(i==1){
-            liStr = "<li onclick='changePage(this.innerHTML)' class='on'>"+i+"</li>";
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='on'>"+i+"</li>");
          }else{
-            liStr += "<li onclick='changePage(this.innerHTML)'>"+i+"</li>";
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)'>"+i+"</li>");
          }
       }
       
-      document.getElementsByClassName('pagination')[0].innerHTML = liStr;
-      
-      document.getElementsByClassName('report1_btn')[0].style.background = "gray";
-      document.getElementsByClassName('report2_btn')[0].style.background = "gray";
-      document.getElementsByClassName('report3_btn')[0].style.background = "gray";
-         
+      $(".report1_btn").css("background", "gray");
+      $(".report2_btn").css("background", "gray");
+      $(".report3_btn").css("background", "gray");
    }
    
 //    페이징 처리
    function changePage(index){
       if(isSearch){
-         var content = document.getElementsByClassName('isSearch');
+         var content = $(".isSearch");
          
          for(var i=0; i < content.length; i++){
             if(i >= 6*(index-1) && i < 6*index){
-               document.getElementsByClassName('isSearch')[i].style.display = "table-row";
+               content.eq(i).css("display", "table-row");
             }else{
-               document.getElementsByClassName('isSearch')[i].style.display = "none";
+               content.eq(i).css("display", "none");
             }
          }
-         document.getElementsByClassName('on')[0].className = "";
-         document.getElementsByTagName('li')[index-1].className = "on";
+         $(".on").attr("class", "");
+         $("li").eq(index-1).attr("class", "on");
          
       }else{
-         var content = document.getElementsByClassName('content');
+         var content = $(".content");
          for(var i=0; i < content.length; i++){
             if(i >= 6*(index-1) && i < 6*index){
-               document.getElementsByClassName('content')[i].style.display = "table-row";
+               content.eq(i).css("display", "table-row");
             }else{
-               document.getElementsByClassName('content')[i].style.display = "none";
+               content.eq(i).css("display", "none");
             }
          }
-         document.getElementsByClassName('on')[0].className = "";
-         document.getElementsByTagName('li')[index-1].className = "on";
+         $(".on").attr("class", "");
+         $("li").eq(index-1).attr("class", "on");
       }
       
    }
    
    function reportView(item){
       isSearch = true;
-      var content = document.getElementsByClassName('content');
+      var content = $(".content");
       for(var i=0; i < content.length; i++){
-         content[i].className = "content";
-         content[i].style.display = "none";
+         content.eq(i).attr("class", "content");
+         content.eq(i).css("display", "none");
       }
       
-      var report = document.getElementsByClassName(item);
+      var report = $("."+item);
+      
       for(var i=0; i < report.length; i++){
          var parent = report[i].parentNode;
          parent.className = "content isSearch";
@@ -247,17 +225,18 @@ layout: page
       searchShow();
       searchPage();
       
-      document.getElementsByClassName('report1_btn')[0].style.background = "gray";
-      document.getElementsByClassName('report2_btn')[0].style.background = "gray";
-      document.getElementsByClassName('report3_btn')[0].style.background = "gray";
+      $(".report1_btn").css("background", "gray");
+      $(".report2_btn").css("background", "gray");
+      $(".report3_btn").css("background", "gray");
       
-      var click_btn = document.getElementsByClassName(item+"_btn")[0];
-//       click_btn.className = item+"_btn cr";
-      click_btn.style.background = "#5D5D5D";
+      var click_btn = $("."+item+"_btn");
       
-      
+      click_btn.css("background", "#5D5D5D");
    }
 </script>
+
+
+
 
 
 
@@ -292,7 +271,7 @@ layout: page
 /*  하단 페이징 CSS  */   
    .board_form .page_form { text-align : center; vertical-align: middle; }
    .board_form .page_form .pagination { list-style: none; font-size:12pt; }
-   .board_form .page_form .pagination li { display : inline-block; cursor : pointer; padding:0 9px 2px; margin:0 5px; border: 1px solid #BDBDBD; border-radius : 50px; }
+   .board_form .page_form .pagination li { display : inline-block; cursor : pointer; padding:0 9px 2px; margin:0 5px; border: 1px solid #BDBDBD; border-radius : 50px 50px 50px 50px; }
    .board_form .page_form .pagination li:hover { background:#6799FF; transition : all ease 0.5s 0s; color : #ffffff; }
    
    .on { background:#6799FF; color:#ffffff; }
@@ -477,8 +456,7 @@ layout: page
             <td class="report2">한국국제협력단</td>
             <td>2019</td>
          </tr>
-         </tr>
-		 <tr class="content">
+	 <tr class="content">
             <td class="title"></td>
             <td class="report2"></td>
             <td></td>
