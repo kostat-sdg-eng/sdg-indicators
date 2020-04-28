@@ -274,7 +274,7 @@ layout: page
    .search_form .search_div .srh_input { font-size : 16px; width: 325px; height : 20px; padding : 10px; margin : 0px; border: 0px; outline : none; float:left; vertical-align: middle;}
    .search_form .search_div .srh_btn {   width: 50px; height: 40px; border: 0px; background : #FF4848; outline : none; color: #ffffff; float:right; margin:0px;   }
     
-    .search_form .report_div { display : inline-block; width : 400px; height: 40px; background : #BDBDBD; margin-top : 30px; }
+    .search_form .report_div { display : inline-block; width : 450px; height: 40px; background : #BDBDBD; margin-top : 30px; }
     .search_form .report1_btn, .report2_btn, .report3_btn { font-size:10pt; height: 40px; outline : none; background : gray; border : 0px; float: right; color : #ffffff; margin-right : 10px; }
     
     
@@ -476,6 +476,32 @@ layout: page
             <td class="title">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</td>
             <td class="report2">한국국제협력단</td>
             <td>2019</td>
+         </tr>
+         </tr>
+		 <tr class="content">
+            <td class="title"></td>
+            <td class="report2"></td>
+            <td></td>
+         </tr>
+		 <tr class="content">
+            <td class="title"></td>
+            <td class="report2"></td>
+            <td></td>
+         </tr>
+		 <tr class="content">
+            <td class="title"></td>
+            <td class="report2"></td>
+            <td></td>
+         </tr>
+		 <tr class="content">
+            <td class="title"></td>
+            <td class="report2"></td>
+            <td></td>
+         </tr>
+		 <tr class="content">
+            <td class="title"></td>
+            <td class="report2"></td>
+            <td></td>
          </tr>
       </table>
       <div class="page_form">
