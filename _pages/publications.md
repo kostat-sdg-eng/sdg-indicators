@@ -460,7 +460,7 @@ layout: page
          </tr>
 	 <tr class="content">
             <td class="title"></td>
-            <td class="report2"></td>
+            <td class="report1"></td>
             <td></td>
          </tr>
 		 <tr class="content">
@@ -470,17 +470,17 @@ layout: page
          </tr>
 		 <tr class="content">
             <td class="title"></td>
-            <td class="report2"></td>
+            <td class="report3"></td>
             <td></td>
          </tr>
 		 <tr class="content">
             <td class="title"></td>
-            <td class="report2"></td>
+            <td class="etc"></td>
             <td></td>
          </tr>
 		 <tr class="content">
             <td class="title"></td>
-            <td class="report2"></td>
+            <td class="etc"></td>
             <td></td>
          </tr>
       </table>
