@@ -6,6 +6,8 @@ layout: page
 
 ### 국내 보고서
 
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 //    페이지 로드 시 페이징 처리
@@ -72,8 +74,7 @@ layout: page
             content.eq(count).css("display", "table-row");
             count++;
          }
-      }
-      
+      }      
    }
    
    function searchPage(){
@@ -141,8 +142,7 @@ layout: page
             }else{
                $(".pageLi").eq(number).attr("class", "pageLi");
             }
-         });
-         
+         });         
          
       }
       
@@ -243,7 +243,7 @@ layout: page
       .on { background:#6799FF; color:#ffffff; }
       
       .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
-      .top_div .item { display:inline-block; width:150px;}
+      .top_div .item { display:inline-block; width:250px;}
       .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 }
          
@@ -513,8 +513,6 @@ layout: page
       </ul>
    </div>   
 </div>
-
-
 
 
 
