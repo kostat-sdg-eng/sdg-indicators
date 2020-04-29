@@ -86,7 +86,7 @@ layout: page
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <script>
 //    페이지 로드 시 페이징 처리
    $(document).ready(function(){
@@ -116,9 +116,9 @@ layout: page
       var liCount = Math.ceil(content.length/6);
       for(var i=1; i <= liCount; i++){
          if(i==1){
-            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='on'>"+i+"</li>");
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='pageLi on'>"+i+"</li>");
          }else{
-            $(".pagination").append("<li onclick='changePage(this.innerHTML)'>"+i+"</li>");
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='pageLi'>"+i+"</li>");
          }
       }
    }
@@ -157,6 +157,7 @@ layout: page
    }
    
    function searchPage(){
+      
       $(".pagination").remove();
       $(".page_form").append("<ul class='pagination'></ul>");
       
@@ -166,9 +167,9 @@ layout: page
       
       for(var i=1; i <= liCount; i++){
          if(i==1){
-            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='on'>"+i+"</li>");
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='pageLi on'>"+i+"</li>");
          }else{
-            $(".pagination").append("<li onclick='changePage(this.innerHTML)'>"+i+"</li>");
+            $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='pageLi'>"+i+"</li>");
          }
       }
       
@@ -189,8 +190,16 @@ layout: page
                content.eq(i).css("display", "none");
             }
          }
-         $(".on").attr("class", "");
-         $("li").eq(index-1).attr("class", "on");
+//          $(".on").attr("class", "");
+//          $("li").eq(index-1).attr("class", "on");
+         
+         $(".pageLi").each(function(number, value){
+            if(index-1 == number){
+               $(".pageLi").eq(number).attr("class", "pageLi on");
+            }else{
+               $(".pageLi").eq(number).attr("class", "pageLi");
+            }
+         });
          
       }else{
          var content = $(".content");
@@ -201,8 +210,18 @@ layout: page
                content.eq(i).css("display", "none");
             }
          }
-         $(".on").attr("class", "");
-         $("li").eq(index-1).attr("class", "on");
+//          $(".on").attr("class", "pageLi");
+//          $("li").eq(index-1).attr("class", "pageLi on");
+         
+         $(".pageLi").each(function(number, value){
+            if(index-1 == number){
+               $(".pageLi").eq(number).attr("class", "pageLi on");
+            }else{
+               $(".pageLi").eq(number).attr("class", "pageLi");
+            }
+         });
+         
+         
       }
       
    }
@@ -520,8 +539,4 @@ layout: page
 
 <br/>
 <br/>
-<br/>
-
-
-
 
