@@ -242,8 +242,8 @@ layout: page
       
       .on { background:#6799FF; color:#ffffff; }
       
-      .top_div { text-align : center; width:100%; border:0; font-weight:bold;}
-      .top_div .item { display:inline-block; width:400px;}
+      .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
+      .top_div .item { display:inline-block; width:150px;}
       .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 }
          
