@@ -6,10 +6,6 @@ layout: page
 
 ### 국내 보고서
 
-<br/>
-
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 //    페이지 로드 시 페이징 처리
@@ -247,7 +243,7 @@ layout: page
 </style>
 <style>
    .top_div { text-align : center; width:99%; border:0; font-weight:bold;}
-   .top_div .item { display:inline-block; width:350px;}
+   .top_div .item { display:inline-block; width:250px;}
    .top_div .item a img { border:1px solid black; border-radius:5px 5px 5px 5px; width:150px; height:215px; }
 </style>
 
