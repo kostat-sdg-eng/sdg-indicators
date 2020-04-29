@@ -157,6 +157,8 @@ layout: page
       
       var content = $(".isSearch");
       
+      createGaraData("isSearch");
+      
       var liCount = Math.ceil(content.length/6);
       
       for(var i=1; i <= liCount; i++){
@@ -184,8 +186,8 @@ layout: page
                content.eq(i).css("display", "none");
             }
          }
-//          $(".on").attr("class", "");
-//          $("li").eq(index-1).attr("class", "on");
+         
+         createGaraData("isSearch");
          
          $(".pageLi").each(function(number, value){
             if(index-1 == number){
@@ -204,8 +206,8 @@ layout: page
                content.eq(i).css("display", "none");
             }
          }
-//          $(".on").attr("class", "pageLi");
-//          $("li").eq(index-1).attr("class", "pageLi on");
+         
+         createGaraData("content");
          
          $(".pageLi").each(function(number, value){
             if(index-1 == number){
@@ -238,6 +240,9 @@ layout: page
       searchShow();
       searchPage();
       
+      createGaraData("isSearch");
+      
+      
       $(".report1_btn").css("background", "gray");
       $(".report2_btn").css("background", "gray");
       $(".report3_btn").css("background", "gray");
@@ -245,6 +250,32 @@ layout: page
       var click_btn = $("."+item+"_btn");
       
       click_btn.css("background", "#5D5D5D");
+   }
+   
+   function createGaraData(data){
+      $(".gara").remove();
+      var content = $("."+data);
+      var count = 0;
+      content.each(function(i, value){
+         if(content.eq(i).css("display") == "table-row"){
+            count++;
+         }
+      });
+      
+      var str = "";
+      str += "<tr class='gara'>";
+      str += "<td></td>";
+      str += "<td></td>";
+      str += "<td></td>";
+      str += "</tr>";
+      
+      if(6-count != 0){
+         for(var i=0; i < (6-count); i++){
+            $(".board_table").append(str);
+         }
+      }else{
+         $(".gara").remove();
+      }
    }
 </script>
 
@@ -470,31 +501,6 @@ layout: page
             <td class="title">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</td>
             <td class="report2">한국국제협력단</td>
             <td>2019</td>
-         </tr>
-	 <tr class="content">
-            <td class="title"></td>
-            <td class="report1"></td>
-            <td></td>
-         </tr>
-		 <tr class="content">
-            <td class="title"></td>
-            <td class="report2"></td>
-            <td></td>
-         </tr>
-		 <tr class="content">
-            <td class="title"></td>
-            <td class="report3"></td>
-            <td></td>
-         </tr>
-		 <tr class="content">
-            <td class="title"></td>
-            <td class="etc"></td>
-            <td></td>
-         </tr>
-		 <tr class="content">
-            <td class="title"></td>
-            <td class="etc"></td>
-            <td></td>
          </tr>
       </table>
       <div class="page_form">
