@@ -141,7 +141,19 @@
 
 
 <!--before sidebar -->
-
+ <div id="indicator-sidebar" class="col-md-3">
+            <div id="toolbar">
+                <span id="series-help">
+                    <h4>{{ t.indicator.sub_categories }}</h4>
+                    <p>{{ t.indicator.series_help }}</p>
+                </span>
+                <p>{{ t.indicator.legend_help }}</p>
+                <div id="fields">
+                    <p class="async-loading" data-img="{{ site.baseurl }}/assets/img/loading-small.gif"></p>
+                </div>
+            </div>
+            <div id="units"></div>
+        </div>
 
 
 
@@ -222,24 +234,13 @@
                 </section>
             </div>
         </div>
+		<!--end main-->
 
 
 
 
 
-        <div id="indicator-sidebar" class="col-md-3">
-            <div id="toolbar">
-                <span id="series-help">
-                    <h4>{{ t.indicator.sub_categories }}</h4>
-                    <p>{{ t.indicator.series_help }}</p>
-                </span>
-                <p>{{ t.indicator.legend_help }}</p>
-                <div id="fields">
-                    <p class="async-loading" data-img="{{ site.baseurl }}/assets/img/loading-small.gif"></p>
-                </div>
-            </div>
-            <div id="units"></div>
-        </div>
+       
 
 
 
