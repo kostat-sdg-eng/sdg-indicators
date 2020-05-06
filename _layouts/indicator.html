@@ -133,17 +133,9 @@
          data-geographicalarea="{{ meta.national_geographical_coverage | t }}" data-footnote="{{ meta.data_footnote | t }}" data-showdata="{{ show_data }}" data-graphtype="{{ meta.graph_type }}"
          data-geocoderegex="{{ meta.data_geocode_regex }}" data-showmap="{{ meta.data_show_map }}" data-startvalues="{{ meta.data_start_values | join: '|' }}">
 
-
-
-
-
         {% if show_data %}
 
 <!--before sidebar -->
-
-
-
-
 
         <div id="indicator-main" class="col-md-9">
             {% else %}
@@ -219,7 +211,6 @@
                 </section>
             </div>
 
-
 {% if show_data %}
 
 <!--before sidebar -->
@@ -236,13 +227,10 @@
             </div>
             <div id="units"></div>
         </div>       
-
        {% endif %}
-
 
         </div>
 		<!--end main--> 
-
 
     </div>
 
