@@ -12,8 +12,8 @@ layout: page
 	.img_div { text-align: center; }
 	.img_div img { width: 90%; }
 	
-.suffle_div { width: 100%; height:300px; margin-bottom:50px;}
-   .suffle_div p { width: 60%; float: left; }
+   .suffle_div { width: 100%; height:300px; margin-bottom:50px;}
+   .suffle_div p { width: 60%; float: left; font-size:12pt;  }
    .suffle_div img { width:400px; float: right; }
 
 </style>
