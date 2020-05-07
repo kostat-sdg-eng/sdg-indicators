@@ -3,6 +3,7 @@ title: <!-- 개요 -->
 permalink: /about/
 layout: page
 ---
+
 <style>
 	.contents_box { padding : 0 5%; }
 	.title { color:navy; font-size:18pt; font-weight:600;}
@@ -13,13 +14,16 @@ layout: page
 	
 	.suffle_div { width: 100%; margin-bottom:50px;}
 	.suffle_div .div1 { width:60%; display:inline-block;}
-	.suffle_div .div2 { display:inline-block;}
-	.suffle_div img { width:400px; }
+	.suffle_div .div2 { display:inline-block;  width:35%; margin-left: 60px; }
+	.suffle_div img { width:100%; }
 </style>
-</head>
+
+
+
 <div class="contents_box">
 	<div>
 		<span class="title">UN SDGs</span>
+		<br>
 		<p class="contents">
 			지속가능발전목표(SDGs, Sustainable Development Goals)는 인류의 보편적인 발전을 위해 전 세계 모든 국가가 2030년까지 달성하기로 합의한 변혁적인 목표를 말합니다. 2015년 제70차 국제연합(UN, United Nations) 총회에서 회원국 만장일치로 「세계의 변혁: 지속가능발전을 위한 2030 의제(Transforming Our World: 2030 Agenda for Sustainable Development)」를 채택하였고, 이 의제 안에 사람(People), 지구(Planet), 번영(Prosperity), 평화(Peace), 파트너십(Partnership)에 기반한 17개의 목표와 169개 세부목표가 담겨져 있습니다.
 		<br><br>
@@ -32,6 +36,7 @@ layout: page
 	</div>
 	<div>
 		<span class="title">한국의 SDGs 이행현황</span>
+		<br>
 		<p class="contents">
 			UN은 국가 데이터로 구성된 글로벌 데이터베이스를 구축, 운영하고 있습니다. 통계청은 SDGs 한국 데이터 총괄기관으로, UN 및 국제기구를 포함한 글로벌 사회에 한국 데이터를 제공하는 역할을 맡고 있습니다. 이 데이터는 국내 통계작성 기관에서 생산된 데이터로 통계청의 품질관리를 통해 관리되고 있습니다. 또한 국제기구에서 추정 혹은 모델링한 한국데이터에 대해서는 국내 관계기관과 협력하여 검증작업을 하고 있습니다.
 		</p>
@@ -47,7 +52,7 @@ layout: page
 			한편, 세계 각국은 국가별 정책적 상황과 사회문화적 맥락을 반영하여 지속가능발전전략을 수립, SDGs 이행에 동참하고 있습니다. 한국도 2018년 12월 한국형 SDGs인 KSDGs를 수립하였습니다. KSDGs는 17개 목표와 122개 세부목표, 214개 지표로 구성되었습니다. UN SDGs와 2017년 개정안(232개 기준)과 비교하여 국내맥락에 부합하지 않는 세부목표와 지표는 삭제하고 한국적 상황에 부합한 세부목표와 지표는 새롭게 추가하였습니다. 관련내용은 환경부의 지속가능발전포털에서 보실 수 있습니다.	
 		</div>
 		<div class="div2">
-			<img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/about/about2.png" alt="About2">>
+			<img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/about/about2.png" alt="About2">
 		</div>
 	</div>
 </div>
