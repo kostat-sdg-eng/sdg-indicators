@@ -53,7 +53,6 @@ layout: page
          <br><br>
          한편, 세계 각국은 국가별 정책적 상황과 사회문화적 맥락을 반영하여 지속가능발전전략을 수립, SDGs 이행에 동참하고 있습니다. 한국도 2018년 12월 한국형 SDGs인 KSDGs를 수립하였습니다. KSDGs는 17개 목표와 122개 세부목표, 214개 지표로 구성되었습니다. UN SDGs와 2017년 개정안(232개 기준)과 비교하여 국내맥락에 부합하지 않는 세부목표와 지표는 삭제하고 한국적 상황에 부합한 세부목표와 지표는 새롭게 추가하였습니다. 관련내용은 환경부의 지속가능발전포털에서 보실 수 있습니다.
       </p>      
-      <br><br>
       <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/about/about2.png" alt="About2">
    </div>
 
