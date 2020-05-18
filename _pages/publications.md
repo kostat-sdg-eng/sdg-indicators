@@ -398,26 +398,31 @@ layout: page
       </tr>
       
       <tr class="content"><!-- 14 -->
-         <td class="title">한·중 유엔 지속가능발전목표(SDGs) 이행 비교 및 협력방안</td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/14.pdf">한·중 유엔 지속가능발전목표(SDGs) 이행 비교 및 협력방안</a></td>
          <td class="report2">한국대외경제정책연구원</td>
          <td>2018</td>
       </tr>
 
-      <tr class="content">
+      <tr class="content"><!-- 20 -->
+         <td class="title"><a href="https://www.kipa.re.kr/synap/skin/doc.html?fn=FILE_0000000000051891&rs=/convert/result/201512/">지속가능발전목표(SDGs) 이행 실태 분석 및 개선방안 연구</a></td>
+         <td class="report2">한국행정연구원</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 22 -->
+         <td class="title">지속가능발전목표(SDGs) 세부대응전략 수립 연구</td>
+         <td class="report2">한국환경정책평가연구원</td>
+         <td>2014</td>
+      </tr>
+
+      <tr class="content"><!-- 32 -->
          <td class="title">유네스코 SDG 국제교육협력 포럼 자료집</td>
          <td class="report3">유네스코한국위원회</td>
          <td>2015</td>
       </tr>
-      <tr class="content">
-         <td class="title">SDGs 연계 성과프레임워크 수립 및 활용방안</td>
-         <td class="report2">한국국제협력단</td>
-         <td>2017</td>
-      </tr>
-      <tr class="content">
-         <td class="title">지속가능발전목표(SDGs) 이행 실태 분석 및 개선방안 연구</td>
-         <td class="report2">한국행정연구원</td>
-         <td>2017</td>
-      </tr>
+
+
+      
       <tr class="content">
          <td class="title">SDGs 도입 이후 개도국 협력전략과 대응과제: 무역과 기후변화의 정책일관성을 중심으로</td>
          <td class="report2">대외경제정책연구원</td>
