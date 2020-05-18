@@ -370,25 +370,31 @@ layout: page
       <tr class="content"><!-- 3 -->
          <td class="title"><a href="http://lib.koica.go.kr/search/media/img/CAT000000039786?metsno=000000015736&fileid=M000000015736_FILE000001">알기쉬운 지속가능발전목표 SDGs</a></td>
          <td class="report2">한국국제협력단(KOICA)</td>
-         <td>2014</td>
+         <td>2016</td>
       </tr>
 
       <tr class="content"><!-- 8 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/iqn7PJJd2HUioDtVDGTz7aVlBgIN5u_1545633687_2.pdf">SDGs와 한반도 평화</a></td>
          <td class="report2">유네스코한국위원회</td>
-         <td>2017</td>
-      </tr>
-
-      <tr class="content"><!-- 11 -->
-         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/iqn7PJJd2HUioDtVDGTz7aVlBgIN5u_1545633687_2.pdf">오픈데이터와 지속가능개발목표(SDG)</a></td>
-         <td class="report2">정보통신정책연구원</td>
-         <td>2017</td>
-      </tr>
-
-      <tr class="content"><!-- 11 -->
-         <td class="title">SDGs와 한반도 평화</td>
-         <td class="report3">유네스코한국위원회</td>
          <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 11 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/openData_SDG.pdf">오픈데이터와 지속가능개발목표(SDG)</a></td>
+         <td class="report2">정보통신정책연구원</td>
+         <td>2015</td>
+      </tr>
+
+      <tr class="content"><!-- 12 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/openData_SDG.pdf">SDGs 연계 성과프레임워크 수립 및 활용방안</a></td>
+         <td class="report3">한국국제협력단(KOICA)</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 13 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/openData_SDG.pdf">지속가능개발목표(SDGs) 수립현황과 대응방안</a></td>
+         <td class="report3">한국국제협력단(KOICA)</td>
+         <td>2015</td>
       </tr>
 
 
