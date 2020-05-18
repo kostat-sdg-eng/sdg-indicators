@@ -369,7 +369,7 @@ layout: page
 
       <tr class="content"><!-- 3 -->
          <td class="title"><a href="http://lib.koica.go.kr/search/media/img/CAT000000039786?metsno=000000015736&fileid=M000000015736_FILE000001">알기쉬운 지속가능발전목표 SDGs</a></td>
-         <td class="report2">한국국제협력단(KOICA)</td>
+         <td class="report2">국제개발협력시민사회포럼, 한국국제협력단(KOICA)</td>
          <td>2016</td>
       </tr>
 
@@ -410,67 +410,86 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 22 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/14.pdf">지속가능발전목표(SDGs) 세부대응전략 수립 연구</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/22.pdf">지속가능발전목표(SDGs) 세부대응전략 수립 연구</a></td>
          <td class="report2">한국환경정책평가연구원</td>
          <td>2014</td>
       </tr>
       
       <tr class="content"><!-- 26 -->
-         <td class="title">UN SDGs 보건·복지분야 지표 관리체계 구축방안 연구</td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/26.pdf">UN SDGs 보건·복지분야 지표 관리체계 구축방안 연구</a></td>
          <td class="report2">보건복지부</td>
          <td>2016</td>
       </tr>
+
+      <tr class="content"><!-- 27 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=6%ED%98%B8_UN%EC%9D%98%20%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C-%EB%B9%88%EA%B3%A4%EA%B3%BC%20%EB%B6%88%ED%8F%89%EB%93%B1.pdf&rs=/doc_convert/FILE_0000000000261036Jfvl">SDGs 시대, 공유가치창출(CSV)과 비즈니스기회: 신흥국 진출 전략</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 29 -->
+         <td class="title"><a href="https://www.krei.re.kr/krei/researchReportView.do?key=67&pageType=010101&biblioId=518120&pageUnit=10&searchCnd=all&searchKrwd=SDGs%20%EB%8B%AC%EC%84%B1%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%86%8D%EB%A6%BC%EB%B6%84%EC%95%BC%20ODA%20%EC%A4%91%EC%9E%A5%EA%B8%B0%20%EC%A0%84%EB%9E%B5&pageIndex=1&engView=">SDGs 달성을 위한 농림분야 ODA 중장기 전략</a></td>
+         <td class="report3">한국농촌경제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 30 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/kUBzCt7Rs5swF6lB10Zg5c5AFRroz2_1573104458_2.pdf">포용성 증진을 위한 교육과 도시</a></td>
+         <td class="report3">유네스코한국위원회</td>
+         <td>2019</td>
+      </tr>
+
+      <tr class="content"><!-- 31 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/4Q03otQgPqVWaO6UqAnmELZtei28UL_1531982225_2.pdf">문답으로 풀어보는 지속가능발전목표(SDG)4 교육 2030</a></td>
+         <td class="report3">유네스코한국위원회</td>
+         <td>2018</td>
+      </tr>
       
       <tr class="content"><!-- 32 -->
-         <td class="title">유네스코 SDG 국제교육협력 포럼 자료집</td>
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/tqnJNGIqaKI6WDd4MBZSEwWACWWSjC__2.pdf">유네스코 SDG 국제교육협력 포럼 자료집</a></td>
          <td class="report3">유네스코한국위원회</td>
          <td>2015</td>
       </tr>
 
+      <tr class="content"><!-- 33 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/JPZCFQ3y82b98Bm5tkJgwIstZ3HneT_1573104541_2.pdf">SDG4-교육2030 포용성과 교육에 관한 연구 보고서</a></td>
+         <td class="report1 report3">유네스코한국위원회, 한국교육개발원</td>
+         <td>2019</td>
+      </tr>
+      
+      <tr class="content"><!-- 35 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/Lg0UTQ7aY1amLxfWLkvfPyTO35u6XY_1567147136_2.pdf">한국의 SDG4 이행 현황 연구</a></td>
+         <td class="report1">한국교육개발원</td>
+         <td>2019</td>
+      </tr>
+      
+      <tr class="content"><!-- 37 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/26.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력연구(Ⅱ): 직업교육훈련(TVET) 실천 전략</a></td>
+         <td class="report1">한국교육개발원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 39 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/26.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력 연구(Ⅰ) :기초교육 실천 전략</a></td>
+         <td class="report1">한국교육개발원</td>
+         <td>2017</td>
+      </tr>
 
       
-      
-      
-      <tr class="content">
-         <td class="title">SDGs 시대, 공유가치창출(CSV)과 비즈니스기회: 신흥국 진출 전략</td>
-         <td class="report2">대한무역투자진흥공사</td>
-         <td>2017</td>
-      </tr>
-      <tr class="content">
-         <td class="title">유네스코 인문사회 자연과학분야 지속가능발전목표 국내 이행 방안 연구</td>
-         <td class="report3">유네스코한국위원회</td>
-         <td>2017</td>
-      </tr>
       <tr class="content">
          <td class="title">지속가능발전목표(SDGs) 달성을 위한 청소년 삶의 질 실태 및 지원방안 연구</td>
          <td class="report2">한국청소년정책연구원</td>
          <td>2016</td>
       </tr>
-      <tr class="content">
-         <td class="title">한국의 SDG4 이행 현황 연구</td>
-         <td class="report1">한국교육개발원</td>
-         <td>2019</td>
-      </tr>
-      <tr class="content">
-         <td class="title">포용성 증진을 위한 교육과 도시</td>
-         <td class="report3">유네스코한국위원회</td>
-         <td>2019</td>
-      </tr>
-      <tr class="content">
-         <td class="title">SDG4-교육2030 포용성과 교육에 관한 연구 보고서</td>
-         <td class="report1 report3">유네스코한국위원회, 한국교육개발원</td>
-         <td>2019</td>
-      </tr>
+
+      
+      
       <tr class="content">
          <td class="title">지속가능한 사회를 꿈꾸는 교육</td>
          <td class="report1 report3">유네스코한국위원회, 한국교육개발원</td>
          <td>2018</td>
       </tr>
-      <tr class="content">
-         <td class="title">문답으로 풀어보는 지속가능발전목표(SDG)4 교육 2030</td>
-         <td class="report3">유네스코한국위원회</td>
-         <td>2018</td>
-      </tr>
+      
       <tr class="content">
          <td class="title">2030 지속가능개발목표(SDGs)실천 방안 연구:교육 분야를 중심으로</td>
          <td class="report1">한국교육개발원</td>
