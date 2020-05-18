@@ -386,7 +386,7 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 12 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/openData_SDG.pdf">SDGs 연계 성과프레임워크 수립 및 활용방안</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/12.pdf">SDGs 연계 성과프레임워크 수립 및 활용방안</a></td>
          <td class="report3">한국국제협력단(KOICA)</td>
          <td>2017</td>
       </tr>
@@ -396,7 +396,12 @@ layout: page
          <td class="report3">한국국제협력단(KOICA)</td>
          <td>2015</td>
       </tr>
-
+      
+      <tr class="content"><!-- 14 -->
+         <td class="title">한·중 유엔 지속가능발전목표(SDGs) 이행 비교 및 협력방안</td>
+         <td class="report2">한국대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>
 
       <tr class="content">
          <td class="title">유네스코 SDG 국제교육협력 포럼 자료집</td>
@@ -418,11 +423,7 @@ layout: page
          <td class="report2">대외경제정책연구원</td>
          <td>2016</td>
       </tr>
-      <tr class="content">
-         <td class="title">한·중 유엔 지속가능발전목표(SDGs) 이행 비교 및 협력방안</td>
-         <td class="report2">한국대외경제정책연구원</td>
-         <td>2018</td>
-      </tr>
+      
       <tr class="content">
          <td class="title">SDGs 시대, 공유가치창출(CSV)과 비즈니스기회: 신흥국 진출 전략</td>
          <td class="report2">대한무역투자진흥공사</td>
