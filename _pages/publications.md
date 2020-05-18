@@ -347,37 +347,51 @@ layout: page
       <input type="button" class="report2_btn" onclick="reportView('report2');" name="report2" value="국내관계기관 보고서"/>
       <input type="button" class="report3_btn" onclick="reportView('report3');" name="report3" value="국외 보고서"/>      
    </div>
+
    <table class="board_table">
       <tr class="board_title">
          <th>제목</th>
          <th>기관</th>
          <th>발간년도</th>
       </tr>
-      <tr class="content">
+
+      <tr class="content"><!-- 1 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
-      <tr class="content">
+
+      <tr class="content"><!-- 2 -->
          <td class="title">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</td>
          <td class="report2">환경부 지속가능발전위원회</td>
          <td>2019</td>
       </tr>
-      <tr class="content">
-         <td class="title">지속가능발전목표(SDGs)국내 대응전략 수립 연구 보고서</td>
-         <td class="report2">한국환경정책평가연구원</td>
+
+      <tr class="content"><!-- 3 -->
+         <td class="title"><a href="http://lib.koica.go.kr/search/media/img/CAT000000039786?metsno=000000015736&fileid=M000000015736_FILE000001">알기쉬운 지속가능발전목표 SDGs</a></td>
+         <td class="report2">한국국제협력단(KOICA)</td>
          <td>2014</td>
       </tr>
-      <tr class="content">
-         <td class="title">UN 지속가능발전목표(UN SDGs)와 문화정책의 대응 방안</td>
-         <td class="report2">한국문화관광연구원</td>
+
+      <tr class="content"><!-- 8 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/iqn7PJJd2HUioDtVDGTz7aVlBgIN5u_1545633687_2.pdf">SDGs와 한반도 평화</a></td>
+         <td class="report2">유네스코한국위원회</td>
          <td>2017</td>
       </tr>
-      <tr class="content">
+
+      <tr class="content"><!-- 11 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/iqn7PJJd2HUioDtVDGTz7aVlBgIN5u_1545633687_2.pdf">오픈데이터와 지속가능개발목표(SDG)</a></td>
+         <td class="report2">정보통신정책연구원</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 11 -->
          <td class="title">SDGs와 한반도 평화</td>
          <td class="report3">유네스코한국위원회</td>
          <td>2018</td>
       </tr>
+
+
       <tr class="content">
          <td class="title">유네스코 SDG 국제교육협력 포럼 자료집</td>
          <td class="report3">유네스코한국위원회</td>
