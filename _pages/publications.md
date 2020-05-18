@@ -410,11 +410,17 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 22 -->
-         <td class="title">지속가능발전목표(SDGs) 세부대응전략 수립 연구</td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/14.pdf">지속가능발전목표(SDGs) 세부대응전략 수립 연구</a></td>
          <td class="report2">한국환경정책평가연구원</td>
          <td>2014</td>
       </tr>
-
+      
+      <tr class="content"><!-- 26 -->
+         <td class="title">UN SDGs 보건·복지분야 지표 관리체계 구축방안 연구</td>
+         <td class="report2">보건복지부</td>
+         <td>2016</td>
+      </tr>
+      
       <tr class="content"><!-- 32 -->
          <td class="title">유네스코 SDG 국제교육협력 포럼 자료집</td>
          <td class="report3">유네스코한국위원회</td>
@@ -423,11 +429,7 @@ layout: page
 
 
       
-      <tr class="content">
-         <td class="title">SDGs 도입 이후 개도국 협력전략과 대응과제: 무역과 기후변화의 정책일관성을 중심으로</td>
-         <td class="report2">대외경제정책연구원</td>
-         <td>2016</td>
-      </tr>
+      
       
       <tr class="content">
          <td class="title">SDGs 시대, 공유가치창출(CSV)과 비즈니스기회: 신흥국 진출 전략</td>
