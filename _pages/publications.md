@@ -464,15 +464,21 @@ layout: page
       </tr>
       
       <tr class="content"><!-- 37 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/26.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력연구(Ⅱ): 직업교육훈련(TVET) 실천 전략</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/37.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력연구(Ⅱ): 직업교육훈련(TVET) 실천 전략</a></td>
          <td class="report1">한국교육개발원</td>
          <td>2018</td>
       </tr>
 
       <tr class="content"><!-- 39 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/26.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력 연구(Ⅰ) :기초교육 실천 전략</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/39.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력 연구(Ⅰ) :기초교육 실천 전략</a></td>
          <td class="report1">한국교육개발원</td>
          <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 42 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/39.pdf">2030 지속가능개발목표(SDGs)실천 방안 연구:교육 분야를 중심으로</a></td>
+         <td class="report1">한국교육개발원</td>
+         <td>2016</td>
       </tr>
 
       
@@ -490,11 +496,7 @@ layout: page
          <td>2018</td>
       </tr>
       
-      <tr class="content">
-         <td class="title">2030 지속가능개발목표(SDGs)실천 방안 연구:교육 분야를 중심으로</td>
-         <td class="report1">한국교육개발원</td>
-         <td>2016</td>
-      </tr>
+      
       <tr class="content">
          <td class="title">지속가능발전목표(SDGs) 내 성평등 관련 지표의 국내이행 현황 및 정책과제</td>
          <td class="report2">한국여성정책연구원</td>
