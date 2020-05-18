@@ -209,6 +209,7 @@ layout: page
 @media ( min-width: 768px ){
    /*  공통 */
       body { padding:0; margin:0; }
+      a { text-decoration:none; } 
    /*    상단 제목검색 및 버튼 CSS */
       input[type=button]:hover { background:#5D5D5D; transition : all ease 0.5s 0s; cursor:pointer; }
       input[type=button]:visited { background:#5D5D5D; }
@@ -353,7 +354,7 @@ layout: page
          <th>발간년도</th>
       </tr>
       <tr class="content">
-         <td class="title">한국의 SDGs 데이터와 이행현황</td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
