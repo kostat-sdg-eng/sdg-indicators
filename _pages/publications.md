@@ -638,12 +638,75 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 77 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
          <td class="report2">대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>     
+
+      <tr class="content"><!-- 78 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-784.pdf">SDGs 달성을 위한 중소기업 ODA 정책의 심층 연구</a></td>
+         <td class="report2">산업연구원(KIET)</td>
+         <td>2016</td>
+      </tr>     
+
+      <tr class="content"><!-- 81 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/81.pdf">SDGs 도입 이후 개도국 협력전략과 대응과제 : 무역과 기후변화의 정책일관성을 중심으로</a></td>
+         <td class="report2">대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>     
+
+      <tr class="content"><!-- 82 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/82.pdf">국제협력 비전, 전략, 추진체계 : 국제개발협력을 중심으로</a></td>
+         <td class="report2">경제인문사회연구회</td>
+         <td>2019</td>
+      </tr>     
+
+      <tr class="content"><!-- 83 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="report1">대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>     
+
+      <tr class="content"><!-- 83 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="report1">대외경제정책연구원</td>
          <td>2018</td>
       </tr>
 
-      
+      <tr class="content"><!-- 83 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="report1">대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 83 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="report1">대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 83 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="report1">대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 83 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="report1">대외경제정책연구원</td>
+         <td>2018</td>
+      </tr>
+
+
+
+
+
+
+
+
+
+
+
       
       <tr class="content"><!-- 78 BB2016-784.pdf -->
          <td class="title">여성의 노동평등권 확보를 통한 지속가능발전목표(SDGs) 실현과제</td>
