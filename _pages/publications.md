@@ -601,32 +601,27 @@ layout: page
          <td>2019</td>
       </tr>
 
-
-
-
-
-
-      <tr class="content"><!-- 68 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
-         <td class="report2">산업연구원</td>
+      <tr class="content"><!-- 69 -->
+         <td class="title"><a href="http://www.ndsl.kr/ndsl/commons/util/ndslOriginalView.do?dbt=TRKO&cn=TRKO201900000589&rn=&url=&pageCode=PG18">지속가능발전목표(SDGs) 출범에 따른 산림협력 전략 연구</a></td>
+         <td class="report2">국립과학기술정보센터</td>
          <td>2016</td>
       </tr>
 
-      <tr class="content"><!-- 68 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
-         <td class="report2">산업연구원</td>
+      <tr class="content"><!-- 70 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/m8xCs1z3ObBt4D81Dax9c2KyIXMHnB_1543384964_2.pdf">우리의 지속가능한 생물다양성</a></td>
+         <td class="report2">유네스코한국위원회</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 71 -->
+         <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/012/005/%ea%b8%b0%ec%b4%88_2016_11_%eb%aa%85%ec%88%98%ec%a0%95.pdf">토지환경 분야의 지속가능발전목표(SDGs) 이행을 위한 정책 방향</a></td>
+         <td class="report2">한국환경정책평가연구원</td>
          <td>2016</td>
       </tr>
 
-      <tr class="content"><!-- 68 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
-         <td class="report2">산업연구원</td>
-         <td>2016</td>
-      </tr>
-
-      <tr class="content"><!-- 68 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
-         <td class="report2">산업연구원</td>
+      <tr class="content"><!-- 73 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</a></td>
+         <td class="report2">한국국제협력단(KOICA)</td>
          <td>2016</td>
       </tr>
 
