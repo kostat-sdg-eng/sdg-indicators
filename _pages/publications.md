@@ -662,119 +662,109 @@ layout: page
       </tr>     
 
       <tr class="content"><!-- 83 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
-         <td class="report1">대외경제정책연구원</td>
-         <td>2018</td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/83.pdf">SDGs 재난지표 측정 연구</a></td>
+         <td class="report1">통계청 통계개발원</td>
+         <td>2017</td>
       </tr>     
 
-      <tr class="content"><!-- 83 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
-         <td class="report1">대외경제정책연구원</td>
-         <td>2018</td>
-      </tr>
-
-      <tr class="content"><!-- 83 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
-         <td class="report1">대외경제정책연구원</td>
-         <td>2018</td>
-      </tr>
-
-      <tr class="content"><!-- 83 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
-         <td class="report1">대외경제정책연구원</td>
-         <td>2018</td>
-      </tr>
-
-      <tr class="content"><!-- 83 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
-         <td class="report1">대외경제정책연구원</td>
-         <td>2018</td>
-      </tr>
-
-      <tr class="content"><!-- 83 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/77.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
-         <td class="report1">대외경제정책연구원</td>
-         <td>2018</td>
-      </tr>
-
-
-
-
-
-
-
-
-
-
-
-      
-      <tr class="content"><!-- 78 BB2016-784.pdf -->
-         <td class="title">여성의 노동평등권 확보를 통한 지속가능발전목표(SDGs) 실현과제</td>
-         <td class="report1 report3">한국법제연구원</td>
-         <td>2018</td>
-      </tr>
-      
-      
-      <tr class="content">
-         <td class="title">지속가능발전목표(SDGs) 내 성평등 관련 지표의 국내이행 현황 및 정책과제</td>
-         <td class="report2">한국여성정책연구원</td>
-         <td>2018</td>
-      </tr>
-      <tr class="content">
-         <td class="title">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</td>
-         <td class="report2">한국수자원공사</td>
+      <tr class="content"><!-- 84 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/84.pdf">SDGs 통계 거버넌스 연구</a></td>
+         <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
-      <tr class="content">
-         <td class="title">SDGs 관점의 물인권 지원을 위한 한국의 ODA 전략방향 연구</td>
-         <td class="report2">한국환경정책평가연구원</td>
-         <td>2014</td>
+
+      <tr class="content"><!-- 85 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/85.pdf">지속가능발전목표(SDGs) 데이터 세분화와 항목 표준화 연구</a></td>
+         <td class="report1">통계청 통계개발원</td>
+         <td>2016</td>
       </tr>
-      <tr class="content">
-         <td class="title">우리의 지속가능한 에너지(SDG 7)</td>
-         <td class="report3">유네스코한국위원회</td>
-         <td>2017</td>
-      </tr>
-      <tr class="content">
-         <td class="title">자원순환분야 지속가능발전목표(SDGs) 이행 기반 마련을 위한 기초연구</td>
-         <td class="report2">한국환경정책평가연구원</td>
+
+      <tr class="content"><!-- 86 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/86.pdf">2030 지속가능발전의제에 대한 국가통계 대응방안 수립</a></td>
+         <td class="report1">통계청 통계개발원</td>
          <td>2015</td>
       </tr>
-      <tr class="content">
-         <td class="title">지속가능발전목표(SDGs) 대비 건축·도시분야 대응방향 연구</td>
-         <td class="report2">건축공간도시연구소</td>
-         <td>2016</td>
-      </tr>
-      <tr class="content">
-         <td class="title">우리의 지속가능한 도시(SDG 11)</td>
-         <td class="report3">유네스코한국위원회</td>
+
+      <tr class="content"><!-- 87 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/87.pdf">통계청 주요 지표체계 간 조정 및 서비스 방안 연구</a></td>
+         <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
-      <tr class="content">
-         <td class="title">우리의 지속가능한 해양</td>
-         <td class="report3">한국유네스코위원회</td>
-         <td>2019</td>
+
+      <tr class="content"><!-- 88 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/88.pdf">한국의 주요 지표체계 비교 연구</a></td>
+         <td class="report1">대외경제정책연구원</td>
+         <td>2017</td>
       </tr>
-      <tr class="content">
-         <td class="title">우리의 지속가능한 생물다양성</td>
-         <td class="report3">유네스코한국위원회</td>
+
+      <tr class="content"><!-- 89 -->
+         <td class="title"><a href="https://unstats.un.org/sdgs/report/2016/The%20Sustainable%20Development%20Goals%20Report%202016.pdf">The Sustainable Development Goals Report 2016</a></td>
+         <td class="report3">United Nations</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 90 -->
+         <td class="title"><a href="https://unstats.un.org/sdgs/files/report/2017/TheSustainableDevelopmentGoalsReport2017.pdf">The Sustainable Development Goals Report 2017</a></td>
+         <td class="report3">United Nations</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 91 -->
+         <td class="title"><a href="https://unstats.un.org/sdgs/files/report/2018/TheSustainableDevelopmentGoalsReport2018-EN.pdf">The Sustainable Development Goals Report 2018</a></td>
+         <td class="report3">United Nations</td>
          <td>2018</td>
-      </tr>
-      <tr class="content">
-         <td class="title">국내 보호지역의 UN SDGs 이행전략 수립 연구</td>
-         <td class="report2">국립공원연구원</td>
-         <td>2017</td>
-      </tr>
-      <tr class="content">
-         <td class="title">토지환경 분야의 지속가능발전목표(SDGs) 이행을 위한 정책 방향</td>
-         <td class="report2">한국환경정책평가연구원</td>
-         <td>2016</td>
-      </tr>
-      <tr class="content">
-         <td class="title">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</td>
-         <td class="report2">한국국제협력단</td>
+      </tr> 
+      
+      <tr class="content"><!-- 92 -->
+         <td class="title"><a href="https://unstats.un.org/sdgs/report/2019/The-Sustainable-Development-Goals-Report-2019.pdf">The Sustainable Development Goals Report 2019</a></td>
+         <td class="report3">United Nations</td>
          <td>2019</td>
       </tr>
+
+      <tr class="content"><!-- 93 -->
+         <td class="title"><a href="https://sustainabledevelopment.un.org/content/documents/24797GSDR_report_2019.pdf">Gobal Sustainable Development Report 2019</a></td>
+         <td class="report3">United Nations</td>
+         <td>2019</td>
+      </tr>
+
+      <tr class="content"><!-- 94 -->
+         <td class="title"><a href="https://www.unescap.org/sites/default/files/ESCAP_SYB2016_SDG_baseline_report.pdf">Statistical Yearbook for Asia and the Pacific SDG Progress Report 2016 : SDG Baseline Report</a></td>
+         <td class="report3">UN ESCAP</td>
+         <td>2017</td>
+      </tr>
+
+       <tr class="content"><!-- 95 -->
+         <td class="title"><a href="https://www.unescap.org/sites/default/files/publications/Asia-Pacific-SDG-Progress-Report-2017.pdf">Asia and the Pacific SDG Progress Report 2017</a></td>
+         <td class="report3">UN ESCAP</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 97 -->
+         <td class="title"><a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2019.pdf">Asia and the Pacific SDG Progress Report 2019</a></td>
+         <td class="report3">UN ESCAP</td>
+         <td>2019</td>
+      </tr>
+
+      <tr class="content"><!-- 98 -->
+         <td class="title"><a href="https://www.unescap.org/sites/default/files/publications/ESCAP_Asia_and_the_Pacific_SDG_Progress_Report_2020.pdf">Asia and the Pacific SDG Progress Report 2020</a></td>
+         <td class="report3">UN ESCAP</td>
+         <td>2020</td>
+      </tr>
+
+       <tr class="content"><!-- 99 -->
+         <td class="title"><a href="https://www.unescap.org/sites/default/files/publications/ASEAN_SDG_Baseline_0.pdf">ASEAN SDG baseline</a></td>
+         <td class="report3">UN ESCAP</td>
+         <td>2017</td>
+      </tr>
+
+       <tr class="content"><!-- 100 -->
+         <td class="title"><a href="https://www.unescap.org/sites/default/files/ESCAP_SYB2016_SDG_baseline_report.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발 협력 연구(III): 고등교육 실천 전략 (2019)</a></td>
+         <td class="report1">한국교육개발원</td>
+         <td>2019</td>
+      </tr>
+
+
+
    </table>
    <div class="page_form">
       <ul class="pagination">
