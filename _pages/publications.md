@@ -387,13 +387,13 @@ layout: page
 
       <tr class="content"><!-- 12 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/12.pdf">SDGs 연계 성과프레임워크 수립 및 활용방안</a></td>
-         <td class="report3">한국국제협력단(KOICA)</td>
+         <td class="report2">한국국제협력단(KOICA)</td>
          <td>2017</td>
       </tr>
 
       <tr class="content"><!-- 13 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/openData_SDG.pdf">지속가능개발목표(SDGs) 수립현황과 대응방안</a></td>
-         <td class="report3">한국국제협력단(KOICA)</td>
+         <td class="report2">한국국제협력단(KOICA)</td>
          <td>2015</td>
       </tr>
       
@@ -429,70 +429,123 @@ layout: page
 
       <tr class="content"><!-- 29 -->
          <td class="title"><a href="https://www.krei.re.kr/krei/researchReportView.do?key=67&pageType=010101&biblioId=518120&pageUnit=10&searchCnd=all&searchKrwd=SDGs%20%EB%8B%AC%EC%84%B1%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%86%8D%EB%A6%BC%EB%B6%84%EC%95%BC%20ODA%20%EC%A4%91%EC%9E%A5%EA%B8%B0%20%EC%A0%84%EB%9E%B5&pageIndex=1&engView=">SDGs 달성을 위한 농림분야 ODA 중장기 전략</a></td>
-         <td class="report3">한국농촌경제연구원</td>
+         <td class="report2">한국농촌경제연구원</td>
          <td>2018</td>
       </tr>
 
       <tr class="content"><!-- 30 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/kUBzCt7Rs5swF6lB10Zg5c5AFRroz2_1573104458_2.pdf">포용성 증진을 위한 교육과 도시</a></td>
-         <td class="report3">유네스코한국위원회</td>
+         <td class="report2">유네스코한국위원회</td>
          <td>2019</td>
       </tr>
 
       <tr class="content"><!-- 31 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/4Q03otQgPqVWaO6UqAnmELZtei28UL_1531982225_2.pdf">문답으로 풀어보는 지속가능발전목표(SDG)4 교육 2030</a></td>
-         <td class="report3">유네스코한국위원회</td>
+         <td class="report2">유네스코한국위원회</td>
          <td>2018</td>
       </tr>
       
       <tr class="content"><!-- 32 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/tqnJNGIqaKI6WDd4MBZSEwWACWWSjC__2.pdf">유네스코 SDG 국제교육협력 포럼 자료집</a></td>
-         <td class="report3">유네스코한국위원회</td>
+         <td class="report2">유네스코한국위원회</td>
          <td>2015</td>
       </tr>
 
       <tr class="content"><!-- 33 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/JPZCFQ3y82b98Bm5tkJgwIstZ3HneT_1573104541_2.pdf">SDG4-교육2030 포용성과 교육에 관한 연구 보고서</a></td>
-         <td class="report1 report3">유네스코한국위원회, 한국교육개발원</td>
+         <td class="report2">유네스코한국위원회, 한국교육개발원</td>
          <td>2019</td>
       </tr>
       
       <tr class="content"><!-- 35 -->
          <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/Lg0UTQ7aY1amLxfWLkvfPyTO35u6XY_1567147136_2.pdf">한국의 SDG4 이행 현황 연구</a></td>
-         <td class="report1">한국교육개발원</td>
+         <td class="report2">한국교육개발원</td>
          <td>2019</td>
       </tr>
       
       <tr class="content"><!-- 37 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/37.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력연구(Ⅱ): 직업교육훈련(TVET) 실천 전략</a></td>
-         <td class="report1">한국교육개발원</td>
+         <td class="report2">한국교육개발원</td>
          <td>2018</td>
       </tr>
 
       <tr class="content"><!-- 39 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/39.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발협력 연구(Ⅰ) :기초교육 실천 전략</a></td>
-         <td class="report1">한국교육개발원</td>
+         <td class="report2">한국교육개발원</td>
          <td>2017</td>
       </tr>
 
       <tr class="content"><!-- 42 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/39.pdf">2030 지속가능개발목표(SDGs)실천 방안 연구:교육 분야를 중심으로</a></td>
-         <td class="report1">한국교육개발원</td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/RR2016-25.pdf">2030 지속가능개발목표(SDGs)실천 방안 연구:교육 분야를 중심으로</a></td>
+         <td class="report2">한국교육개발원</td>
          <td>2016</td>
       </tr>
-
       
-      <tr class="content">
-         <td class="title">지속가능발전목표(SDGs) 달성을 위한 청소년 삶의 질 실태 및 지원방안 연구</td>
+      <tr class="content"><!-- 43 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=12%ED%98%B8_%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C%20%EC%8B%A4%ED%98%84%EC%9D%84%20%EC%9C%84%ED%95%9C%20%ED%8A%B9%EC%88%98%EA%B5%90%EC%9C%A1%EB%B2%95%EC%A0%9C%20%EA%B0%9C%EC%84%A0%EB%B0%A9%EC%95%88.pdf&rs=/doc_convert/FILE_000000000026098Y6ZtM">지속가능발전목표(SDGs) 실현을 위한 특수교육법제 개선방안</a></td>
          <td class="report2">한국청소년정책연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 45 -->
+         <td class="title"><a href="www.naver.com">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
+         <td class="report2">정보통신정책연구원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 46 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=10%ED%98%B8_%EC%97%AC%EC%84%B1%EC%9D%98%20%EB%85%B8%EB%8F%99%ED%8F%89%EB%93%B1%EA%B6%8C%20%ED%99%95%EB%B3%B4%EB%A5%BC%20%ED%86%B5%ED%95%9C%20%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C%20%EC%8B%A4%ED%98%84%EA%B3%BC%EC%A0%9C.pdf&rs=/doc_convert/FILE_000000000026094anoOa">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2016</td>
+      </tr>
+      
+      <tr class="content"><!-- 47 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=7%ED%98%B8_%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C%EB%82%B4%205%EB%B2%88%20%EC%84%B1%ED%8F%89%EB%93%B1%20%EB%8F%85%EC%9E%90%EB%AA%A9%ED%91%9C%EC%9D%98%20%EC%A0%A0%EB%8D%94%EC%A0%81%20%EA%B4%80%EC%A0%90%EC%9D%98%20%ED%95%B4%EC%84%9D%EA%B3%BC%20%EA%B5%AD%EB%82%B4%20%EC%9D%B4%ED%96%89%20%EB%B0%A9%EC%95%88.pdf&rs=/doc_convert/FILE_000000000026105HIulh">지속가능발전목표(SDGs) 내 5번 성평등 독자목표의 젠더적 관점의 해석과 국내 이행 방안</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 48 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=11%ED%98%B8_%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EB%B0%9C%EC%A0%84%EB%AA%A9%ED%91%9C%EC%99%80%20%EC%97%AC%EC%84%B1%EB%85%B8%EC%9D%B8%EC%9D%B8%EA%B6%8C.pdf&rs=/doc_convert/FILE_000000000026096CSHFX">지속가능발전목표(SDGs)와 여성노인인권</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 42 -->
+         <td class="title"><a href="RR2016-25">test</a></td>
+         <td class="report2">한국교육개발원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 42 -->
+         <td class="title"><a href="RR2016-25">test</a></td>
+         <td class="report2">한국교육개발원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 42 -->
+         <td class="title"><a href="RR2016-25">test</a></td>
+         <td class="report2">한국교육개발원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 42 -->
+         <td class="title"><a href="RR2016-25">test</a></td>
+         <td class="report2">한국교육개발원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 42 -->
+         <td class="title"><a href="RR2016-25">test</a></td>
+         <td class="report2">한국교육개발원</td>
          <td>2016</td>
       </tr>
 
       
       
       <tr class="content">
-         <td class="title">지속가능한 사회를 꿈꾸는 교육</td>
-         <td class="report1 report3">유네스코한국위원회, 한국교육개발원</td>
+         <td class="title">여성의 노동평등권 확보를 통한 지속가능발전목표(SDGs) 실현과제</td>
+         <td class="report1 report3">한국법제연구원</td>
          <td>2018</td>
       </tr>
       
