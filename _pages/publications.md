@@ -565,15 +565,68 @@ layout: page
          <td>2017</td>
       </tr>
 
-      <tr class="content"><!-- 60 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능한 도시교통을 위한 지표(SUTI)개발 연구</a></td>
-         <td class="report2">경제인문사회연구회</td>
+      <tr class="content"><!-- 62 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=CC18-17-11.pdf&rs=/doc_convert/FILE_000000000026677uDqF9">기후변화와 지속가능발전 법제연구: 산업 - 산업분야 지속가능발전목표(SDGs) 국내이행의 이해와 촉진 -</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 63 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=CC18-17-8.pdf&rs=/doc_convert/FILE_000000000026672JvqEw">기후변화와 지속가능발전 법제연구 : 보건·복지 - 보건의료기본법 상의 기후변화에 따른 국민건강영향평가 -</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 64 -->
+         <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/005/027/%ec%a7%80%ec%86%8d%ea%b0%80%eb%8a%a5%eb%b0%9c%ec%a0%84%eb%aa%a9%ed%91%9cSDGs%ec%99%80%ea%b8%b0%ed%9b%84%eb%b3%80%ed%99%94%ea%b5%ad%ea%b0%80%ec%9e%90%eb%b0%9c%ec%a0%81%ea%b3%b5%ec%95%bdNDC%ec%97%b0%ea%b3%84_%ea%b9%80%ed%98%b8%ec%84%9d.pdf">지속가능한발전목표(SDGs)와 기후변화 국가자발적공약(NDC) 연계이행에 대한 연구</a></td>
+         <td class="report2">한국환경정책평가연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 65 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=CC18-17-12.pdf&rs=/doc_convert/FILE_000000000026678VZ8po">기후변화와 지속가능발전 법제연구: 해양 - 해양분야 지속가능발전목표(SDGs) 국내이행 촉진을 위한 정책방향 -</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 66 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/Tiop5H5KP4p8xfZ65chbYUviB6h3Bg_1572326682_2.pdf">우리의 지속가능한 해양</a></td>
+         <td class="report2">유네스코한국위원회</td>
+         <td>2019</td>
+      </tr>
+
+      <tr class="content"><!-- 68 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 이행을 위한 자발적 국가평가(VNR) 분석 : SDG 15(육상생태계)를 중심으로</a></td>
+         <td class="report2">국립산림과학원</td>
+         <td>2019</td>
+      </tr>
+
+
+
+
+
+
+      <tr class="content"><!-- 68 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
+         <td class="report2">산업연구원</td>
          <td>2016</td>
       </tr>
 
-      <tr class="content"><!-- 61 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
-         <td class="report2">산업연구원(KIET)</td>
+      <tr class="content"><!-- 68 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
+         <td class="report2">산업연구원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 68 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
+         <td class="report2">산업연구원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 68 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
+         <td class="report2">산업연구원</td>
          <td>2016</td>
       </tr>
 
