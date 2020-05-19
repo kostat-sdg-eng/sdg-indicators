@@ -620,31 +620,32 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 73 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/KOICA_73.pdf">SDG16(평화) 논의 및 이행현황 분석: 한국과 국제기구를 중심으로</a></td>
          <td class="report2">한국국제협력단(KOICA)</td>
-         <td>2016</td>
+         <td>2019</td>
       </tr>
 
-
-
-
-
-
-      <tr class="content"><!-- 51 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</a></td>
-         <td class="report2">한국수자원공사</td>
-         <td>2017</td>
+      <tr class="content"><!-- 74 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/KOICA_74.pdf">SDG16달성을 위한 KOICA 이행방안</a></td>
+         <td class="report2">한국국제협력단(KOICA)</td>
+         <td>2018</td>
       </tr>
 
-      <tr class="content"><!-- 51 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</a></td>
-         <td class="report2">한국수자원공사</td>
-         <td>2017</td>
+      <tr class="content"><!-- 76 -->
+         <td class="title"><a href="http://www.klri.re.kr/viewer/skin/doc.html?fn=CC18-17-7.pdf&rs=/doc_convert/FILE_000000000026670AfwwM">기후변화와 지속가능발전 법제연구 : 제도 - SDGs 이행을 위한 국내 법체계 개선방안 -</a></td>
+         <td class="report2">한국법제연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 77 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">개도국 SDGs 이행 지원을 위한 개발재원 확대방안</a></td>
+         <td class="report2">대외경제정책연구원</td>
+         <td>2018</td>
       </tr>
 
       
       
-      <tr class="content">
+      <tr class="content"><!-- 78 BB2016-784.pdf -->
          <td class="title">여성의 노동평등권 확보를 통한 지속가능발전목표(SDGs) 실현과제</td>
          <td class="report1 report3">한국법제연구원</td>
          <td>2018</td>
