@@ -512,9 +512,86 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 49 -->
-         <td class="title"><a href="https://www.naver.com">글로벌 여성의제 국내이행 점검</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/49.pdf">글로벌 여성의제 국내이행 점검</a></td>
          <td class="report2">한국여성정책연구원</td>
          <td>2019</td>
+      </tr>
+
+      <tr class="content"><!-- 50 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/50.pdf">지속가능발전목표(SDGs) 내 성평등 관련 지표의 국내이행 현황 및 정책과제</a></td>
+         <td class="report2">한국여성정책연구원</td>
+         <td>2018</td>
+      </tr>
+
+      <tr class="content"><!-- 51 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</a></td>
+         <td class="report2">한국수자원공사</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 52 -->
+         <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/009/005/%ea%b8%b0%eb%b3%b82014_21_%ec%a1%b0%ec%9d%84%ec%83%9d.pdf">SDGs 관점의 물인권 지원을 위한 한국의 ODA 전략방향 연구</a></td>
+         <td class="report2">한국환경정책평가연구원</td>
+         <td>2014</td>
+      </tr>
+
+      <tr class="content"><!-- 53 -->
+         <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/005/014/%eb%ac%bc%eb%b6%84%ec%95%bc%ea%b5%ad%ec%a0%9c%eb%8f%99%ed%96%a5%ea%b3%bc%ed%9a%a8%ec%9c%a8%ec%a0%81%eb%8c%80%ec%9d%91%eb%b0%a9%ec%95%88%ec%97%b0%ea%b5%ac_%ea%b9%80%ed%98%b8%ec%a0%95.pdf">물 분야 국제동향과 효율적 대응방안 연구</a></td>
+         <td class="report2">한국환경정책평가연구원</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 54 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/ELJcHwllZDLUGvi9GpWaCpoMUQveOw__2.pdf">우리의 지속가능한 에너지(SDG 7)</a></td>
+         <td class="report2">유네스코한국위원회</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 55 -->
+         <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/005/028/%ec%a7%80%ec%86%8d%ea%b0%80%eb%8a%a5%eb%b0%9c%ec%a0%84%ea%b3%bc%ec%97%90%eb%84%88%ec%a7%80%ec%82%b0%ec%97%85%ec%a0%84%ed%99%98%ea%b8%b0%ed%9b%84%eb%b3%80%ed%99%94%ec%a0%95%ec%b1%85%eb%aa%a9%ed%91%9c1.5%eb%8f%84%eb%8c%80%ec%9d%91%ec%9d%84%ec%a4%91%ec%8b%ac%ec%9c%bc%eb%a1%9c_%ec%9d%b4%ec%b0%bd%ed%9b%88.pdf">지속가능발전과 에너지·산업전환 : 기후변화 정책목표 1.5℃ 대응을 중심으로</a></td>
+         <td class="report2">한국환경정책평가연구원</td>
+         <td>2019</td>
+      </tr>
+
+      <tr class="content"><!-- 56 -->
+         <td class="title"><a href="https://library.kei.re.kr:444/dmme/img/001/012/004/%ea%b8%b0%ec%b4%882015_08_%ec%9e%84%ed%98%9c%ec%88%99.pdf">자원순환분야 지속가능발전목표(SDGs) 이행 기반 마련을 위한 기초연구</a></td>
+         <td class="report2">한국환경정책평가연구원</td>
+         <td>2015</td>
+      </tr>
+
+      <tr class="content"><!-- 59 -->
+         <td class="title"><a href="https://www.unesco.or.kr/assets/data/report/xNoBXzg8AvKzsQ1zmRL4MCN39Ji3JV__2.pdf">우리의 지속가능한 도시(SDG 11)</a></td>
+         <td class="report2">유네스코한국위원회</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 60 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능한 도시교통을 위한 지표(SUTI)개발 연구</a></td>
+         <td class="report2">경제인문사회연구회</td>
+         <td>2016</td>
+      </tr>
+
+      <tr class="content"><!-- 61 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 경제산업 부문의 효과적인 국내이행을 위한 기초연구</a></td>
+         <td class="report2">산업연구원(KIET)</td>
+         <td>2016</td>
+      </tr>
+
+
+
+
+
+
+      <tr class="content"><!-- 51 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</a></td>
+         <td class="report2">한국수자원공사</td>
+         <td>2017</td>
+      </tr>
+
+      <tr class="content"><!-- 51 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/51.pdf">지속가능발전목표(SDGs) 관련, 한국 및 Kwater의 대응전략 연구</a></td>
+         <td class="report2">한국수자원공사</td>
+         <td>2017</td>
       </tr>
 
       
