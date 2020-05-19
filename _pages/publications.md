@@ -596,7 +596,7 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 68 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/BB2016-804.pdf">지속가능발전목표(SDGs) 이행을 위한 자발적 국가평가(VNR) 분석 : SDG 15(육상생태계)를 중심으로</a></td>
+         <td class="title"><a href="http://know.nifos.go.kr/book/search/DetailView.ax?&cid=173483">지속가능발전목표(SDGs) 이행을 위한 자발적 국가평가(VNR) 분석 : SDG 15(육상생태계)를 중심으로</a></td>
          <td class="report2">국립산림과학원</td>
          <td>2019</td>
       </tr>
