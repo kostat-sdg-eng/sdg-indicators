@@ -758,8 +758,8 @@ layout: page
       </tr>
 
        <tr class="content"><!-- 100 -->
-         <td class="title"><a href="https://www.unescap.org/sites/default/files/ESCAP_SYB2016_SDG_baseline_report.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발 협력 연구(III): 고등교육 실천 전략 (2019)</a></td>
-         <td class="report1">한국교육개발원</td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/RR2019-20.pdf">지속가능개발목표(SDGs) 달성을 위한 교육개발 협력 연구(III): 고등교육 실천 전략 (2019)</a></td>
+         <td class="report2">한국교육개발원</td>
          <td>2019</td>
       </tr>
 
