@@ -488,7 +488,7 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 45 -->
-         <td class="title"><a href="www.naver.com">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
+         <td class="title"><a href="https://www.naver.com">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
          <td class="report2">정보통신정책연구원</td>
          <td>2016</td>
       </tr>
@@ -511,34 +511,10 @@ layout: page
          <td>2018</td>
       </tr>
 
-      <tr class="content"><!-- 42 -->
-         <td class="title"><a href="RR2016-25">test</a></td>
-         <td class="report2">한국교육개발원</td>
-         <td>2016</td>
-      </tr>
-
-      <tr class="content"><!-- 42 -->
-         <td class="title"><a href="RR2016-25">test</a></td>
-         <td class="report2">한국교육개발원</td>
-         <td>2016</td>
-      </tr>
-
-      <tr class="content"><!-- 42 -->
-         <td class="title"><a href="RR2016-25">test</a></td>
-         <td class="report2">한국교육개발원</td>
-         <td>2016</td>
-      </tr>
-
-      <tr class="content"><!-- 42 -->
-         <td class="title"><a href="RR2016-25">test</a></td>
-         <td class="report2">한국교육개발원</td>
-         <td>2016</td>
-      </tr>
-
-      <tr class="content"><!-- 42 -->
-         <td class="title"><a href="RR2016-25">test</a></td>
-         <td class="report2">한국교육개발원</td>
-         <td>2016</td>
+      <tr class="content"><!-- 49 -->
+         <td class="title"><a href="https://www.naver.com">글로벌 여성의제 국내이행 점검</a></td>
+         <td class="report2">한국여성정책연구원</td>
+         <td>2019</td>
       </tr>
 
       
