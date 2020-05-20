@@ -361,8 +361,8 @@ layout: page
          <td>2019</td>
       </tr>
 
-      <tr class="content"><!-- 2 1572586046142_K-SDGs_report.pdf -->
-         <td class="title">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</td>
+      <tr class="content"><!-- 2 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1572586046142_K-SDGs_report.pdf">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</a></td>
          <td class="report2">환경부 지속가능발전위원회</td>
          <td>2019</td>
       </tr>
@@ -487,8 +487,8 @@ layout: page
          <td>2018</td>
       </tr>
 
-      <tr class="content"><!-- 45 -->
-         <td class="title"><a href="https://www.naver.com">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
+      <tr class="content"><!-- 45  -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/45.pdf">여성과 ICT : 지속가능발전목표 5 (양성평등과 여성권익향상)의 이행</a></td>
          <td class="report2">정보통신정책연구원</td>
          <td>2016</td>
       </tr>
