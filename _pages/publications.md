@@ -361,7 +361,7 @@ layout: page
          <td>2019</td>
       </tr>
 
-      <tr class="content"><!-- 2 -->
+      <tr class="content"><!-- 2 1572586046142_K-SDGs_report.pdf -->
          <td class="title">2019 국가 지속가능발전목표(K-SDGs) 수립보고서</td>
          <td class="report2">환경부 지속가능발전위원회</td>
          <td>2019</td>
