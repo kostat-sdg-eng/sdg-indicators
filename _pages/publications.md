@@ -22,7 +22,7 @@ layout: page
    function contentShow(){
       var content = $(".content");
       for(var i=0; i < content.length; i++){
-         if(i < 6){
+         if(i < 8){
             content.eq(i).css("display", "table-row");
          }else{
             content.eq(i).css("display", "none");
@@ -35,7 +35,7 @@ layout: page
       $(".page_form").append("<ul class='pagination'></ul>");
       var content = $(".content");
       
-      var liCount = Math.ceil(content.length/6);
+      var liCount = Math.ceil(content.length/8);
       for(var i=1; i <= liCount; i++){
          if(i==1){
             $(".pagination").append("<li onclick='changePage(this.innerHTML)' class='pageLi on'>"+i+"</li>");
@@ -67,7 +67,7 @@ layout: page
    function searchShow(){
       var content = $(".isSearch");
       var count = 0;
-      while(count < 6){
+      while(count < 8){
          if(content.length == count){
             break;
          }else{
@@ -86,7 +86,7 @@ layout: page
       
       createGaraData("isSearch");
       
-      var liCount = Math.ceil(content.length/6);
+      var liCount = Math.ceil(content.length/8);
       
       for(var i=1; i <= liCount; i++){
          if(i==1){
@@ -107,7 +107,7 @@ layout: page
          var content = $(".isSearch");
          
          for(var i=0; i < content.length; i++){
-            if(i >= 6*(index-1) && i < 6*index){
+            if(i >= 8*(index-1) && i < 8*index){
                content.eq(i).css("display", "table-row");
             }else{
                content.eq(i).css("display", "none");
@@ -127,7 +127,7 @@ layout: page
       }else{
          var content = $(".content");
          for(var i=0; i < content.length; i++){
-            if(i >= 6*(index-1) && i < 6*index){
+            if(i >= 8*(index-1) && i < 8*index){
                content.eq(i).css("display", "table-row");
             }else{
                content.eq(i).css("display", "none");
@@ -196,8 +196,8 @@ layout: page
       str += "<td></td>";
       str += "</tr>";
       
-      if(6-count != 0){
-         for(var i=0; i < (6-count); i++){
+      if(8-count != 0){
+         for(var i=0; i < (8-count); i++){
             $(".board_table").append(str);
          }
       }else{
@@ -278,7 +278,7 @@ layout: page
          
       /*  하단 페이징 CSS  */   
          .board_form .page_form { text-align : center; }
-         .board_form .page_form .pagination { list-style: none; font-size:18pt; }
+         .board_form .page_form .pagination { list-style: none; font-size:14pt; }
          .board_form .page_form .pagination li { display : inline-block; cursor : pointer; padding:0 10px 0; margin:0 5px; border: 1px solid #BDBDBD; border-radius : 25px; }
          .board_form .page_form .pagination li:hover { background:#6799FF; transition : all ease 0.5s 0s; color : #ffffff; }
          
@@ -693,7 +693,7 @@ layout: page
 
       <tr class="content"><!-- 88 -->
          <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/88.pdf">한국의 주요 지표체계 비교 연구</a></td>
-         <td class="report1">대외경제정책연구원</td>
+         <td class="report1">통계청 통계개발원</td>
          <td>2017</td>
       </tr>
 
