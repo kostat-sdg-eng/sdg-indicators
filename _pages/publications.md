@@ -237,7 +237,7 @@ layout: page
       
    /*  하단 페이징 CSS  */   
       .board_form .page_form { text-align : center; }
-      .board_form .page_form .pagination { list-style: none; font-size:18pt; }
+      .board_form .page_form .pagination { list-style: none; font-size:14pt; }
       .board_form .page_form .pagination li { display : inline-block; cursor : pointer; padding:0 10px 0; margin:0 5px; border: 1px solid #BDBDBD; border-radius : 25px; }
       .board_form .page_form .pagination li:hover { background:#6799FF; transition : all ease 0.5s 0s; color : #ffffff; }
       
@@ -341,6 +341,7 @@ layout: page
       
    </div>
 </div>
+
 <div class="board_form">
    <div class="report_div">
       <input type="button" class="report1_btn" onclick="reportView('report1');" name="report1" value="통계개발원 보고서"/>
