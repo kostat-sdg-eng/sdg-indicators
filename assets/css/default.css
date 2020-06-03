@@ -73,7 +73,8 @@ header {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   position: relative;
-  padding: 5px 0; }
+  padding: 5px 0;
+  font-weight: bold; }
   .results .indicator-cards span.status {
     color: black;
     font-weight: normal;
@@ -143,7 +144,9 @@ header {
 .navbar {
   margin-bottom: 32px; }
   .navbar li {
-    text-transform: uppercase; }
+      /*
+    text-transform: uppercase;
+	*/ }
   .navbar ul.navbar-nav {
     float: right;
     margin-top: 12px; }
@@ -919,7 +922,8 @@ h5 + .btn-download {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     position: relative;
-    padding: 5px 0; }
+    padding: 5px 0;
+    font-weight: bold; }
     #main-content.goal-indicators .indicator-cards span.status {
       color: black;
       font-weight: normal;
@@ -947,7 +951,9 @@ h5 + .btn-download {
     margin-bottom: 1.5rem; }
   #main-content.goal-indicators.goal-by-target .indicator-cards.target {
     margin-bottom: 1.5rem;
-    clear: left; }
+    font-weight: bold;
+    clear: left;
+    font-size: large; }
   #main-content .goal-indicators:after {
     content: "";
     display: table;
@@ -1002,7 +1008,7 @@ h5 + .btn-download {
   #main-content #selectionsChart {
     padding-bottom: 20px; }
   #main-content #selectionChartFooter {
-    font-size: 12px;
+    font-size: 0px;
     line-height: 1.2;
     padding-left: 20px; }
   #main-content #map {
@@ -1167,7 +1173,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  /*height: 50px;*/
   /* Set the fixed height of the footer here */ }
   footer img {
     float: left;
@@ -1399,7 +1405,8 @@ body.contrast-high {
       text-decoration: underline; }
   body.contrast-high .container, body.contrast-high #main-content, body.contrast-high header, body.contrast-high footer, body.contrast-high #disclaimer, body.contrast-high .heading {
     background: black;
-    border-color: black; }
+    border-color: black;
+    font-weight: bold; }
   body.contrast-high p, body.contrast-high h2, body.contrast-high h3, body.contrast-high h4, body.contrast-high span, body.contrast-high td, body.contrast-high th, body.contrast-high a#text {
     color: white; }
   body.contrast-high h1, body.contrast-high li, body.contrast-high a {
