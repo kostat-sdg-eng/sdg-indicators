@@ -1,4 +1,17 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <head>
@@ -134,7 +147,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200608073640">
+        <link rel="stylesheet" href="/sdg-indicators/assets/css/default.css?v=20200608080359">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -229,457 +242,111 @@ var translations = {
 
 </header>
 
-
-<div id="main-content" class="container reportingstatus">
-
-  <h1>Reporting Status</h1><div class="goal goal-overall">
-      <div class="details">
-        <h2 class="status-goal">
-            Overall Reporting Status <span class="total"><span>244</span> indicators</span>
-        </h2>
-        <div class="summary">
-          <div class="statuses"><div>
-              <span class="status complete">128</span><strong>Reported online</strong><span class="value">53%</span>
-            </div><div>
-              <span class="status notstarted">116</span><strong>Exploring data sources</strong><span class="value">48%</span>
-            </div><br style="clear:both;">
-          </div>
-        </div>
-        <div class="goal-stats"><span class="complete" style="width:52.5%" title="Reported online: 53%"></span><span class="notstarted" style="width:47.5%" title="Exploring data sources: 48%"></span></div>
-
+<script type="text/template" id="item_template">
+  <% _.each(series, function(seriesItem) { %>
+    <div class="variable-selector<% if(allowedFields.indexOf(seriesItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=seriesItem.field%>">
+      <button class='accessBtn' tabindex='0' aria-expanded='false'><h5><%=translations.t(seriesItem.field)%><i class="fa fa-chevron-down"></i></h5></button>
+      <div class="bar">
+        <div class="selected"></div>
       </div>
-    <!--</li>-->
-    <br style="clear:both;">
-  </div>
+      <div class="variable-options">
+        <div>
+          <button data-type="select">Select all</button>
+          <button data-type="clear">Clear all</button>
+        </div>
+        <% _.each(seriesItem.values, function(item) { %>
+          <label><input type="checkbox" value="<%=item.value%>" data-field="<%=seriesItem.field%>" /><%=translations.t(item.value)%></label>
+        <% }); %>
+      </div>
 
-  <h2>Status by goal</h2><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/1/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/1.png" alt="No poverty - Goal 1" width="100" height="100" />
-          </a>
+      <% if(allowedFields.indexOf(seriesItem.field) == -1) { %>
+        <div class="variable-hint">Available when '<%= translations.t(_.findWhere(edges, { To: seriesItem.field }).From) %>' is selected
         </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/1/">No poverty</a>
-            <span class="total">14<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">7</span><strong>Reported online</strong><span class="value">50%</span>
-              </div><div>
-                <span class="status notstarted">7</span><strong>Exploring data sources</strong><span class="value">50%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:50.0%" title="Reported online: 50%"></span><span class="notstarted" style="width:50.0%" title="Exploring data sources: 50%"></span></div>
-          <div class="divider">
-          </div>
+        <div class="no-data-hint">
+          No options available because of filters above
         </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/2/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/2/">Zero hunger</a>
-            <span class="total">13<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">7</span><strong>Reported online</strong><span class="value">54%</span>
-              </div><div>
-                <span class="status notstarted">6</span><strong>Exploring data sources</strong><span class="value">46%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:53.8%" title="Reported online: 54%"></span><span class="notstarted" style="width:46.2%" title="Exploring data sources: 46%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/3/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/3/">Good health and well-being</a>
-            <span class="total">27<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">22</span><strong>Reported online</strong><span class="value">82%</span>
-              </div><div>
-                <span class="status notstarted">5</span><strong>Exploring data sources</strong><span class="value">19%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:81.5%" title="Reported online: 82%"></span><span class="notstarted" style="width:18.5%" title="Exploring data sources: 19%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/4/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/4.png" alt="Quality education - Goal 4" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/4/">Quality education</a>
-            <span class="total">11<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">7</span><strong>Reported online</strong><span class="value">64%</span>
-              </div><div>
-                <span class="status notstarted">4</span><strong>Exploring data sources</strong><span class="value">36%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:63.6%" title="Reported online: 64%"></span><span class="notstarted" style="width:36.4%" title="Exploring data sources: 36%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/5/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/5/">Gender equality</a>
-            <span class="total">14<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>Reported online</strong><span class="value">29%</span>
-              </div><div>
-                <span class="status notstarted">10</span><strong>Exploring data sources</strong><span class="value">71%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:28.6%" title="Reported online: 29%"></span><span class="notstarted" style="width:71.4%" title="Exploring data sources: 71%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/6/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/6/">Clean water and sanitation</a>
-            <span class="total">11<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>Reported online</strong><span class="value">82%</span>
-              </div><div>
-                <span class="status notstarted">2</span><strong>Exploring data sources</strong><span class="value">18%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:81.8%" title="Reported online: 82%"></span><span class="notstarted" style="width:18.2%" title="Exploring data sources: 18%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/7/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/7.png" alt="Affordable and clean energy - Goal 7" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/7/">Affordable and clean energy</a>
-            <span class="total">6<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>Reported online</strong><span class="value">67%</span>
-              </div><div>
-                <span class="status notstarted">2</span><strong>Exploring data sources</strong><span class="value">33%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:66.7%" title="Reported online: 67%"></span><span class="notstarted" style="width:33.3%" title="Exploring data sources: 33%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/8/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/8/">Decent jobs and economic growth</a>
-            <span class="total">17<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>Reported online</strong><span class="value">53%</span>
-              </div><div>
-                <span class="status notstarted">8</span><strong>Exploring data sources</strong><span class="value">47%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:52.9%" title="Reported online: 53%"></span><span class="notstarted" style="width:47.1%" title="Exploring data sources: 47%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/9/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/9/">Industry, innovation and infrastructure</a>
-            <span class="total">12<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>Reported online</strong><span class="value">75%</span>
-              </div><div>
-                <span class="status notstarted">3</span><strong>Exploring data sources</strong><span class="value">25%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:75.0%" title="Reported online: 75%"></span><span class="notstarted" style="width:25.0%" title="Exploring data sources: 25%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/10/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/10/">Reduced inequalities</a>
-            <span class="total">11<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">5</span><strong>Reported online</strong><span class="value">46%</span>
-              </div><div>
-                <span class="status notstarted">6</span><strong>Exploring data sources</strong><span class="value">55%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:45.5%" title="Reported online: 46%"></span><span class="notstarted" style="width:54.5%" title="Exploring data sources: 55%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/11/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities & communities - Goal 11" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/11/">Sustainable cities & communities</a>
-            <span class="total">15<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">5</span><strong>Reported online</strong><span class="value">33%</span>
-              </div><div>
-                <span class="status notstarted">10</span><strong>Exploring data sources</strong><span class="value">67%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:33.3%" title="Reported online: 33%"></span><span class="notstarted" style="width:66.7%" title="Exploring data sources: 67%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/12/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/12/">Responsible consumption and production</a>
-            <span class="total">13<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>Reported online</strong><span class="value">31%</span>
-              </div><div>
-                <span class="status notstarted">9</span><strong>Exploring data sources</strong><span class="value">69%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:30.8%" title="Reported online: 31%"></span><span class="notstarted" style="width:69.2%" title="Exploring data sources: 69%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/13/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/13.png" alt="Climate action - Goal 13" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/13/">Climate action</a>
-            <span class="total">8<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">3</span><strong>Reported online</strong><span class="value">38%</span>
-              </div><div>
-                <span class="status notstarted">5</span><strong>Exploring data sources</strong><span class="value">63%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:37.5%" title="Reported online: 38%"></span><span class="notstarted" style="width:62.5%" title="Exploring data sources: 63%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/14/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/14/">Life below water</a>
-            <span class="total">10<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">4</span><strong>Reported online</strong><span class="value">40%</span>
-              </div><div>
-                <span class="status notstarted">6</span><strong>Exploring data sources</strong><span class="value">60%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:40.0%" title="Reported online: 40%"></span><span class="notstarted" style="width:60.0%" title="Exploring data sources: 60%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/15/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/15/">Life on land</a>
-            <span class="total">14<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>Reported online</strong><span class="value">64%</span>
-              </div><div>
-                <span class="status notstarted">5</span><strong>Exploring data sources</strong><span class="value">36%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:64.3%" title="Reported online: 64%"></span><span class="notstarted" style="width:35.7%" title="Exploring data sources: 36%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/16/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/16/">Peace and justice - strong institutions</a>
-            <span class="total">23<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">9</span><strong>Reported online</strong><span class="value">39%</span>
-              </div><div>
-                <span class="status notstarted">14</span><strong>Exploring data sources</strong><span class="value">61%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:39.1%" title="Reported online: 39%"></span><span class="notstarted" style="width:60.9%" title="Exploring data sources: 61%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><div class="goal">
-        <div class="frame">
-          <a href="/sdg-indicators/17/">
-            <img src="https://kostat-sdg-eng.github.io/sdg-translations/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" width="100" height="100" />
-          </a>
-        </div>
-        <div class="details">
-          <h3 class="status-goal">
-            <a href="/sdg-indicators/17/">Partnerships for the goals</a>
-            <span class="total">25<span></span> indicators</span>
-          </h3>
-          <div class="summary">
-            <div class="statuses"><div>
-                <span class="status complete">11</span><strong>Reported online</strong><span class="value">44%</span>
-              </div><div>
-                <span class="status notstarted">14</span><strong>Exploring data sources</strong><span class="value">56%</span>
-              </div><br style="clear:both;">
-            </div>
-          </div>
-          <div class="goal-stats"><span class="complete" style="width:44.0%" title="Reported online: 44%"></span><span class="notstarted" style="width:56.0%" title="Exploring data sources: 56%"></span></div>
-          <div class="divider">
-          </div>
-        </div>
-      <!--</li>-->
-      <br style="clear:both;">
-    </div><!---->
+      <% }%>
+
+    </div>
+  <% }); %>
+</script>
+
+<script type="text/template" id="units_template">
+  <% if(units.length) { %>
+    <h5>Units type</h5>
+    <% _.each(units, function(unitsItem, index) { %>
+      <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
+      <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
+    <% }); %>
+  <% } %>
+</script>
+
+<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"Loading map","map":"Map","national_metadata":"Data and Definitions","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","no_data_hint":"No options available because of filters above","select_all":"Select all","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+
+<script>translations['data'] = null;</script>
+
+
+
+<div id="main-content" class="container goal-">
+	<style>
+	.contents_box { padding : 0 5%; }
+	.title { color:navy; font-size:18pt; font-weight:600;}
+	.contents { font-size:12pt; }
+	
+	.img_div { text-align: center; }
+	.img_div img { width: 90%; }
+</style>
+
+<div class="contents_box">
+	<div>
+	<br><br>
+		<p class="contents">
+			The platform displays domestic data based on 231 UN SDG indicators that reflect the comprehensive review in 2020. KOSTAT has reviewed whether the data in the Republic of Korea are currently available and provided them to the public to help achieve the UN SDGs. It is expected that this platform will be used as a reference to understand what SDGs progress is being made in the Republic of Korea and to find the evidence for policy making. At the same time, it can direct statistical development by diagnosing areas that cannot be monitored because of the unavailability of data.
+		</p>
+	 </div>
+	<br><br>
+
+	<div>
+		<span class="title">Selection Criteria for SDG Indicators Data</span>
+		<br><br>
+		<p class="contents">
+			The UN SDG indicators data were selected to be provided on the platform by the following three steps: 1. Are there any domestic statistical data that corresponds to the concept and definition of the UN SDG Indicators? (Type 1). And, if there are not aligned with domestic data, 2. Are there any estimated or modelled data by international organizations? (Type 2). At this time, there are domestic and international data corresponding to the UN SDGs, but if the two values are different, the domestic data will be provided. Finally, 3. if there are no corresponding data, are there alternative domestic data? (Type 3). 
+		</p>
+	</div>
+	<br><br>
+
+	<div class="img_div">
+		<img src="https://kostat-sdg-eng.github.io/sdg-indicators/public/img/en_data1.png" alt="reporting">
+	</div>
+	<br><br>
+
+	<div>
+		<span class="title">Service Contents</span>
+		<br><br>
+		<p class="contents">
+			Currently, Type 1 and Type 2 data are mainly provided on this platform and Type 3 data will be provided in the future through the decision-making process within SDGs data governance.		
+		<br><br>       
+			The selected indicators are provided as long-term time series data, enabling users to assess the direction of SDGs in the Republic of Korea. The data are provided based on the approved national statistics of high-quality and reliability. In some cases, data are collected from government ministries and related agencies for policy making also be provided. 
+			<br><br>       
+			The platform provides national and global metadata as well as data. In particular, for the type 1 data, there are reasons for the inconsistency of data value at national and global levels, which is explained in detail in the national metadata.
+		</p>
+	</div>
+	<br><br>
+
+	<div>
+		<span class="title">Information update</span>
+		<br><br>
+		<p class="contents">
+			The indicator data in the service will be regularly updated twice a year (January and July), but the newly identified indicators that are available will be immediately reflected on the platform. This platform will be integrated into the Korean Indicator site operated by KOSTAT in 2022. 
+		</p>
+	</div>
+
+
 
 </div>
+
+</div>
+
 <footer role="contentinfo">
 	<div class="container">
 		<div class="row">
@@ -724,7 +391,7 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-indicators/assets/js/sdg.js?v=20200608073640'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200608073640"></script><script>
+<script src='/sdg-indicators/assets/js/sdg.js?v=20200608080359'></script><script src="/sdg-indicators/assets/js/custom.js?v=20200608080359"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -785,3 +452,4 @@ $(function() {
 
 </body>
 </html>
+
