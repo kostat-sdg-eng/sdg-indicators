@@ -428,7 +428,7 @@
           "status": "notstarted"
         },{
           "id": "4-c-1",
-          "title": "Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country",
+          "title": "Proportion of teachers with the minimum required qualifications, by education level",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/4-c-1",
@@ -442,7 +442,7 @@
           "status": "complete"
         },{
           "id": "4-a-1",
-          "title": "Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)",
+          "title": "Proportion of schools offering basic services, by type of service",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/4-a-1",
@@ -456,14 +456,14 @@
           "status": "complete"
         },{
           "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies, (b) curricula, (c) teacher education, and (d) student assessment",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/4-7-1",
           "status": "notstarted"
         },{
           "id": "4-2-1",
-          "title": "Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex",
+          "title": "Proportion of children aged 24-59 months of age who are developmentally on track in health, learning and psychosocial well-being, by sex",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/4-2-1",
@@ -636,7 +636,7 @@
           "status": "complete"
         },{
           "id": "6-3-1",
-          "title": "Proportion of wastewater safely treated",
+          "title": "Proportion of domestic and industrial wastewater flows safely treated",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/6-3-1",
@@ -657,7 +657,7 @@
           "status": "complete"
         },{
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management implementation (0 to 100)",
+          "title": "Degree of integrated water resources management",
           "description": "",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/6-5-1",
@@ -698,7 +698,7 @@
           "status": "notstarted"
         },{
           "id": "7-b-1",
-          "title": "Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services",
+          "title": "Installed renewable energy-generating capacity in developing countries (in Watts per capita)",
           "description": "",
           "keywords": "Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-indicators/7-b-1",
@@ -760,7 +760,7 @@
           "status": "notstarted"
         },{
           "id": "8-8-1",
-          "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
+          "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-8-1",
@@ -781,7 +781,7 @@
           "status": "complete"
         },{
           "id": "8-3-1",
-          "title": "Proportion of informal employment in non‐agriculture employment, by sex",
+          "title": "Proportion of informal employment in total employment, by sector and sex",
           "description": "",
           "keywords": "Labour Force",
           "href": "/sdg-indicators/8-3-1",
@@ -823,7 +823,7 @@
           "status": "complete"
         },{
           "id": "8-5-1",
-          "title": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
+          "title": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities",
           "description": "",
           "keywords": "Employment, Earnings",
           "href": "/sdg-indicators/8-5-1",
@@ -842,13 +842,6 @@
           "keywords": "",
           "href": "/sdg-indicators/8-10-1",
           "status": "complete"
-        },{
-          "id": "8-9-2",
-          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-indicators/8-9-2",
-          "status": "notstarted"
         },{
           "id": "8-b-1",
           "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
@@ -954,17 +947,31 @@
       "title": "Reduce inequality within and among countries",
       "indicators": [{
           "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
+          "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-7-1",
           "status": "notstarted"
+        },{
+          "id": "10-4-2",
+          "title": "Redistrivutive Impact of fiscal policy",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/10-4-2",
+          "status": "complete"
         },{
           "id": "10-1-1",
           "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
           "description": "",
           "keywords": "inequality",
           "href": "/sdg-indicators/10-1-1",
+          "status": "notstarted"
+        },{
+          "id": "10-7-1",
+          "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/10-7-1",
           "status": "notstarted"
         },{
           "id": "10-a-1",
@@ -982,14 +989,14 @@
           "status": "notstarted"
         },{
           "id": "10-4-1",
-          "title": "Labour share of GDP, comprising wages and social protection transfers",
+          "title": "Labour share of GDP",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-4-1",
           "status": "complete"
         },{
           "id": "10-7-2",
-          "title": "Number of countries that have implemented well-managed migration policies",
+          "title": "Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-7-2",
@@ -1016,6 +1023,13 @@
           "href": "/sdg-indicators/10-5-1",
           "status": "complete"
         },{
+          "id": "10-7-3",
+          "title": "Number of people who died or disappeared in the process of migration towards an international destination",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-indicators/10-7-3",
+          "status": "notstarted"
+        },{
           "id": "10-2-1",
           "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
           "description": "",
@@ -1037,7 +1051,7 @@
       "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
       "indicators": [{
           "id": "11-6-1",
-          "title": "Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",
+          "title": "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-6-1",
@@ -1051,7 +1065,7 @@
           "status": "notstarted"
         },{
           "id": "11-4-1",
-          "title": "Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)",
+          "title": "Total  per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-4-1",
@@ -1086,7 +1100,7 @@
           "status": "complete"
         },{
           "id": "11-a-1",
-          "title": "Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city",
+          "title": "Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics, (b) ensure balanced territorial development, (c)  increase local fiscal space",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/11-a-1",
@@ -1105,13 +1119,6 @@
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/11-b-1",
           "status": "complete"
-        },{
-          "id": "11-c-1",
-          "title": "Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials",
-          "description": "",
-          "keywords": "ODA",
-          "href": "/sdg-indicators/11-c-1",
-          "status": "notstarted"
         },{
           "id": "11-6-2",
           "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
@@ -1148,7 +1155,7 @@
       "title": "Ensure sustainable consumption and production patterns",
       "indicators": [{
           "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels",
+          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/12-c-1",
@@ -1162,7 +1169,7 @@
           "status": "notstarted"
         },{
           "id": "12-4-2",
-          "title": "Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment",
+          "title": "(a) Hazardous waste generated per capita and (b) Proportion of hazardous waste treated, by type of treatment",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/12-4-2",
@@ -1176,7 +1183,7 @@
           "status": "complete"
         },{
           "id": "12-b-1",
-          "title": "Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools",
+          "title": "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/12-b-1",
@@ -1197,14 +1204,14 @@
           "status": "notstarted"
         },{
           "id": "12-a-1",
-          "title": "Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies",
+          "title": "Installed renewable energy-generating capacity in developing countries (in Watts per capita)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/12-a-1",
           "status": "notstarted"
         },{
           "id": "12-1-1",
-          "title": "Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies",
+          "title": "Number of countries developing, adopting or implementing policy instruments aimed at supporting the shift to sustainable consumption and production",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-1-1",
@@ -1225,14 +1232,14 @@
           "status": "notstarted"
         },{
           "id": "12-7-1",
-          "title": "Number of countries implementing sustainable public procurement policies and action plans",
+          "title": "Degree of sustainable public procurement policies and action plan implementation",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-7-1",
           "status": "notstarted"
         },{
           "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies, (b) curricula, (c) teacher education, and (d) student assessment",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/12-8-1",
@@ -1245,14 +1252,21 @@
       "title": "Take urgent action to combat climate change and its impacts",
       "indicators": [{
           "id": "13-3-1",
-          "title": "Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula",
+          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies, (b) curricula, (c) teacher education, and (d) student assessment",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/13-3-1",
           "status": "notstarted"
         },{
+          "id": "13-2-2",
+          "title": "Total greenhouse gas emissions per year",
+          "description": "",
+          "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
+          "href": "/sdg-indicators/13-2-2",
+          "status": "notstarted"
+        },{
           "id": "13-b-1",
-          "title": "Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities",
+          "title": "Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
           "description": "",
           "keywords": "climate change",
           "href": "/sdg-indicators/13-b-1",
@@ -1273,7 +1287,7 @@
           "status": "complete"
         },{
           "id": "13-2-1",
-          "title": "Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)",
+          "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications",
           "description": "",
           "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
           "href": "/sdg-indicators/13-2-1",
@@ -1286,15 +1300,8 @@
           "href": "/sdg-indicators/13-1-1",
           "status": "complete"
         },{
-          "id": "13-3-2",
-          "title": "Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions",
-          "description": "",
-          "keywords": "Non-statistical, legislation, policy, Sexual Health, Education",
-          "href": "/sdg-indicators/13-3-2",
-          "status": "notstarted"
-        },{
           "id": "13-a-1",
-          "title": "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment",
+          "title": "Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025",
           "description": "",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-a-1",
@@ -1314,7 +1321,7 @@
           "status": "notstarted"
         },{
           "id": "14-2-1",
-          "title": "Proportion of national exclusive economic zones managed using ecosystem-based approaches",
+          "title": "Number of countries using ecosystem-based approaches to managing marine areas",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-2-1",
@@ -1370,7 +1377,7 @@
           "status": "notstarted"
         },{
           "id": "14-1-1",
-          "title": "Index of coastal eutrophication and floating plastic debris density",
+          "title": "(a) Index of coastal eutrophication and (b) plastic debris density",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/14-1-1",
@@ -1411,21 +1418,21 @@
           "status": "notstarted"
         },{
           "id": "15-9-1",
-          "title": "Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020",
+          "title": "(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020 in their National Biodiversity Strategy and Action Plans(NBSAP) and the progress reported towards these targets; (b) Integration of biodiversity into national accounting and reporting systems, defined as implementation of the System of Environmental-Economic Accounting",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/15-9-1",
           "status": "notstarted"
         },{
           "id": "15-a-1",
-          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity, and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-indicators/15-a-1",
           "status": "complete"
         },{
           "id": "15-b-1",
-          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+          "title": "(a) Official development assistance on conservation and sustainable use of biodiversity, and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-indicators/15-b-1",
@@ -1519,6 +1526,13 @@
           "description": "",
           "keywords": "Crime, homicide",
           "href": "/sdg-indicators/16-1-1",
+          "status": "complete"
+        },{
+          "id": "16-3-3",
+          "title": "Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism",
+          "description": "",
+          "keywords": "Crime",
+          "href": "/sdg-indicators/16-3-3",
           "status": "complete"
         },{
           "id": "16-a-1",
@@ -1654,11 +1668,11 @@
       "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
       "indicators": [{
           "id": "17-6-1",
-          "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
+          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },{
           "id": "17-9-1",
           "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
@@ -1675,14 +1689,14 @@
           "status": "notstarted"
         },{
           "id": "17-12-1",
-          "title": "Average tariffs faced by developing countries, least developed countries and small island developing States",
+          "title": "Weighted average tariffs faced by developing countries, least developed countries and small island developing States",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-12-1",
           "status": "complete"
         },{
           "id": "17-3-1",
-          "title": "Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",
+          "title": "Foreign direct investments (FDI), official development assistance and South-South Cooperation as a proportion of gross national income (GNI)",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-3-1",
@@ -1693,13 +1707,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-10-1",
-          "status": "complete"
-        },{
-          "id": "17-6-2",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-indicators/17-6-2",
           "status": "complete"
         },{
           "id": "17-1-1",
@@ -1745,7 +1752,7 @@
           "status": "complete"
         },{
           "id": "17-7-1",
-          "title": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
+          "title": "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-7-1",
@@ -1759,7 +1766,7 @@
           "status": "complete"
         },{
           "id": "17-18-1",
-          "title": "Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
+          "title": "Statistical capacity indicator for Sustainable Development Goal(SDG) monitoring",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-18-1",
@@ -1773,7 +1780,7 @@
           "status": "notstarted"
         },{
           "id": "17-17-1",
-          "title": "Amount of United States dollars committed to public-private and civil society partnerships",
+          "title": "Amount in United States dollars committed to public-private partnerships for infrastructure",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-17-1",
@@ -1808,7 +1815,7 @@
           "status": "notstarted"
         },{
           "id": "17-5-1",
-          "title": "Number of countries that adopt and implement investment promotion regimes for least developed countries",
+          "title": "Number of countries that adopt and implement investment promotion regimes for developing countries, including LDCs",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/17-5-1",
