@@ -20,8 +20,6 @@
 
 </style>
 
-{% assign goal_indicators = page.indicators | where: 'goal_number', page.goal.number | group_by: 'target_number' %}
-{% assign target = group.name | sdg_lookup %}
 
 <div class="heading indicator goal-{{ goal_number }}">
   
@@ -43,7 +41,7 @@
 
 		<a href="{{ goal_uri }}">
 		<span class="hidden-sm hidden-md hidden-lg">{{ t.general.goal }} {{ goal_number }}: </span>
-		{{ goal_title }} // {{ target.number }} : {{ target.name }}
+		{{ goal_title }} // {{ target_number }} : {{ target_name }}
 		</a>
 	</h1>
 	<h2>{{ t.general.indicator }} {{ meta.indicator }}: {{ meta.indicator | get_indicator_name }}</h2>
