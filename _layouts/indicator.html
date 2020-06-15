@@ -37,20 +37,20 @@
 
 </div>
 <div class="col-xs-8 col-md-9 col-lg-10">
-<h1>
+	<h1>
 
-<a href="{{ goal_uri }}">
-
-            <span class="hidden-sm hidden-md hidden-lg">{{ t.general.goal }} {{ goal_number }}: </span>{{ goal_title }}
-          </a>
-        </h1>
-        <h2>{{ t.general.indicator }} {{ meta.indicator }}: {{ meta.indicator | get_indicator_name }}</h2>
-      </div>
-    </div>
-  </div>
+		<a href="{{ goal_uri }}">
+		<span class="hidden-sm hidden-md hidden-lg">{{ t.general.goal }} {{ goal_number }}: </span>
+		{{ goal_title }} // {{ t.general.target }} // {{ t.general.targets }}
+		</a>
+	</h1>
+	<h2>{{ t.general.indicator }} {{ meta.indicator }}: {{ meta.indicator | get_indicator_name }}</h2>
 </div>
-
-<div id="main-content" class="container goal-{{ goal_number }}">
+</div>
+</div>
+</div>
+	
+	<div id="main-content" class="container goal-{{ goal_number }}">
 
     {% include components/breadcrumb.html %}
 
