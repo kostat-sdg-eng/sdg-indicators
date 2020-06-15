@@ -20,6 +20,8 @@
 
 </style>
 
+{% assign goal_indicators = page.indicators | where: 'goal_number', page.goal.number | group_by: 'target_number' %}
+{% assign target = group.name | sdg_lookup %}
 
 <div class="heading indicator goal-{{ goal_number }}">
   
