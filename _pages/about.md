@@ -37,7 +37,7 @@ layout: page
 		<span class="title">Status of the SDGs implementation in the Republic of Korea</span>
 		<br><br>
 		<p class="contents">
-			The United Nations Statistics Division released the Global SDG Indicators Database. The Database includes country level data as well as regional and global aggregates. Statistics Korea (KOSTAT) is a focal point for the SDG Indicators in the Republic of Korea, which is responsible for collecting and providing Korean data to the global community including the UN and international organizations. These data are produced by domestic statistical agencies and managed by the quality assurance system of KOSTAT. KOSTAT also reviews the Korean data estimated or modeled by international organizations. National data may be adjusted for international comparability or where data were missing. 
+			The United Nations Statistics Division released the Global SDG Indicators Database. The Database includes country level data as well as regional and global aggregates. Statistics Korea (KOSTAT) is a focal point for the SDG Indicators in the Republic of Korea, which is responsible for collecting and providing Korean data to the global community including the UN and international organizations. These data are produced by domestic statistical agencies and managed by the quality assurance system of KOSTAT. KOSTAT also reviews the Korean data estimated or modelled by international organizations. National data may be adjusted for international comparability or where data were missing. 
 		</p>
 	</div>
 	<br><br>
