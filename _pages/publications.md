@@ -799,5 +799,7 @@ layout: page
 
 **[환경부 지속가능발전포털](http://ncsd.go.kr/)** : 국가 지속가능발전목표(K-SDG)를 포함한 지속가능발전 관련 정보를 총망라한 서비스
 
-	<br><br>
-	<br><br>
+<br/>
+<br/>
+<br><br>
+<br><br>
