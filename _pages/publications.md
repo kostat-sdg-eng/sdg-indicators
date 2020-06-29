@@ -319,7 +319,7 @@ layout: page
            </a>
       </div>
       <div>
-         <p>(Statistics Research Institute) SDGs in the ROK Progress Report  2019</p>
+         <p>(UN) The Sustainable Development Goals Report  2019</p>
       </div>
    </div>
    <div class="item">
