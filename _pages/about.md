@@ -39,7 +39,7 @@ layout: page
 		<p class="contents">
 			UN은 국가 데이터로 구성된 글로벌 데이터베이스를 구축, 운영하고 있습니다. 통계청은 SDGs 한국 데이터 총괄기관으로, UN 및 국제기구를 포함한 글로벌 사회에 한국 데이터를 제공하는 역할을 맡고 있습니다. 이 데이터는 국내 통계작성 기관에서 생산된 데이터로 통계청의 품질관리를 통해 관리되고 있습니다. 또한 국제기구에서 추정 혹은 모델링한 한국데이터에 대해서는 국내 관계기관과 협력하여 검증작업을 하고 있습니다.
 
-	</div>
+
 	<br><br>
 	<div class="img_div">
 		<img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/about/about1.png" alt="About1">
