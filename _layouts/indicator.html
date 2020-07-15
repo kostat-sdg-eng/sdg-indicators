@@ -8,7 +8,10 @@
 {% include multilingual-js.html key="data" %}
 
 <style>
+#selectionsTable #DataTables_Table_0_wrapper  div div .table > caption { font-size:0; }
 #selectionsTable #DataTables_Table_1_wrapper  div div .table > caption { font-size:0; }
+#selectionsTable #DataTables_Table_2_wrapper  div div .table > caption { font-size:0; }
+#selectionsTable #DataTables_Table_3_wrapper  div div .table > caption { font-size:0; }
 #selectionsChart #chart-canvas #chart-title > caption { font-size:0; }
 </style>
 
@@ -16,6 +19,7 @@
 <script>
 	$(document).ready(function(){
 		$("#chart-title").css("font-size", "0");	
+		$("#selectionsChart .btn-download").eq(0).css("display", "none");	
 	});
 </script>
 
