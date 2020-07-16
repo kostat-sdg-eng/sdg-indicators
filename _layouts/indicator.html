@@ -72,25 +72,77 @@
 
   {% assign uniqSources = sources_list | uniq | join: ", " %}
 
+
+<!--  Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="nav-item active">
+            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" {% include autotrack.html preset="tab_meta_national" category="Tab change" action="Change metadata view" label="Change to National Metadata tab" %}>{{ site.non_global_metadata | default: 'indicator.national_metadata' | t }}</a>
+          </li>
+          <li role="presentation" class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" {% include autotrack.html preset="tab_meta_global" category="Tab change" action="Change metadata view" label="Change to Global Metadata tab" %}>{{ t.indicator.global_metadata }}</a>
+          </li>
+		  <!--
+          <li role="presentation" class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" {% include autotrack.html preset="tab_meta_sources" category="Tab change" action="Change metadata view" label="Change to Sources tab" %}>{{ t.indicator.sources }}</a>
+          </li>-->
+        </ul>
+
+
+<!--  Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="metadata">
+            <!-- National Metadata -->
+            <div > <!-- formerly class="collapsible expanded" -->
+              <!-- <h3 tabindex='0'>National Metadata</h3> -->
+              <article>
+                <p>
+                  {% assign country_name = site.country.name | t %}
+                  {% assign country_adjective = site.country.adjective | t %}
+                  {{ t.indicator.national_metadata_blurb | replace: '%country_name', country_name | replace: '%country_adjective', country_adjective }}
+                </p>
+                {% include components/metadata.html scope='national' %}
+              </article>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="globalmetadata">
+            <!-- Global Metadata -->
+            <div> <!-- formerly <div class="collapsible expanded"> -->
+              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
+              <article>
+                <p>{{ t.indicator.global_metadata_blurb }}</p>
+                {% include components/metadata.html scope='global' %}
+              </article>
+            </div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="sources">
+            {% include components/sources.html %}
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="row" id="indicatorData" data-indicatorid='{{dataset_name}}' data-id="{{meta.indicator | slugify }}" data-country="{{ meta.national_geographical_coverage | t }}"
   data-charttitle="{{ meta.graph_title | t }}" data-measurementunit="{{ meta.computation_units | t }}" data-datasource="{{ uniqSources }}" data-copyright="{{ meta.copyright | t }}"
   data-geographicalarea="{{ meta.national_geographical_coverage | t }}" data-footnote="{{ meta.data_footnote | t }}" data-showdata="{{ show_data }}" data-graphtype="{{ meta.graph_type }}"
   data-geocoderegex="{{ meta.data_geocode_regex }}" data-showmap="{{ meta.data_show_map }}" data-startvalues="{{ meta.data_start_values | join: '|' }}">
 
     {% if show_data %}
-    <div id="indicator-sidebar" class="col-md-3">
-      <div id="toolbar">
-        <span id="series-help">
-          <h4>{{ t.indicator.sub_categories }}</h4>
-          <p>{{ t.indicator.series_help }}</p>
-        </span>
-        <p>{{ t.indicator.legend_help }}</p>
-        <div id="fields">
-          <p class="async-loading" data-img="{{ site.baseurl }}/assets/img/loading-small.gif"></p>
-        </div>
-      </div>
-      <div id="units"></div>
-    </div>
+
+   <!--before sidebar -->
+
     <div id="indicator-main" class="col-md-9">
     {% else %}
     <div id="indicator-main" class="col-md-12">
@@ -156,52 +208,37 @@
         </div>
         {% endif %}
 
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="nav-item active">
-            <a class="nav-link" data-toggle="tab" href="#metadata" aria-controls="metadata" role="tab" {% include autotrack.html preset="tab_meta_national" category="Tab change" action="Change metadata view" label="Change to National Metadata tab" %}>{{ site.non_global_metadata | default: 'indicator.national_metadata' | t }}</a>
-          </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#globalmetadata" aria-controls="globalmetadata" role="tab" {% include autotrack.html preset="tab_meta_global" category="Tab change" action="Change metadata view" label="Change to Global Metadata tab" %}>{{ t.indicator.global_metadata }}</a>
-          </li>
-		  <!--
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" {% include autotrack.html preset="tab_meta_sources" category="Tab change" action="Change metadata view" label="Change to Sources tab" %}>{{ t.indicator.sources }}</a>
-          </li>-->
-        </ul>
+        <!-- before Nav tabs -->
+       
 
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="metadata">
-            <!-- National Metadata -->
-            <div > <!-- formerly class="collapsible expanded" -->
-              <!-- <h3 tabindex='0'>National Metadata</h3> -->
-              <article>
-                <p>
-                  {% assign country_name = site.country.name | t %}
-                  {% assign country_adjective = site.country.adjective | t %}
-                  {{ t.indicator.national_metadata_blurb | replace: '%country_name', country_name | replace: '%country_adjective', country_adjective }}
-                </p>
-                {% include components/metadata.html scope='national' %}
-              </article>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="globalmetadata">
-            <!-- Global Metadata -->
-            <div> <!-- formerly <div class="collapsible expanded"> -->
-              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
-              <article>
-                <p>{{ t.indicator.global_metadata_blurb }}</p>
-                {% include components/metadata.html scope='global' %}
-              </article>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="sources">
-            {% include components/sources.html %}
-          </div>
-        </div>
+        <!-- before Tab panes -->
+ 
+
+
       </section>
     </div>
+
+
+<!-- sidebar -->
+    {% if show_data %}
+ <div id="indicator-sidebar" class="col-md-3">
+      <div id="toolbar">
+        <span id="series-help">
+          <h4>{{ t.indicator.sub_categories }}</h4>
+          <p>{{ t.indicator.series_help }}</p>
+        </span>
+        <p>{{ t.indicator.legend_help }}</p>
+        <div id="fields">
+          <p class="async-loading" data-img="{{ site.baseurl }}/assets/img/loading-small.gif"></p>
+        </div>
+      </div>
+      <div id="units"></div>
+    </div>
+ {% endif %}
+
+
+
+
   </div>
 </div>
 </div>
