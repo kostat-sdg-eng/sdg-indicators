@@ -12,20 +12,6 @@
 		}
 	</script>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	
-	<!--indicator button-->
-	<script>
-		$(document).ready(function(){
-			$("#selectionsChart .btn-download").each(function(){
-				if($(this).attr("title") == 'CSV 내려받기'){
-					$(this).css("display", "none");
-				}
-			});
-		});
-	</script>
-
-
 
         {% include polyfills.html %}
         {% include javascript-variables.html %}

@@ -5,7 +5,7 @@
 </div>
 
 {% assign graph_template = 'components/charts/' | append: include.graph_type | append: '.html' %}
-<div id="selectionsChart">
+<div id="selectionsChart" onload="javascript:hideButton();">
     <div id="chart-canvas">
         <h3 class="chart-title">
             {% if page.indicator.graph_titles %}
