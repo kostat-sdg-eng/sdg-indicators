@@ -1745,7 +1745,7 @@ var indicatorView = function (model, options) {
     });
 
     this.createTableFooter('selectionChartFooter', chartInfo.footerFields, '#chart-canvas');
-    this.createDownloadButton(chartInfo.selectionsTable, 'Chart', chartInfo.indicatorId, '#selectionsChart');
+    //this.createDownloadButton(chartInfo.selectionsTable, 'Chart', chartInfo.indicatorId, '#selectionsChart');
     this.createSourceButton(chartInfo.shortIndicatorId, '#selectionsChart');
 
     $("#btnSave").click(function() {
@@ -2020,8 +2020,7 @@ var indicatorView = function (model, options) {
     .sort(sortLabels)
     .appendTo(fieldGroupElement.find('#indicatorData .variable-options'));
   }
-};
-var indicatorController = function (model, view) {
+};var indicatorController = function (model, view) {
   this._model = model;
   this._view = view;
 };
