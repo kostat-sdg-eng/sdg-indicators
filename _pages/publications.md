@@ -314,12 +314,12 @@ layout: page
    </div>
    <div class="item">
       <div>
-         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3.pdf">
-              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3.png" alt="3"/>    
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.pdf">
+              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.png" alt="3"/>    
            </a>
       </div>
       <div>
-         <p>(UN) The Sustainable Development Goals Report  2019</p>
+         <p>(UN) The Sustainable Development Goals Report  2020</p>
       </div>
    </div>
    <div class="item">
@@ -723,7 +723,7 @@ layout: page
       </tr>
 
       <tr class="content"><!-- 93 -->
-         <td class="title"><a href="https://sustainabledevelopment.un.org/content/documents/24797GSDR_report_2019.pdf">Gobal Sustainable Development Report 2019</a></td>
+         <td class="title"><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">Global Sustainable Development Report 2020</a></td>
          <td class="report3">United Nations</td>
          <td>2019</td>
       </tr>
