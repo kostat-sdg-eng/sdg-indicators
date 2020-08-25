@@ -315,7 +315,7 @@ layout: page
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.pdf">
-              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.png" alt="3"/>    
+              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.PNG" alt="3"/>    
            </a>
       </div>
       <div>
