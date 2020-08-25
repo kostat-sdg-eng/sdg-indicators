@@ -721,20 +721,27 @@ layout: page
          <td class="report3">United Nations</td>
          <td>2019</td>
       </tr>
-
+      
       <tr class="content"><!-- 93 -->
-         <td class="title"><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">Global Sustainable Development Report 2020</a></td>
+         <td class="title"><a href="https://unstats.un.org/sdgs/report/2020/The-Sustainable-Development-Goals-Report-2020.pdf">The Sustainable Development Goals Report 2020</a></td>
+         <td class="report3">United Nations</td>
+         <td>2020</td>
+      </tr>
+      
+      
+      <tr class="content"><!-- 94 -->
+         <td class="title"><a href="https://sustainabledevelopment.un.org/content/documents/24797GSDR_report_2019.pdf">Gobal Sustainable Development Report 2019</a></td>
          <td class="report3">United Nations</td>
          <td>2019</td>
       </tr>
 
-      <tr class="content"><!-- 94 -->
+      <tr class="content"><!-- 95 -->
          <td class="title"><a href="https://www.unescap.org/sites/default/files/ESCAP_SYB2016_SDG_baseline_report.pdf">Statistical Yearbook for Asia and the Pacific SDG Progress Report 2016 : SDG Baseline Report</a></td>
          <td class="report3">UN ESCAP</td>
          <td>2017</td>
       </tr>
 
-       <tr class="content"><!-- 95 -->
+       <tr class="content"><!-- 96 -->
          <td class="title"><a href="https://www.unescap.org/sites/default/files/publications/Asia-Pacific-SDG-Progress-Report-2017.pdf">Asia and the Pacific SDG Progress Report 2017</a></td>
          <td class="report3">UN ESCAP</td>
          <td>2017</td>
