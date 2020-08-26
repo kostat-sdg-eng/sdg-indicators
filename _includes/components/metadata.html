@@ -15,9 +15,10 @@
       <tr>
         <th scope="row" class="col-xs-3 col-sm-3 col-md-2">{{ metadata_label }} </th>
         <td>
-            {% assign url_text_name = indicator_metadata.name  %}
-            {% assign url_text_name = url_text_name  %}
-            {% assign url_text = meta[url_text_name] %}
+            {% if meta[indicator_metadata.name] contains "http" or meta[indicator_metadata.name] contains "mailto" %}
+            {% assign url_text_name = indicator_metadata.name %}
+            {% assign url_text_name = url_text_name %}
+            {% assign url_text = meta[url_text_name] | t %}
             {% unless url_text %}
               {% assign url_text = 'Link' %}
             {% endunless %}
