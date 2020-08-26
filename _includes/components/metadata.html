@@ -23,11 +23,9 @@
               {% assign url_text = 'Link' %}
             {% endunless %}
 
-            {% if meta[indicator_metadata.name] contains "http" or meta[indicator_metadata.name] contains "mailto" %}
               <a href="{{ meta[indicator_metadata.name] }}" target="_blank">
                 {{ url_text }} <span class="visuallyhidden">{{ t.general.opens_new_window }}</span>
               </a>
-            {% endif %}
 
           {% elsif indicator_metadata.field.element == 'multiselect' %}
             {% for item in meta[indicator_metadata.name] %}
