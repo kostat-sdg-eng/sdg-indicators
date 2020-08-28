@@ -612,7 +612,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/6-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "6-3-2",
           "title": "Proportion of bodies of water with good ambient water quality",
@@ -695,14 +695,14 @@
           "description": "",
           "keywords": "ODA",
           "href": "/sdg-indicators/7-a-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "7-b-1",
           "title": "Installed renewable energy-generating capacity in developing countries (in Watts per capita)",
           "description": "",
           "keywords": "Energy, Renewable, Low carbon, Exports, GDP, Environmental Accounts, Environment, Sustainable Development",
           "href": "/sdg-indicators/7-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "7-3-1",
           "title": "Energy intensity measured in terms of primary energy and GDP",
@@ -750,14 +750,14 @@
           "description": "",
           "keywords": "Labour Force",
           "href": "/sdg-indicators/8-6-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-9-1",
           "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
           "description": "",
           "keywords": "GDP, Tourism",
           "href": "/sdg-indicators/8-9-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-8-1",
           "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
@@ -785,7 +785,7 @@
           "description": "",
           "keywords": "Labour Force",
           "href": "/sdg-indicators/8-3-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-1-1",
           "title": "Annual growth rate of real GDP per capita",
@@ -806,14 +806,14 @@
           "description": "",
           "keywords": "GDP, Population",
           "href": "/sdg-indicators/8-4-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-8-2",
           "title": "Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-8-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-5-2",
           "title": "Unemployment rate, by sex, age and persons with disabilities",
@@ -834,7 +834,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/8-7-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "8-10-1",
           "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
@@ -848,7 +848,7 @@
           "description": "",
           "keywords": "Non-statistical, legislation, policy, Education, Employment, skills",
           "href": "/sdg-indicators/8-b-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
@@ -882,7 +882,7 @@
           "description": "",
           "keywords": "Geography Accelerator Project",
           "href": "/sdg-indicators/9-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "9-4-1",
           "title": "CO2 emission per unit of value added",
@@ -903,7 +903,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/9-3-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "9-5-1",
           "title": "Research and development expenditure as a proportion of GDP",
@@ -958,14 +958,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-4-2",
-          "status": "complete"
+          "status": "notstarted"
         },{
           "id": "10-1-1",
           "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
           "description": "",
           "keywords": "inequality",
           "href": "/sdg-indicators/10-1-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "10-7-1",
           "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
@@ -1000,7 +1000,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-7-2",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "10-b-1",
           "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
@@ -1028,7 +1028,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-7-3",
-          "status": "notstarted"
+          "status": "notapplicable"
         },{
           "id": "10-2-1",
           "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
@@ -1042,7 +1042,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/10-c-1",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },{
