@@ -302,6 +302,7 @@ layout: page
          <p>(통계개발원) 글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황 2019</p>
       </div>
    </div>
+   
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/2.pdf">
@@ -312,10 +313,22 @@ layout: page
          <p>(Statistics Research Institute) SDGs in the ROK Progress Report  2019</p>
       </div>
    </div>
+   
+   <div class="item">
+      <div>
+         <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.pdf">
+             <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.png" alt="3"/>    
+          </a>
+      </div>
+      <div>
+         <p>(통계개발원) 세분화된 데이터 생산을 위한 다양한 접근법 탐색 장애,도시,교통 부문  2020</p>
+      </div>
+   </div>   
+   
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.pdf">
-              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.PNG" alt="3"/>    
+              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/3_2020.PNG" alt="4"/>    
            </a>
       </div>
       <div>
@@ -325,7 +338,7 @@ layout: page
    <div class="item">
       <div>
          <a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.pdf">  
-              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="4"/>    
+              <img src="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/4.png" alt="5"/>    
             </a>
       </div>
       <div>
@@ -355,9 +368,15 @@ layout: page
          <th>기관</th>
          <th>발간년도</th>
       </tr>
-
+   
+      <tr class="content"><!-- 1_0 -->
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.pdf">세분화된 데이터 생산을 위한 다양한 접근법 탐색 장애,도시,교통 부문</a></td>
+         <td class="report1">통계청 통계개발원</td>
+         <td>2020</td>
+      </tr>
+      
       <tr class="content"><!-- 1 -->
-         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/1.pdf">한국의 SDGs 데이터와 이행현황</a></td>
+         <td class="title"><a href="https://kostat-sdg-kor.github.io/sdg-indicators/public/report/5_2020.pdf">한국의 SDGs 데이터와 이행현황</a></td>
          <td class="report1">통계청 통계개발원</td>
          <td>2019</td>
       </tr>
