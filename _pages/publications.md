@@ -299,7 +299,7 @@ layout: page
          </a>
       </div>
       <div>
-         <p>(통계개발원) 글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황 2019                         </p>
+         <p>(통계개발원) 글로벌 렌즈로 본 한국의 SDGs 데이터와 이행현황 2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </div>
    </div>
    
@@ -310,7 +310,7 @@ layout: page
           </a>
       </div>
       <div>
-         <p>(Statistics Research Institute) SDGs in the ROK Progress Report  2019                         </p>
+         <p>(Statistics Research Institute) SDGs in the ROK Progress Report  2019 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </div>
    </div>
    
@@ -332,7 +332,7 @@ layout: page
            </a>
       </div>
       <div>
-         <p>(UN) The Sustainable Development Goals Report  2020                         </p>
+         <p>(UN) The Sustainable Development Goals Report  2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </div>
    </div>
    <div class="item">
@@ -342,7 +342,7 @@ layout: page
             </a>
       </div>
       <div>
-         <p>(ESCAP) ASIA AND THE PACIFIC SDG PROGRESS REPORT 2020                         </p>
+         <p>(ESCAP) ASIA AND THE PACIFIC SDG PROGRESS REPORT 2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
       </div>
    </div>
 </div>
