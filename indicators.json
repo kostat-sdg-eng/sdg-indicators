@@ -89,7 +89,7 @@
         },{
           "id": "1-1-1",
           "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographical location (urban/rural)",
-          "description": "Proportion of population below the international poverty line is defined as the percentage of the population living on less than $1.90 a day at 2011 international prices. The 'international poverty line' is currently set at $1.90 a day at 2011 international prices.",
+          "description": "Proportion of the population living on less than the international poverty line of $1.90 a day(at 2011 PPP)",
           "keywords": "",
           "href": "/sdg-indicators/1-1-1",
           "status": "complete"
@@ -241,7 +241,7 @@
         },{
           "id": "3-8-2",
           "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income",
-          "description": "",
+          "description": "Proportion of the population whose health expenditure exceeds a certain level(10%, 25%) in the total household expenditure (or income)",
           "keywords": "",
           "href": "/sdg-indicators/3-8-2",
           "status": "complete"
@@ -381,7 +381,7 @@
         },{
           "id": "3-9-1",
           "title": "Mortality rate attributed to household and ambient air pollution",
-          "description": "",
+          "description": "Number of age-standardized deaths per 100,000 people due to household and ambient air pollution",
           "keywords": "",
           "href": "/sdg-indicators/3-9-1",
           "status": "complete"
@@ -443,7 +443,7 @@
         },{
           "id": "4-a-1",
           "title": "Proportion of schools offering basic services, by type of service",
-          "description": "",
+          "description": "Proportion of schools by level of education (primary education) with access to the given facility or service.",
           "keywords": "",
           "href": "/sdg-indicators/4-a-1",
           "status": "complete"
@@ -467,7 +467,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-indicators/4-2-1",
-          "status": "complete"
+          "status": "notapplicable"
         },{
           "id": "4-1-2",
           "title": "completion rate(primary education, lower secondary education, upper secondary education)",
@@ -485,7 +485,7 @@
         },{
           "id": "4-1-1",
           "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
-          "description": "",
+          "description": "Proportion of children and young people in grades 2/3; or at the end of primary; or at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
           "keywords": "",
           "href": "/sdg-indicators/4-1-1",
           "status": "complete"
@@ -616,14 +616,14 @@
         },{
           "id": "6-3-2",
           "title": "Proportion of bodies of water with good ambient water quality",
-          "description": "",
+          "description": "Proportion of water bodies that have good ambient water quality(ambient water quality refers to natural, untreated water in rivers, lakes and groundwaters) compared to the all water bodies in the country",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/6-3-2",
           "status": "complete"
         },{
           "id": "6-4-2",
           "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
-          "description": "",
+          "description": "Freshwater withdrawal as a proportion of available freshwater resources is the ratio between total freshwater withdrawn by all major sectors and total renewable freshwater resources, after taking into account environmental water requirements",
           "keywords": "",
           "href": "/sdg-indicators/6-4-2",
           "status": "complete"
@@ -740,7 +740,7 @@
       "indicators": [{
           "id": "8-2-1",
           "title": "Annual growth rate of real GDP per employed person",
-          "description": "",
+          "description": "Annual percentage change in real Gross Domestic Product per employed person",
           "keywords": "GDP",
           "href": "/sdg-indicators/8-2-1",
           "status": "complete"
@@ -768,7 +768,7 @@
         },{
           "id": "8-10-2",
           "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
-          "description": "",
+          "description": "Proportion of adults (ages 15+) who report having an account at a bank or another type of financial institution or personally using a mobile money service",
           "keywords": "",
           "href": "/sdg-indicators/8-10-2",
           "status": "complete"
@@ -838,7 +838,7 @@
         },{
           "id": "8-10-1",
           "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
-          "description": "",
+          "description": "Number of commercial bank branches and automated teller machines (ATMs) per 100,000 adults",
           "keywords": "",
           "href": "/sdg-indicators/8-10-1",
           "status": "complete"
@@ -935,7 +935,7 @@
         },{
           "id": "9-2-1",
           "title": "Manufacturing value added as a proportion of GDP and per capita",
-          "description": "",
+          "description": "Manufacturing value added(MVA) as a proportion of GDP and per capita",
           "keywords": "GDP, Population",
           "href": "/sdg-indicators/9-2-1",
           "status": "complete"
@@ -967,16 +967,16 @@
           "href": "/sdg-indicators/10-1-1",
           "status": "notapplicable"
         },{
-          "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of monthly income earned in country of destination",
+          "id": "10-7-4",
+          "title": "Proportion of the population who are refugees, by country of origin",
           "description": "",
           "keywords": "",
-          "href": "/sdg-indicators/10-7-1",
+          "href": "/sdg-indicators/10-7-4",
           "status": "notstarted"
         },{
           "id": "10-a-1",
           "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
-          "description": "",
+          "description": "Proportion of total number of tariff lines (in per cent) applied to products imported from least developed countries and developing countries corresponding to a 0% tariff rate",
           "keywords": "",
           "href": "/sdg-indicators/10-a-1",
           "status": "complete"
@@ -990,7 +990,7 @@
         },{
           "id": "10-4-1",
           "title": "Labour share of GDP",
-          "description": "",
+          "description": "Proportion of the total compensation of employees and the labour income of the self-employed in GDP",
           "keywords": "",
           "href": "/sdg-indicators/10-4-1",
           "status": "complete"
@@ -1018,7 +1018,7 @@
         },{
           "id": "10-5-1",
           "title": "Financial Soundness Indicators (FSIs)",
-          "description": "",
+          "description": "Seven FSI(Financial Soundness Indicator) that include percentage of regulatory Tier1 capital to assets, percentage of regulatory Tier 1 capital to risk- weighted assets, percentage of nonperforming loans net of provisions to capital, percentage of nonperforming loans to total gross loans, percentage of return on assets, percentage of liquid assets to short-term liabilities, percentage of net open position in foreign exchange to capital",
           "keywords": "",
           "href": "/sdg-indicators/10-5-1",
           "status": "complete"
@@ -1156,7 +1156,7 @@
       "indicators": [{
           "id": "12-c-1",
           "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
-          "description": "",
+          "description": "Fossil fuels are fuel that use underground resources such as coal, oil, and natural gas. By extension, it also includes all secondary fuels(including electricity and heat) manufactured from a fossil fuels. Fossil fuel subsidies cover both subsidies for consumers and producers. In order to measure fossil fuel subsidies, three sub-indicators are recommended for reporting on this indicator: 1) direct transfer of government funds; 2) induced transfers (price support); and as an optional sub-indicator 3) tax expenditure, other revenue foregone, and underpricing of goods and services.",
           "keywords": "",
           "href": "/sdg-indicators/12-c-1",
           "status": "complete"
@@ -1336,7 +1336,7 @@
         },{
           "id": "14-b-1",
           "title": "Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
-          "description": "",
+          "description": "Progress by number of countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/14-b-1",
           "status": "complete"
@@ -1350,7 +1350,7 @@
         },{
           "id": "14-a-1",
           "title": "Proportion of total research budget allocated to research in the field of marine technology",
-          "description": "",
+          "description": "Proportion of the annual national research budget allocated by governments in the field of marine technology",
           "keywords": "",
           "href": "/sdg-indicators/14-a-1",
           "status": "complete"
@@ -1405,7 +1405,7 @@
         },{
           "id": "15-1-2",
           "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
-          "description": "",
+          "description": "Proportion of important sites that are covered by protected areas as defined by the International Union for Conservation of Nature(IUCN)",
           "keywords": "",
           "href": "/sdg-indicators/15-1-2",
           "status": "complete"
@@ -1711,7 +1711,7 @@
         },{
           "id": "17-1-1",
           "title": "Total government revenue as a proportion of GDP, by source",
-          "description": "",
+          "description": "Total revenue is a fiscal indicator of the central government's fiscal size in terms of income. This is calculated by dividing it into 1) taxes, 2) social contributions, 3) grants, and 4) other revenue according to the GFSM published in 2014 by IMF.",
           "keywords": "GDP",
           "href": "/sdg-indicators/17-1-1",
           "status": "complete"
@@ -1809,7 +1809,7 @@
         },{
           "id": "17-1-2",
           "title": "Proportion of domestic budget funded by domestic taxes",
-          "description": "",
+          "description": "Proportion of domestic budgetary central government expenditure funded by taxes. Budgetary central government, described by the IMF in GFSM 2014 refers to the agencies that encompasses the fundamental activities of the national executive, legislative, and judiciary powers. The budgetary central government’s revenue (and expense) are normally regulated and controlled by a ministry of finance, or its functional equivalent, by means of a budget approved by the legislature.",
           "keywords": "",
           "href": "/sdg-indicators/17-1-2",
           "status": "complete"
