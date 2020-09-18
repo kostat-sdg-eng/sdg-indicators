@@ -42,7 +42,7 @@ layout: page
 	</div>
 	<br><br>
 	<div class="img_div">
-		<img src="https://kostat-sdg-eng.github.io/sdg-indicators/public/img/en_about1.png" alt="About1">
+		<img src="https://kostat-sdg-eng.github.io/sdg-indicators/public/img/en_about2.png" alt="About1">
 	</div>
 	<br><br>
 
