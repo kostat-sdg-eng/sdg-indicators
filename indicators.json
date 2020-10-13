@@ -19,7 +19,7 @@
         },{
           "id": "1-5-3",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
+          "description": "This indicator measures the number of countries that adopt and implement national disaster risk reduction (DRR) strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, with multiple dimensions  of the level of implementation.",
           "keywords": "Non-statistical, legislation, policy, DEFRA",
           "href": "/sdg-indicators/1-5-3",
           "status": "complete"
@@ -47,7 +47,7 @@
         },{
           "id": "1-5-2",
           "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
-          "description": "",
+          "description": "This indicator measures the ratio of direct economic loss attributed to disasters in relation to GDP.",
           "keywords": "DEFRA,",
           "href": "/sdg-indicators/1-5-2",
           "status": "complete"
@@ -61,7 +61,7 @@
         },{
           "id": "1-5-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
-          "description": "",
+          "description": "This indicator measures the number of people who died, went missing or were directly affected by disasters per 100,000  population.",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/1-5-1",
           "status": "complete"
@@ -116,7 +116,7 @@
         },{
           "id": "2-2-1",
           "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
-          "description": "",
+          "description": "This indicator is defined as the percentage of children aged 0–59 months, whose length or height-for-age values  are below minus two standard deviations from the WHO Child Growth Standards median.",
           "keywords": "",
           "href": "/sdg-indicators/2-2-1",
           "status": "complete"
@@ -158,7 +158,7 @@
         },{
           "id": "2-5-1",
           "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities",
-          "description": "",
+          "description": "This indicator is defined as the number of plant and animal genetic resource for food and agriculture (GRFA)  that have been stored in medium or long-term facilities as a means of genetic resource conservation worldwide.   Plant and animal genetic resources are counted separately.",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/2-5-1",
           "status": "complete"
@@ -172,14 +172,14 @@
         },{
           "id": "2-b-1",
           "title": "Agricultural export subsidies",
-          "description": "",
+          "description": "Agricultural export subsidies are defined in Article 1 paragraph (e) of the World Trade Organization (WTO)  Agreement on Agriculture. Members notify to the WTO export subsidies budgetary outlays and quantities  of subsidized exports in Tables ES:1 and supporting Tables ES:2. Budgetary outlays and quantities are expressed  in a currency (national or other) and in quantity units as per Member's notification practices.  The indicator reflects the budgetary outlays notified by WTO Members expressed in the same currency (US dollar).",
           "keywords": "",
           "href": "/sdg-indicators/2-b-1",
           "status": "complete"
         },{
           "id": "2-5-2",
           "title": "Proportion of local breeds classified as being at risk of extinction",
-          "description": "",
+          "description": "The indicator presents the percentage of local livestock breeds classified as being at risk,  not at risk or at unknown level of risk of extinctions at a certain moment in time.",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/2-5-2",
           "status": "complete"
@@ -193,7 +193,7 @@
         },{
           "id": "2-a-1",
           "title": "The agriculture orientation index for government expenditures",
-          "description": "",
+          "description": "The Agriculture Orientation Index (AOI) for Government Expenditures is defined  as the Agriculture Share of Central Government Expenditure, divided by the Agriculture Share of GDP,  where Agriculture refers to the agriculture, forestry, fishing and hunting sector.  Government Expenditures are compiled according to the international Classification of the Functions of Government (COFOG),  and Agriculture Share of GDP according to the System of National Accounts (SNA).",
           "keywords": "",
           "href": "/sdg-indicators/2-a-1",
           "status": "complete"
@@ -220,7 +220,7 @@
         },{
           "id": "3-d-1",
           "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
-          "description": "",
+          "description": "Percentage of attributes of 13 core capacities that have been attained at a specific point in time.  The 13 core capacities are: (1) Legislation and financing;  (2) IHR Coordination and National Focal Point Functions;  (3) Zoonotic events and the Human-Animal Health Interface;  (4) Food safety;  (5) Laboratory; (6) Surveillance; (7) Human resources;  (8) National Health Emergency Framework; (9) Health Service Provision;  (10) Risk communication; (11) Points of entry; (12) Chemical events; (13) Radiation emergencies.",
           "keywords": "",
           "href": "/sdg-indicators/3-d-1",
           "status": "complete"
@@ -241,7 +241,7 @@
         },{
           "id": "3-b-1",
           "title": "Proportion of the target population covered by all vaccines included in their national programme",
-          "description": "",
+          "description": "Coverage of DTP containing vaccine (3rd dose): Percentage of surviving infants who received the 3 doses  of diphtheria and tetanus toxoid with pertussis containing vaccine in a given year. Coverage of Measles containing vaccine (2nd dose): Percentage of children who received two dose  of measles containing vaccine according to nationally recommended schedule through routine immunization services  in a given year. -Coverage of Pneumococcal conjugate vaccine (last dose in the schedule): Percentage of surviving infants  who received the nationally recommended doses of pneumococcal conjugate vaccine in a given year.  -Coverage of HPV vaccine (last dose in the schedule): Percentage of 15 years old girls received  the recommended doses of HPV vaccine. Currently performance of the programme in the previous calendar year based  on target age group is used.",
           "keywords": "",
           "href": "/sdg-indicators/3-b-1",
           "status": "complete"
@@ -290,7 +290,7 @@
         },{
           "id": "3-6-1",
           "title": "Death rate due to road traffic injuries",
-          "description": "",
+          "description": "The indicator consists of two parts, wasting and overweight:  1.Wasting is the percentage of children aged 0–59 months, whose weight-for-length or height values  are below minus two standard deviations from the WHO Child Growth Standards median.  2.Overweight is the percentage of children aged 0–59 months, whose weight-for-length or height values  are above two standard deviations from the WHO Child Growth Standards median.",
           "keywords": "",
           "href": "/sdg-indicators/3-6-1",
           "status": "complete"
@@ -388,7 +388,7 @@
         },{
           "id": "3-8-1",
           "title": "Coverage of essential health services",
-          "description": "",
+          "description": "Coverage of essential health services (defined as the average coverage of essential services based on tracer  interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable  diseases and service capacity and access, among the general and the most disadvantaged population).",
           "keywords": "",
           "href": "/sdg-indicators/3-8-1",
           "status": "complete"
@@ -408,7 +408,7 @@
       "indicators": [{
           "id": "4-5-1",
           "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
-          "description": "",
+          "description": "This indicator is defined as the ratio of the value of the underlying indicator (e.g. 4.1.1)  for one sub-group to that of another. Typically, the value for the likely more disadvantaged  group is the numerator. A value of exactly 1 indicates parity between the two groups although,  for analytical purposes, values between 0.97 and 1.03 are typically assumed to be at parity.",
           "keywords": "Education, Parity index, Gender",
           "href": "/sdg-indicators/4-5-1",
           "status": "complete"
@@ -644,7 +644,7 @@
         },{
           "id": "6-5-2",
           "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
-          "description": "",
+          "description": "This indicator is defined as the percentage of transboundary basin area within a country with an operational  arrangement for water cooperation with other countries",
           "keywords": "DEFRA",
           "href": "/sdg-indicators/6-5-2",
           "status": "complete"
@@ -665,7 +665,7 @@
         },{
           "id": "6-2-1",
           "title": "Proportion of population using safely managed sanitation services, including a handwashing facility with soap and water",
-          "description": "",
+          "description": "This indicator includes two sub-indicators: (a) proportion of population using safely managed  sanitation services and (b) proportion of population with a handwashing facility with soap and water.  Proportion of population using safely managed sanitation services is currently being measured  by the proportion of the population using an improved sanitation facility which is not shared with  other households and where excreta are safely treated and disposed of in situ or transported and treated off-site.",
           "keywords": "DEFRA, UN Data, wastewater, sewage, water, treatment, environment",
           "href": "/sdg-indicators/6-2-1",
           "status": "complete"
@@ -720,7 +720,7 @@
         },{
           "id": "7-1-2",
           "title": "Proportion of population with primary reliance on clean fuels and technology",
-          "description": "",
+          "description": "This indicator is defined as the number of people using clean fuels and technologies for domestic cooking,  heating and lighting divided by total population reporting any cooking, heating or lighting.  It is expressed as a percentage.",
           "keywords": "",
           "href": "/sdg-indicators/7-1-2",
           "status": "complete"
@@ -789,7 +789,7 @@
         },{
           "id": "8-a-1",
           "title": "Aid for Trade commitments and disbursements",
-          "description": "",
+          "description": "This indicator is defined as gross disbursements and commitments of total Official Development Assistance (ODA)  from all donors for aid for trade.",
           "keywords": "ODA",
           "href": "/sdg-indicators/8-a-1",
           "status": "complete"
@@ -851,7 +851,7 @@
       "indicators": [{
           "id": "9-b-1",
           "title": "Proportion of medium and high-tech industry value added in total value added",
-          "description": "",
+          "description": "This indicator is defined as the percentage of medium-high and high technology (MHT) industries to the total value  added of all manufacturing industries",
           "keywords": "GDP",
           "href": "/sdg-indicators/9-b-1",
           "status": "complete"
@@ -886,7 +886,7 @@
         },{
           "id": "9-c-1",
           "title": "Proportion of population covered by a mobile network, by technology",
-          "description": "",
+          "description": "This indicator is defined as the percentage of inhabitants living within range of a mobile-cellular signal  (2G, 3G or LTE), irrespective of whether or not they are mobile phone subscribers or users.",
           "keywords": "Mobile phone, communication",
           "href": "/sdg-indicators/9-c-1",
           "status": "complete"
@@ -921,7 +921,7 @@
         },{
           "id": "9-3-1",
           "title": "Proportion of small-scale industries in total industry value added",
-          "description": "",
+          "description": "This indicator is defined as the share of manufacturing value added of small-scale manufacturing enterprises  in the total manufacturing value added.",
           "keywords": "GDP",
           "href": "/sdg-indicators/9-3-1",
           "status": "complete"
@@ -997,7 +997,7 @@
         },{
           "id": "10-b-1",
           "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
-          "description": "",
+          "description": "This indicator is defined as the sum of all resource flows for development.",
           "keywords": "ODA",
           "href": "/sdg-indicators/10-b-1",
           "status": "complete"
@@ -1080,14 +1080,14 @@
         },{
           "id": "11-5-2",
           "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",
-          "description": "",
+          "description": "This indicator measures the ratio of direct economic loss attributed to disasters in relation to GDP,  damage to critical infrastructure and number of disruptions to basic services, attributed to disasters.",
           "keywords": "",
           "href": "/sdg-indicators/11-5-2",
           "status": "complete"
         },{
           "id": "11-5-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
-          "description": "",
+          "description": "This indicator measures the number of people who died, went missing or were directly affected  by disasters per 100,000 population.",
           "keywords": "",
           "href": "/sdg-indicators/11-5-1",
           "status": "complete"
@@ -1108,7 +1108,7 @@
         },{
           "id": "11-b-1",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
+          "description": "This indicator measures the number of countries that adopt and implement national disaster risk reduction (DRR)  strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, with multiple dimensions  of the level of implementation.",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/11-b-1",
           "status": "complete"
@@ -1184,7 +1184,7 @@
         },{
           "id": "12-4-1",
           "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
-          "description": "",
+          "description": "The indicator refers to the number of parties (countries that have ratified, accepted, approved or accessed)  to five Multilateral Environmental Agreements (MEAs), which have submitted relevant information  to the Secretariat of each MEA, as stipulated by each of the agreements. The five MEAs are:  1. The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal (Basel Convention); 2. The Rotterdam Convention on the prior informed consent procedure for certain hazardous chemicals and pesticides  in international trade (Rotterdam Convention); 3. The Stockholm Convention on Persistent Organic Pollutants (Stockholm Convention); 4. The Montreal Protocol on Substances that Deplete the Ozone Layer (Montreal Protocol); and 5. Minamata Convention on Mercury (Minamata Convention), which have submitted the information to the Secretariat  of each MEA, as required by each of the agreements.",
           "keywords": "",
           "href": "/sdg-indicators/12-4-1",
           "status": "complete"
@@ -1274,7 +1274,7 @@
         },{
           "id": "13-1-2",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
+          "description": "This indicator measures the number of countries that adopt and implement national disaster risk reduction (DRR)  strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030, with multiple dimensions  of the level of implementation.",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/13-1-2",
           "status": "complete"
@@ -1288,7 +1288,7 @@
         },{
           "id": "13-1-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
-          "description": "",
+          "description": "This indicator measures the number of people who died, went missing or were directly affected  by disasters per 100,000 population.",
           "keywords": "",
           "href": "/sdg-indicators/13-1-1",
           "status": "complete"
@@ -1357,7 +1357,7 @@
         },{
           "id": "14-5-1",
           "title": "Coverage of protected areas in relation to marine areas",
-          "description": "",
+          "description": "This indicator measures the average proportion of each marine Key Biodiversity Area that has been designated  as a protected area.",
           "keywords": "",
           "href": "/sdg-indicators/14-5-1",
           "status": "complete"
@@ -1419,14 +1419,14 @@
         },{
           "id": "15-a-1",
           "title": "(a) Official development assistance on conservation and sustainable use of biodiversity, and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
-          "description": "",
+          "description": "This indicator is defined as gross disbursements of total Official Development Assistance (ODA)  from all donors for biodiversity. This chapter of the e-handbook only covers the ODA part of the indicator.",
           "keywords": "ODA",
           "href": "/sdg-indicators/15-a-1",
           "status": "complete"
         },{
           "id": "15-b-1",
           "title": "(a) Official development assistance on conservation and sustainable use of biodiversity, and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
-          "description": "",
+          "description": "This indicator is defined as gross disbursements of total Official Development Assistance (ODA)  from all donors for biodiversity. This chapter of the e-handbook only covers the ODA part of the indicator.",
           "keywords": "ODA",
           "href": "/sdg-indicators/15-b-1",
           "status": "complete"
@@ -1468,14 +1468,14 @@
         },{
           "id": "15-5-1",
           "title": "Red List Index",
-          "description": "",
+          "description": "The Red List Index is an index that measures changes in aggregate extinction risk across groups of species.  It is based on the number of species in each category of extinction risk on The IUCN Red List of Threatened  Species (IUCN 2015) is expressed as changes in an index ranging from 0 to 1.",
           "keywords": "",
           "href": "/sdg-indicators/15-5-1",
           "status": "complete"
         },{
           "id": "15-6-1",
           "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
-          "description": "",
+          "description": "This indicator is defined as the number of countries that have adopted legislative,  administrative and policy frameworks for the implementation of the Nagoya Protocol  on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising  from their Utilization to the Convention on Biological Diversity (2010).",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/15-6-1",
           "status": "complete"
@@ -1628,7 +1628,7 @@
         },{
           "id": "16-8-1",
           "title": "Proportion of members and voting rights of developing countries in international organizations",
-          "description": "",
+          "description": "This global indicator is defined as the percentage of members (or voting rights)  in international organizations that are (or belong to) developing countries. For institutions  where membership and voting rights are different, this indicator observes the percentages separately.",
           "keywords": "",
           "href": "/sdg-indicators/16-8-1",
           "status": "complete"
@@ -1725,7 +1725,7 @@
         },{
           "id": "17-18-3",
           "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
-          "description": "",
+          "description": "The indicator is defined as the number of countries with a national statistical plan  that is fully funded and under implementation, as reported in the annual status reports  on National Strategies for the Development of Statistics.",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-18-3",
           "status": "complete"
@@ -1767,7 +1767,7 @@
         },{
           "id": "17-16-1",
           "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
-          "description": "",
+          "description": "This indicator tracks the number of countries reporting progress in multi-stakeholder monitoring frameworks  that track the implementation of development effectiveness commitments supporting the achievement  of Sustainable Development Goals (SDGs).",
           "keywords": "Non-statistical, legislation, policy",
           "href": "/sdg-indicators/17-16-1",
           "status": "notstarted"
@@ -1816,7 +1816,7 @@
         },{
           "id": "17-15-1",
           "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
-          "description": "",
+          "description": "This indicator measures the extent to which, and the ways in which, all concerned development partners  use country-led results frameworks (CRFs) to plan development cooperation efforts and assess their performance.",
           "keywords": "",
           "href": "/sdg-indicators/17-15-1",
           "status": "complete"
